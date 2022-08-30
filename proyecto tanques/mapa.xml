@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+	<Acueducto>
+		<Nodo>
+			<tanque>
+				<capacidad_maxima>60</capacidad_maxima>
+				<X>100</X>
+				<Y>100</Y>
+			</tanque>
+		</Nodo>
+		<Nodo>
+			<tanque>
+				<capacidad_maxima>60</capacidad_maxima>
+				<X>200</X>
+				<Y>200</Y>
+			</tanque>
+		</Nodo>
+	</Acueducto>
+</Root>
