@@ -45,10 +45,16 @@ public class Acueducto {
     return true;
   }
 
-  // Adicionar un Camino
-  public boolean add(Nodo vertex1, Nodo vertex2, Tubo road) {
-    if (Nodos.contains(vertex1) && Nodos.contains(vertex2)) {
-      conexiones[Nodos.indexOf(vertex1)][Nodos.indexOf(vertex2)] = road;
+  /**
+   * metodo encargado en adiccionar un camino desde un nodo inicial hasta un nodo final
+   * 
+   * @param nodoInicial nodo inicial el cual va a empezar el camino
+   * @param nodoFinal nodo final el cual va a fianlizar el camino
+   * @return boolean ,true si es creado, false cuando no es creado
+   */
+  public boolean adicionarCamino(Nodo nodoInicial, Nodo nodoFinal, Tubo carretera) {
+    if (Nodos.contains(nodoInicial) && Nodos.contains(nodoFinal)) {
+      conexiones[Nodos.indexOf(nodoInicial)][Nodos.indexOf(nodoFinal)] = carretera;
       return true;
     }
     return false;
