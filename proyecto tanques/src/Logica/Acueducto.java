@@ -239,7 +239,12 @@ public class Acueducto {
     return null;
   }
 
-
+  /**
+   * se encarga en transportar el agua de una ciudad a otra teniendo en cuenta la capacidad del
+   * tanque que surte a dicha ciudad
+   * 
+   * @return void
+   */
 
   public void TransportarAgua() {
     LinkedList<Nodo> tanques = new LinkedList<Nodo>();
@@ -252,6 +257,7 @@ public class Acueducto {
       TransportarAgua(tanques.get(i));
     }
   }
+
 
   private void TransportarAgua(Nodo get) {
     for (int i = 0; i < conexiones.length; i++) {
