@@ -160,7 +160,7 @@ public class Acueducto {
   // retorna posibles tubos para mejor cobertura de acueducto
   public LinkedList<Tubo> ProponerConexiones(Nodo nodo) {
     if (nodo == null) {
-      nodo = EncontrarCasa();
+      nodo = encontarCiudad();
     }
     return ListaTubosConexiones(nodo);
   }
@@ -191,7 +191,12 @@ public class Acueducto {
     return listaTubos;
   }
 
-  private Nodo EncontrarCasa() {
+  /**
+   * metodo encargado en buscar una ciudad apartir de un camino de tubos obstruidos
+   * 
+   * @return Nodos obtine el ultimo elemento de la lsuta
+   */
+  private Nodo encontarCiudad() {
     if (TubosObstruidos()) {
       for (int i = 0; i < conexiones.length; i++) {
         for (int j = 0; j < conexiones.length; j++) {
@@ -205,30 +210,43 @@ public class Acueducto {
         }
       }
     } else {
-      Nodo n = obtenerprimerbarrio();
-      int conn = 0;
+      Nodo nodoInicial = obtenerprimerbarrio();
+      int contarNodos = 0;
       for (int i = 0; i < conexiones.length; i++) {
-        if (conexiones[i][Nodos.indexOf(n)] != null) {
-          conn = conn + 1;
+        if (conexiones[i][Nodos.indexOf(nodoInicial)] != null) {
+          contarNodos = contarNodos + 1;
         }
       }
-      for (int i = 0; i < Nodos.size(); i++) {
-        if (!Nodos.get(i).isTan()) {
-          int cont = 0;
-          for (int j = 0; j < conexiones.length; j++) {
-            if (conexiones[j][i] != null) {
-              cont++;
-            }
-          }
-          if (cont < conn) {
-            conn = cont;
-            n = Nodos.get(i);
-          }
-        }
-      }
-      return n;
+      nodoInicial = contarConexionesTubos(nodoInicial, contarNodos);
+      return nodoInicial;
     }
     return Nodos.getLast();
+  }
+
+  /**
+   * metodo encargado de contar las conexiones de los tubos apartir de un nodo
+   * 
+   * @param nodo variable tipo Nodo encargada de contener el nodo desde el cual se van a contar las
+   *        conexiones
+   * @param contarNodos variable tipo int encargada de contar los nodos
+   * @return nodoInicial
+   */
+  private Nodo contarConexionesTubos(Nodo nodo, int contarNodos) {
+    for (int i = 0; i < Nodos.size(); i++) {
+      if (!Nodos.get(i).isTan()) {
+        int cont = 0;
+        for (int j = 0; j < conexiones.length; j++) {
+          if (conexiones[j][i] != null) {
+            cont++;
+          }
+        }
+        if (cont < contarNodos) {
+          contarNodos = cont;
+          nodo = Nodos.get(i);
+        }
+      }
+    }
+    return nodo;
   }
 
   private boolean TubosObstruidos() {
