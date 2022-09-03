@@ -158,23 +158,37 @@ public class Acueducto {
   }
 
   // retorna posibles tubos para mejor cobertura de acueducto
-  public LinkedList<Tubo> ProponerConexiones(Nodo N) {
-    if (N == null) {
-      N = EncontrarCasa();
+  public LinkedList<Tubo> ProponerConexiones(Nodo nodo) {
+    if (nodo == null) {
+      nodo = EncontrarCasa();
     }
-    LinkedList<Tubo> L = new LinkedList<Tubo>();
+    return ListaTubosConexiones(nodo);
+  }
+
+  /**
+   * metodo encargando en obtener la lista de tubos con sus conexiones
+   * 
+   * @param nodo variable tipo Nodo el cual tiene el nodo inicial a tener en cuenta
+   * @return listaTubos
+   */
+  private LinkedList<Tubo> ListaTubosConexiones(Nodo nodo) {
+    LinkedList<Tubo> listaTubos = new LinkedList<Tubo>();
+    int posicionTanqueX = 45;
+    int posicionBarrio = 75;
     for (int i = 0; i < conexiones.length; i++) {
       if (Nodos.get(i).isTan()) {
-        if (conexiones[i][Nodos.indexOf(N)] == null) {
-          if (Nodos.get(i).getTanque().getAgua() >= N.getBarrio().getNecesidad()) {
-            L.add(new Tubo(N.getBarrio().getNecesidad(), N.getBarrio().getNecesidad(),
-                Nodos.get(i).getTanque().getX() + 45, N.getBarrio().getX() + 75,
-                Nodos.get(i).getTanque().getY() + 45, N.getBarrio().getY() + 75));
+        if (conexiones[i][Nodos.indexOf(nodo)] == null) {
+          if (Nodos.get(i).getTanque().getAgua() >= nodo.getBarrio().getNecesidad()) {
+            listaTubos.add(new Tubo(nodo.getBarrio().getNecesidad(),
+                nodo.getBarrio().getNecesidad(), Nodos.get(i).getTanque().getX() + posicionTanqueX,
+                nodo.getBarrio().getX() + posicionBarrio,
+                Nodos.get(i).getTanque().getY() + posicionTanqueX,
+                nodo.getBarrio().getY() + posicionBarrio));
           }
         }
       }
     }
-    return L;
+    return listaTubos;
   }
 
   private Nodo EncontrarCasa() {
