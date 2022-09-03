@@ -1,0 +1,3025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LRV8cCs0Ee29nJQfP1zSZQ">
+  <modelElement href="proyecto%20tanques2.uml#_LP1gkCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MjbPYCs0Ee29nJQfP1zSZQ" targetItem="_MjruLys0Ee29nJQfP1zSZQ" sourceItem="_MjaoUCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MjcdgSs0Ee29nJQfP1zSZQ" targetItem="_MjruNCs0Ee29nJQfP1zSZQ" sourceItem="_MjcdgCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MjdEkSs0Ee29nJQfP1zSZQ" targetItem="_MjruOSs0Ee29nJQfP1zSZQ" sourceItem="_MjdEkCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MjeSsCs0Ee29nJQfP1zSZQ" targetItem="_MjruPis0Ee29nJQfP1zSZQ" sourceItem="_MjdroCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Mjh9ESs0Ee29nJQfP1zSZQ" targetItem="_MjsVKCs0Ee29nJQfP1zSZQ" sourceItem="_Mjh9ECs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MjjLMSs0Ee29nJQfP1zSZQ" targetItem="_MjsVLis0Ee29nJQfP1zSZQ" sourceItem="_MjjLMCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mjp44Cs0Ee29nJQfP1zSZQ" sourceAnchor="0.0,15.0" targetAnchor="394.0,170.0" target="_MsJGgCs0Ee29nJQfP1zSZQ" source="_MjruGSs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSmlISs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_by57MCs9Ee29nJQfP1zSZQ" position="1125.0,-292.0"/>
+    <stereotypes xmi:id="_Mjp44Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSnMMCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mjp44is0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NU5IkCs0Ee29nJQfP1zSZQ" position="-18.0,2.0000000000000284"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mjqf8Cs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSmlIis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU36cSs0Ee29nJQfP1zSZQ" position="-30.08333333333337,-47.0"/>
+      <visibility xmi:id="_Mjqf8Ss0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mjqf8is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mjqf8ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="barrio" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQaMwCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU5voCs0Ee29nJQfP1zSZQ" position="39.375,-47.00000000000017"/>
+      <visibility xmi:id="_Mjqf9Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mjqf9Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MjruECs0Ee29nJQfP1zSZQ" sourceAnchor="135.0,270.0" targetAnchor="366.0,44.0" target="_Msd2oCs0Ee29nJQfP1zSZQ" source="_MjruGSs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSnMMSs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_by57MSs9Ee29nJQfP1zSZQ" position="1125.0,-292.0"/>
+    <bendpoints xmi:id="_zisKQCs9Ee29nJQfP1zSZQ" sourceX="1" sourceY="34" targetX="1118" targetY="2"/>
+    <stereotypes xmi:id="_MjruESs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSoaUCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MjruEis0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NU69wCs0Ee29nJQfP1zSZQ" position="-583.0,-19.000000000000114"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MjruEys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSnMMis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU6WsCs0Ee29nJQfP1zSZQ" position="-85.0,42.0"/>
+      <visibility xmi:id="_MjruFCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruFSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MjruFis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="tanque" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQba4Cs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU7k0Cs0Ee29nJQfP1zSZQ" position="83.0,-52.0"/>
+      <visibility xmi:id="_MjruFys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruGCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Mk_8sCs0Ee29nJQfP1zSZQ" targetItem="_MlGqgis0Ee29nJQfP1zSZQ" sourceItem="_Mk_VoCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Mk_8sis0Ee29nJQfP1zSZQ" targetItem="_MlGqhys0Ee29nJQfP1zSZQ" sourceItem="_Mk_8sSs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlDnECs0Ee29nJQfP1zSZQ" sourceAnchor="0.0,84.0" targetAnchor="253.0,96.0" target="_MlGqYCs0Ee29nJQfP1zSZQ" source="_MrQVsCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSPYwCs0Ee29nJQfP1zSZQ"/>
+    <nameVisual xmi:id="_MlDnESs0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVXpsCs0Ee29nJQfP1zSZQ" position="2.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MlDnEis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="ciudad" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQVUQCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVWbkCs0Ee29nJQfP1zSZQ" position="-96.0,-48.0"/>
+      <visibility xmi:id="_MlDnEys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlDnFCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MlDnFSs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSPYwSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVYQwCs0Ee29nJQfP1zSZQ" position="16.0,1.0"/>
+      <visibility xmi:id="_MlDnFis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlDnFys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlE1MCs0Ee29nJQfP1zSZQ" source="_MlGqYCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSkv8Cs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MlE1MSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSkv8is0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MlE1Mis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MlE1Mys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSkv8Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlE1NCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlE1NSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MlE1Nis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="L" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQXJcSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlE1Nys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlE1OCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlGDUCs0Ee29nJQfP1zSZQ" source="_MlGqYCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSlXACs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MlGDUSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSmlICs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MlGDUis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MlGDUys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSlXASs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlGDVCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlGDVSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MlGDVis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="tanques" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQYXkSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlGDVys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MlGDWCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlcBkCs0Ee29nJQfP1zSZQ" sourceAnchor="288.0,419.0" targetAnchor="0.0,130.0" target="_MjruGSs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSvvESs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_by4tECs9Ee29nJQfP1zSZQ" position="1125.0,-292.0"/>
+    <bendpoints xmi:id="_zipuACs9Ee29nJQfP1zSZQ" sourceX="3" sourceY="394" targetX="-1043" targetY="-3"/>
+    <stereotypes xmi:id="_MllLgSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSvvEys0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MlkkcSs0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NU8L4Cs0Ee29nJQfP1zSZQ" position="502.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mlkkcis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSvvEis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU7k0Ss0Ee29nJQfP1zSZQ" position="2.0,40.0"/>
+      <visibility xmi:id="_Ml7Jwys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Ml7Jwis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MllLgCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="nodo" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQmaASs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU8y8Cs0Ee29nJQfP1zSZQ" position="-107.00000000000011,-46.99999999999994"/>
+      <visibility xmi:id="_Ml7w0Cs0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_Ml7JxCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MldPsCs0Ee29nJQfP1zSZQ" sourceAnchor="554.0,404.0" targetAnchor="138.0,0.0" target="_MjruGSs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSwWICs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_by4tESs9Ee29nJQfP1zSZQ" position="1125.0,-292.0"/>
+    <bendpoints xmi:id="_zipuASs9Ee29nJQfP1zSZQ" sourceX="886" sourceY="100" targetY="-324"/>
+    <stereotypes xmi:id="_MllykSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSw9MCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MllLgis0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NU-oICs0Ee29nJQfP1zSZQ" position="-78.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MllLgys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSwWISs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU-BECs0Ee29nJQfP1zSZQ" position="55.0,2.0"/>
+      <visibility xmi:id="_Ml7w0ys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Ml7w0is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MllykCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="seleccionado1" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQnBESs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NU-oISs0Ee29nJQfP1zSZQ" position="2.0,-84.00000000000006"/>
+      <visibility xmi:id="_Ml7w1Ss0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_Ml7w1Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mld2wCs0Ee29nJQfP1zSZQ" sourceAnchor="257.0,419.0" targetAnchor="0.0,162.0" target="_MjruGSs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSw9MSs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_by5UICs9Ee29nJQfP1zSZQ" position="1125.0,-292.0"/>
+    <bendpoints xmi:id="_ziqVECs9Ee29nJQfP1zSZQ" sourceX="4" sourceY="425" targetX="-1073" targetY="-4"/>
+    <stereotypes xmi:id="_MllylSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSyLUCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mllykis0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVBEYCs0Ee29nJQfP1zSZQ" position="582.0,-19.000000000000057"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Mllykys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSw9Mis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVAdUCs0Ee29nJQfP1zSZQ" position="2.0,39.0"/>
+      <visibility xmi:id="_Ml8X4is0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Ml8X4Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MllylCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="seleccionado2" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQnoISs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVBEYSs0Ee29nJQfP1zSZQ" position="-173.0,2.000000000000057"/>
+      <visibility xmi:id="_Ml8-8Ss0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_Ml8-8Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlhhICs0Ee29nJQfP1zSZQ" sourceAnchor="588.0,148.0" targetAnchor="0.0,96.0" target="_MlGqYCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTUW0Ss0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mlnnwis0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTU94Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MlnAsCs0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVEuwCs0Ee29nJQfP1zSZQ" position="-18.0,-20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MlnnwCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTUW0is0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVEHsCs0Ee29nJQfP1zSZQ" position="14.0,-48.0"/>
+      <visibility xmi:id="_Ml9mAys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Ml9mAis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MlnnwSs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jPanel1" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRBQwSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVFV0Cs0Ee29nJQfP1zSZQ" position="-86.0,-48.0"/>
+      <visibility xmi:id="_Ml9mBSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Ml9mBCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MlivQSs0Ee29nJQfP1zSZQ" targetItem="_MnJRwCs0Ee29nJQfP1zSZQ" sourceItem="_MlivQCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MljWUCs0Ee29nJQfP1zSZQ" sourceAnchor="584.0,324.0" targetAnchor="0.0,204.0" target="_MrQVsCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSq2kCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Ml57ois0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSrdoCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ml5UkCs0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVJAMCs0Ee29nJQfP1zSZQ" position="-19.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ml57oCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSq2kSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVHyECs0Ee29nJQfP1zSZQ" position="31.0,-47.0"/>
+      <visibility xmi:id="_MmB3cCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmBQYCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ml57oSs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="ciudad" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQivoCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVJAMSs0Ee29nJQfP1zSZQ" position="-100.0,-47.0"/>
+      <visibility xmi:id="_MmB3cis0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MmB3cSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mlj9YCs0Ee29nJQfP1zSZQ" sourceAnchor="356.0,414.0" targetAnchor="0.0,125.0" target="_MsJGgCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSsEsCs0Ee29nJQfP1zSZQ"/>
+    <bendpoints xmi:id="_ziq8ICs9Ee29nJQfP1zSZQ" sourceX="37" sourceY="240" targetX="-258" targetY="3"/>
+    <stereotypes xmi:id="_Ml6isis0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MStS0Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ml57oys0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVMqkCs0Ee29nJQfP1zSZQ" position="159.74999999999997,2.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ml6isCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSsEsSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVLccCs0Ee29nJQfP1zSZQ" position="2.0,96.75"/>
+      <visibility xmi:id="_MmCegSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmCegCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ml6isSs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="barrio" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQj9wCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVMqkSs0Ee29nJQfP1zSZQ" position="-82.0,2.499999999999943"/>
+      <visibility xmi:id="_MmCegys0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MmCegis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlkkcCs0Ee29nJQfP1zSZQ" sourceAnchor="166.0,419.0" targetAnchor="178.0,0.0" target="_Msd2oCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MStS0Ss0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Ml7JwSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSug8Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ml6isys0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVQU8Cs0Ee29nJQfP1zSZQ" position="-39.0,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Ml6itCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MStS0is0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVPG0Cs0Ee29nJQfP1zSZQ" position="2.0,40.0"/>
+      <visibility xmi:id="_MmDFkSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmDFkCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ml7JwCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="tanque" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQkk0Cs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVQU8Ss0Ee29nJQfP1zSZQ" position="-54.00000000000006,-86.0"/>
+      <visibility xmi:id="_MmDFkys0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MmDFkis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MlmZoCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSyLUSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Ml9mASs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSzZcCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Ml8-8ys0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Ml8-9Cs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSyLUis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmFh0Ss0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmFh0Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Ml9mACs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="L" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQpdUSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmGI4Cs0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MmFh0is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmNdoCs0Ee29nJQfP1zSZQ" sourceAnchor="426.0,419.0" targetAnchor="0.0,162.0" target="_Mr09cCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSug8Ss0Ee29nJQfP1zSZQ"/>
+    <bendpoints xmi:id="_zirjMCs9Ee29nJQfP1zSZQ" sourceX="4" sourceY="732" targetX="-104" targetY="-22"/>
+    <stereotypes xmi:id="_MmNdoSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSvvECs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmNdois0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVTYQCs0Ee29nJQfP1zSZQ" position="24.000000000000036,20.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MmNdoys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSug8is0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVSKICs0Ee29nJQfP1zSZQ" position="2.0,46.0"/>
+      <visibility xmi:id="_MmNdpCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmNdpSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmNdpis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="tubo" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQly8Cs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVT_UCs0Ee29nJQfP1zSZQ" position="-59.00000000000006,-59.0"/>
+      <visibility xmi:id="_MmNdpys0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MmNdqCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmPS0Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSzZcSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmPS0Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS0AgCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmPS0is0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmPS0ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSzZcis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmPS1Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmPS1Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmPS1is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jButton1" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQr5kCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmPS1ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmPS2Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmRIACs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS0AgSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmRIASs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS1OoCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmRIAis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmRIAys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS0nkCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmRIBCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmRIBSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmRIBis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jButton2" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQsgoCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmRIBys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmRICCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmS9MCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS1OoSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmS9MSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS2cwCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmS9Mis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmS9Mys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS1Oois0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmS9NCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmS9NSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmS9Nis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jButton3" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQtHsCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmS9Nys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmS9OCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmULUCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS2cwSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmULUSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS3D0Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmULUis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmULUys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS2cwis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmULVCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmULVSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmULVis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jButton5" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQtHsis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmULVys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmULWCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmVZcCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS3q4Cs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmVZcSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS45ACs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmVZcis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmVZcys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS3q4Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmVZdCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmVZdSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmVZdis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jComboBox1" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQtuwSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmVZdys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmVZeCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmWnkCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS5gECs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmWnkSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS6HICs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmWnkis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmWnkys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS5gESs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmWnlCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmWnlSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmWnlis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel1" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQuV0Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmWnlys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmWnmCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmX1sCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS6HISs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmX1sSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS6uMCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmX1sis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmX1sys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS6HIis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmX1tCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmX1tSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmX1tis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel10" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQvj8Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmX1tys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmX1uCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmZD0Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS7VQCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmZD0Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS78UCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmZD0is0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmZD0ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS7VQSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmZD1Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmZD1Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmZD1is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel11" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQvj8ys0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmZD1ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmZD2Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmaR8Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS78USs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmaR8Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS9KcCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmaR8is0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmaR8ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS78Uis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmaR9Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmaR9Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmaR9is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel12" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQwyECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmaR9ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmaR-Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmbgECs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS9KcSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmbgESs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS9xgCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmbgEis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmbgEys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS9Kcis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmbgFCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmbgFSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmbgFis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel13" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQyAMCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmbgFys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmbgGCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmcuMCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS-YkCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmcuMSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MS_msCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmcuMis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmcuMys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS-YkSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmcuNCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmcuNSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmcuNis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel14" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQynQSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmcuNys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmcuOCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mmd8UCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MS_msSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mmd8USs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTANwCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mmd8Uis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mmd8Uys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MS_msis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mmd8VCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mmd8VSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mmd8Vis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel15" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQzOUSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mmd8Vys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mmd8WCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmfKcCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTANwSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmfKcSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTA00Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmfKcis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmfKcys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTANwis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmfKdCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmfKdSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmfKdis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel16" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ0ccSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmfKdys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmfKeCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmgYkCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTA00Ss0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmgYkSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTBb4Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmgYkis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmgYkys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTA00is0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmgYlCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmgYlSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmgYlis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel17" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ1DgSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmgYlys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmgYmCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmhmsCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTCC8Cs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmhmsSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTCqACs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mmhmsis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mmhmsys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTCC8Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmhmtCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmhmtSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mmhmtis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel18" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ1qkSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mmhmtys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmhmuCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mmi00Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTCqASs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mmi00Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTD4ICs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mmi00is0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mmi00ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTCqAis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mmi01Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mmi01Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mmi01is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel19" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ2RoSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mmi01ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mmi02Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmkC8Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTD4ISs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmkqACs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTFGQCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmkqASs0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmkqAis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTD4Iis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmkqAys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmkqBCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmkqBSs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel2" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ3fwCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmkqBis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmkqBys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mml4ICs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTFGQSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mml4ISs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTFtUCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mml4Iis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mml4Iys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTFGQis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mml4JCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mml4JSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mml4Jis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel20" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ4G0Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mml4Jys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mml4KCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmnGQCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTFtUSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmnGQSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTG7cCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmnGQis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmnGQys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTFtUis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmnGRCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmnGRSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmnGRis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel21" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ4G0ys0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmnGRys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmnGSCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmoUYCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTG7cSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmoUYSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTHigCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmoUYis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmoUYys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTG7cis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmoUZCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmoUZSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmoUZis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel22" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ5U8Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmoUZys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmoUaCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmvCECs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTHigSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmvCESs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTIJkCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmvCEis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmvCEys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTHigis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmvCFCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmvCFSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmvCFis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel23" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ58ACs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmvCFys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmvCGCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmyFYCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTIwoCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmyFYSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTJXsCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmyFYis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmyFYys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTIwoSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmyFZCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmyFZSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmyFZis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel24" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ6jESs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmyFZys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmyFaCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MmzTgCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTJXsSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MmzTgSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTJ-wCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MmzTgis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MmzTgys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTJXsis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmzThCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MmzThSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MmzThis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel25" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ7KISs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MmzThys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MmzTiCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm0hoCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTJ-wSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm0hoSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTLM4Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm0hois0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm0hoys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTJ-wis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm0hpCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm0hpSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm0hpis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel26" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ7xMSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm0hpys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm0hqCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm2W0Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTLM4Ss0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm2W0Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTLz8Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm2W0is0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm2W0ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTLM4is0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm2W1Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm2W1Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm2W1is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel27" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ8YQSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm2W1ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm2W2Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm3k8Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTMbACs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm3k8Ss0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTOQMCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm3k8is0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm3k8ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTMbASs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm3k9Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm3k9Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm3k9is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel3" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ9mYCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm3k9ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm3k-Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm4zECs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTOQMSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm4zESs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTPeUCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm4zEis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm4zEys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTOQMis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm4zFCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm4zFSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm4zFis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel4" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ-NcCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm4zFys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm4zGCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm6BMCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTPeUSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm6BMSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTQFYCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm6BMis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm6BMys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTPeUis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm6BNCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm6BNSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm6BNis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel5" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ-0gCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm6BNys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm6BOCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm7PUCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTQscCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm7PUSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTR6kCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm7PUis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm7PUys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTQscSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm7PVCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm7PVSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm7PVis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel7" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQ_bkCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm7PVys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm7PWCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm8dcCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTR6kSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm8dcSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTShoCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm8dcis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm8dcys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTR6kis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm8ddCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm8ddSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm8ddis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel8" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRACoSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm8ddys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm8deCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm9rkCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTShoSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm9rkSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTUW0Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm9rkis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm9rkys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTTIsCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm9rlCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm9rlSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm9rlis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jLabel9" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRApsCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm9rlys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm9rmCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mm_gwCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTU94Ss0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_Mm_gwSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTWMACs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Mm_gwis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mm_gwys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTU94is0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm_gxCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mm_gxSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mm_gxis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jPanel2" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRCe4Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mm_gxys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mm_gyCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnAH0Cs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTWMASs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnAu4Cs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTWzECs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnAu4Ss0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnAu4is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTWMAis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnAu4ys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnAu5Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnAu5Ss0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField1" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRDtACs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnAu5is0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnAu5ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnB9ACs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTXaICs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnB9ASs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTYBMCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnB9Ais0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnB9Ays0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTXaISs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnB9BCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnB9BSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnB9Bis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField2" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MREUECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnB9Bys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnB9CCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnDLICs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTYBMSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnDLISs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTZPUCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnDLIis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnDyMCs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTYBMis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnDyMSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnDyMis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnDyMys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField3" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRE7ISs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnDyNCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnDyNSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnFAUCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTZ2YCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnFAUSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTadcCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnFAUis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnFAUys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTZ2YSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnFAVCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnFAVSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnFAVis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField4" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRFiMSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnFAVys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnFAWCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnFnYCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTadcSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnFnYSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTbEgCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnFnYis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnFnYys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTadcis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnFnZCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnFnZSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnFnZis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField5" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRGwUCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnFnZys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnFnaCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnG1gCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTbrkCs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnG1gSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTcSoCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnG1gis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnG1gys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTbrkSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnG1hCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnG1hSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnG1his0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField6" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRHXYCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnG1hys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnG1iCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnHckCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTcSoSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnHckSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTc5sCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnHckis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnHckys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTcSois0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnHclCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnHclSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnHclis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField7" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRHXYis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnHclys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnHcmCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MnIqsCs0Ee29nJQfP1zSZQ" source="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTc5sSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MnIqsSs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTeH0Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MnIqsis0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MnIqsys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTc5sis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnIqtCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnIqtSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MnIqtis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="jTextField8" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRH-cSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnIqtys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnIquCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MrDhYCs0Ee29nJQfP1zSZQ" source="_MrQVsCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSoaUSs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MrJA8Cs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSpocCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MrHy0Cs0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MrIZ4Cs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSoaUis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrLdMSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrLdMCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MrIZ4Ss0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="Nodos" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQdQECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrLdMys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrLdMis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MrDhYSs0Ee29nJQfP1zSZQ" sourceAnchor="199.0,404.0" targetAnchor="533.0,148.0" target="_Mr09cCs0Ee29nJQfP1zSZQ" source="_MrQVsCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSpocSs0Ee29nJQfP1zSZQ"/>
+    <bendpoints xmi:id="_zirjMSs9Ee29nJQfP1zSZQ" sourceX="2" sourceY="691" targetX="671"/>
+    <stereotypes xmi:id="_MrJoACs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MSqPgCs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MrJA8Ss0Ee29nJQfP1zSZQ" text="">
+      <visualProperties xmi:id="_NVaF8Cs0Ee29nJQfP1zSZQ" position="-78.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MrJA8is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSpocis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVY30Cs0Ee29nJQfP1zSZQ" position="2.0,44.0"/>
+      <visibility xmi:id="_MrMEQys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrMEQis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MrJA8ys0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="conexiones" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MQgTYCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_NVatACs0Ee29nJQfP1zSZQ" position="61.0,2.0"/>
+      <visibility xmi:id="_MrMrUSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrMrUCs0Ee29nJQfP1zSZQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MrsakSs0Ee29nJQfP1zSZQ" targetItem="_Mr09cCs0Ee29nJQfP1zSZQ" sourceItem="_MrsakCs0Ee29nJQfP1zSZQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MrtBoCs0Ee29nJQfP1zSZQ" source="_Mr09cCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MTeu4Cs0Ee29nJQfP1zSZQ"/>
+    <stereotypes xmi:id="_MrwsACs0Ee29nJQfP1zSZQ" name="Reference">
+      <modelElement href="proyecto%20tanques2.uml#_MTfV8Cs0Ee29nJQfP1zSZQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MrwE8Cs0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_MrwE8Ss0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MTeu4Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mrx6ICs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrxTECs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MrwE8is0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="agua" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRS9kSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mrx6Iis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mrx6ISs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Mr0WYCs0Ee29nJQfP1zSZQ" target="_Mr09cCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSURQCs0Ee29nJQfP1zSZQ"/>
+    <nameVisual xmi:id="_Mr0WYSs0Ee29nJQfP1zSZQ" text=""/>
+    <sourceRole xmi:id="_Mr0WYis0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="a" navigable="true">
+      <modelElement href="proyecto%20tanques2.uml#_MRUywCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr0WYys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr0WZCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Mr0WZSs0Ee29nJQfP1zSZQ" aggregationKind="NONE" name="">
+      <modelElement href="proyecto%20tanques2.uml#_MSURQSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr0WZis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr0WZys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MsYXESs0Ee29nJQfP1zSZQ" targetItem="_Msd2oCs0Ee29nJQfP1zSZQ" sourceItem="_MsYXECs0Ee29nJQfP1zSZQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MjaoUCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MjbPYCs0Ee29nJQfP1zSZQ" text="@return the barrio" item="_MjruLys0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSRN8Cs0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MjcdgCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MjcdgSs0Ee29nJQfP1zSZQ" text="@return the tanque" item="_MjruNCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSRN8is0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MjdEkCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MjdEkSs0Ee29nJQfP1zSZQ" text="@return the tan" item="_MjruOSs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSRN9Cs0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MjdroCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MjeSsCs0Ee29nJQfP1zSZQ" text="@param tan the tan to set" item="_MjruPis0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSRN9Ss0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Mjh9ECs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_Mjh9ESs0Ee29nJQfP1zSZQ" text="@param barrio the barrio to set" item="_MjsVKCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSRN8Ss0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MjjLMCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MjjLMSs0Ee29nJQfP1zSZQ" text="@param tanque the tanque to set" item="_MjsVLis0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSRN8ys0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Mk_VoCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_Mk_8sCs0Ee29nJQfP1zSZQ" text="@return the saldo" item="_MlGqgis0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSQm4Ss0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Mk_8sSs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_Mk_8sis0Ee29nJQfP1zSZQ" text="@param saldo the saldo to set" item="_MlGqhys0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSQm4is0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MlivQCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MlivQSs0Ee29nJQfP1zSZQ" text="*&#xD;&#xA;@author usuario" item="_MnJRwCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSR1ACs0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MrsakCs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MrsakSs0Ee29nJQfP1zSZQ" text="*&#xD;&#xA;@author usuario" item="_Mr09cCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSTDISs0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MsYXECs0Ee29nJQfP1zSZQ" sourceConnectionVisual="_MsYXESs0Ee29nJQfP1zSZQ" text="*&#xD;&#xA;@author usuario" item="_Msd2oCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MSTDICs0Ee29nJQfP1zSZQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MnJRwCs0Ee29nJQfP1zSZQ" comments="_MlivQCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MlivQSs0Ee29nJQfP1zSZQ" name="ventanaTubos" associationsOut="_MlcBkCs0Ee29nJQfP1zSZQ _MldPsCs0Ee29nJQfP1zSZQ _Mld2wCs0Ee29nJQfP1zSZQ _MlhhICs0Ee29nJQfP1zSZQ _MljWUCs0Ee29nJQfP1zSZQ _Mlj9YCs0Ee29nJQfP1zSZQ _MlkkcCs0Ee29nJQfP1zSZQ _MlmZoCs0Ee29nJQfP1zSZQ _MmNdoCs0Ee29nJQfP1zSZQ _MmPS0Cs0Ee29nJQfP1zSZQ _MmRIACs0Ee29nJQfP1zSZQ _MmS9MCs0Ee29nJQfP1zSZQ _MmULUCs0Ee29nJQfP1zSZQ _MmVZcCs0Ee29nJQfP1zSZQ _MmWnkCs0Ee29nJQfP1zSZQ _MmX1sCs0Ee29nJQfP1zSZQ _MmZD0Cs0Ee29nJQfP1zSZQ _MmaR8Cs0Ee29nJQfP1zSZQ _MmbgECs0Ee29nJQfP1zSZQ _MmcuMCs0Ee29nJQfP1zSZQ _Mmd8UCs0Ee29nJQfP1zSZQ _MmfKcCs0Ee29nJQfP1zSZQ _MmgYkCs0Ee29nJQfP1zSZQ _MmhmsCs0Ee29nJQfP1zSZQ _Mmi00Cs0Ee29nJQfP1zSZQ _MmkC8Cs0Ee29nJQfP1zSZQ _Mml4ICs0Ee29nJQfP1zSZQ _MmnGQCs0Ee29nJQfP1zSZQ _MmoUYCs0Ee29nJQfP1zSZQ _MmvCECs0Ee29nJQfP1zSZQ _MmyFYCs0Ee29nJQfP1zSZQ _MmzTgCs0Ee29nJQfP1zSZQ _Mm0hoCs0Ee29nJQfP1zSZQ _Mm2W0Cs0Ee29nJQfP1zSZQ _Mm3k8Cs0Ee29nJQfP1zSZQ _Mm4zECs0Ee29nJQfP1zSZQ _Mm6BMCs0Ee29nJQfP1zSZQ _Mm7PUCs0Ee29nJQfP1zSZQ _Mm8dcCs0Ee29nJQfP1zSZQ _Mm9rkCs0Ee29nJQfP1zSZQ _Mm_gwCs0Ee29nJQfP1zSZQ _MnAH0Cs0Ee29nJQfP1zSZQ _MnB9ACs0Ee29nJQfP1zSZQ _MnDLICs0Ee29nJQfP1zSZQ _MnFAUCs0Ee29nJQfP1zSZQ _MnFnYCs0Ee29nJQfP1zSZQ _MnG1gCs0Ee29nJQfP1zSZQ _MnHckCs0Ee29nJQfP1zSZQ _MnIqsCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MIAesCs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_MnJRwSs0Ee29nJQfP1zSZQ" position="-506.0,-468.0" size="588.0,418.0"/>
+    <visibility xmi:id="_MnJRwis0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_MnJRwys0Ee29nJQfP1zSZQ" name="ciudad">
+      <modelElement href="proyecto%20tanques2.uml#_MQivoCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJRxCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQjWsCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJRxSs0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJRxis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJRxys0Ee29nJQfP1zSZQ" name="Acueducto">
+        <modelElement href="proyecto%20tanques2.uml#_MHjLsCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJRyCs0Ee29nJQfP1zSZQ" name="barrio">
+      <modelElement href="proyecto%20tanques2.uml#_MQj9wCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJRySs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQj9wSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJRyis0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJRyys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJRzCs0Ee29nJQfP1zSZQ" name="Barrio">
+        <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJRzSs0Ee29nJQfP1zSZQ" name="tanque">
+      <modelElement href="proyecto%20tanques2.uml#_MQkk0Cs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJRzis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQlL4Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJRzys0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR0Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR0Ss0Ee29nJQfP1zSZQ" name="Tanque">
+        <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR0is0Ee29nJQfP1zSZQ" name="tubo">
+      <modelElement href="proyecto%20tanques2.uml#_MQly8Cs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJR0ys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQmaACs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR1Cs0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR1Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR1is0Ee29nJQfP1zSZQ" name="Tubo">
+        <modelElement href="proyecto%20tanques2.uml#_MI_9MCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR1ys0Ee29nJQfP1zSZQ" name="nodo">
+      <modelElement href="proyecto%20tanques2.uml#_MQmaASs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJR2Cs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQnBECs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR2Ss0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR2is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR2ys0Ee29nJQfP1zSZQ" name="Nodo">
+        <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR3Cs0Ee29nJQfP1zSZQ" name="seleccionado1">
+      <modelElement href="proyecto%20tanques2.uml#_MQnBESs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJR3Ss0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQnoICs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR3is0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR3ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR4Cs0Ee29nJQfP1zSZQ" name="Nodo">
+        <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR4Ss0Ee29nJQfP1zSZQ" name="seleccionado2">
+      <modelElement href="proyecto%20tanques2.uml#_MQnoISs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJR4is0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQoPMCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR4ys0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR5Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR5Ss0Ee29nJQfP1zSZQ" name="Nodo">
+        <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR5is0Ee29nJQfP1zSZQ" name="saldo">
+      <modelElement href="proyecto%20tanques2.uml#_MQo2QCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofFpACs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJR5ys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQpdUCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR6Cs0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR6Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR6is0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR6ys0Ee29nJQfP1zSZQ" name="L">
+      <modelElement href="proyecto%20tanques2.uml#_MQpdUSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofG3ICs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJR7Cs0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MQqEYCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MnJR7Ss0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQqrcCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR7is0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR7ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR8Cs0Ee29nJQfP1zSZQ" name="LinkedList">
+        <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR8Ss0Ee29nJQfP1zSZQ" name="selt">
+      <modelElement href="proyecto%20tanques2.uml#_MQrSgCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofIFQCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJR8is0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQrSgSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR8ys0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MnJR9Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR9Ss0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR9is0Ee29nJQfP1zSZQ" name="jButton1">
+      <modelElement href="proyecto%20tanques2.uml#_MQr5kCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofIsUCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJR9ys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQr5kSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR-Cs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJR-Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR-is0Ee29nJQfP1zSZQ" name="JButton">
+        <modelElement href="proyecto%20tanques2.uml#_MPJogCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJR-ys0Ee29nJQfP1zSZQ" name="jButton2">
+      <modelElement href="proyecto%20tanques2.uml#_MQsgoCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofIsUSs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJR_Cs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQsgoSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJR_Ss0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJR_is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJR_ys0Ee29nJQfP1zSZQ" name="JButton">
+        <modelElement href="proyecto%20tanques2.uml#_MPJogCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSACs0Ee29nJQfP1zSZQ" name="jButton3">
+      <modelElement href="proyecto%20tanques2.uml#_MQtHsCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofJTYCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSASs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQtHsSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSAis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSAys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSBCs0Ee29nJQfP1zSZQ" name="JButton">
+        <modelElement href="proyecto%20tanques2.uml#_MPJogCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSBSs0Ee29nJQfP1zSZQ" name="jButton5">
+      <modelElement href="proyecto%20tanques2.uml#_MQtHsis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofJTYSs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSBis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQtuwCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSBys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSCCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSCSs0Ee29nJQfP1zSZQ" name="JButton">
+        <modelElement href="proyecto%20tanques2.uml#_MPJogCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSCis0Ee29nJQfP1zSZQ" name="jComboBox1">
+      <modelElement href="proyecto%20tanques2.uml#_MQtuwSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofJ6cCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSCys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQuV0Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSDCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSDSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSDis0Ee29nJQfP1zSZQ" name="JComboBox">
+        <modelElement href="proyecto%20tanques2.uml#_MPMr0Cs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSDys0Ee29nJQfP1zSZQ" name="jLabel1">
+      <modelElement href="proyecto%20tanques2.uml#_MQuV0Ss0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofJ6cSs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSECs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQvj8Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSESs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSEis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSEys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSFCs0Ee29nJQfP1zSZQ" name="jLabel10">
+      <modelElement href="proyecto%20tanques2.uml#_MQvj8Ss0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofKhgCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSFSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQvj8is0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSFis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSFys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSGCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSGSs0Ee29nJQfP1zSZQ" name="jLabel11">
+      <modelElement href="proyecto%20tanques2.uml#_MQvj8ys0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofKhgSs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSGis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQwLACs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSGys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSHCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSHSs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSHis0Ee29nJQfP1zSZQ" name="jLabel12">
+      <modelElement href="proyecto%20tanques2.uml#_MQwyECs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofLIkCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSHys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQxZICs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSICs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSISs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSIis0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSIys0Ee29nJQfP1zSZQ" name="jLabel13">
+      <modelElement href="proyecto%20tanques2.uml#_MQyAMCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofLvoCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSJCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQynQCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSJSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSJis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSJys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSKCs0Ee29nJQfP1zSZQ" name="jLabel14">
+      <modelElement href="proyecto%20tanques2.uml#_MQynQSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofMWsCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSKSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQzOUCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSKis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSKys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSLCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSLSs0Ee29nJQfP1zSZQ" name="jLabel15">
+      <modelElement href="proyecto%20tanques2.uml#_MQzOUSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofM9wCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSLis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ0ccCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSLys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSMCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSMSs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSMis0Ee29nJQfP1zSZQ" name="jLabel16">
+      <modelElement href="proyecto%20tanques2.uml#_MQ0ccSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofNk0Cs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSMys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ1DgCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSNCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSNSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSNis0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSNys0Ee29nJQfP1zSZQ" name="jLabel17">
+      <modelElement href="proyecto%20tanques2.uml#_MQ1DgSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofNk0Ss0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSOCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ1qkCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSOSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSOis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSOys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSPCs0Ee29nJQfP1zSZQ" name="jLabel18">
+      <modelElement href="proyecto%20tanques2.uml#_MQ1qkSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofOL4Cs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSPSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ2RoCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSPis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSPys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSQCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSQSs0Ee29nJQfP1zSZQ" name="jLabel19">
+      <modelElement href="proyecto%20tanques2.uml#_MQ2RoSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofOy8Cs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSQis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ24sCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSQys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSRCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSRSs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSRis0Ee29nJQfP1zSZQ" name="jLabel2">
+      <modelElement href="proyecto%20tanques2.uml#_MQ3fwCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofOy8Ss0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSRys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ4G0Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSSCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSSSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSSis0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSSys0Ee29nJQfP1zSZQ" name="jLabel20">
+      <modelElement href="proyecto%20tanques2.uml#_MQ4G0Ss0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofPaACs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSTCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ4G0is0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSTSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSTis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSTys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSUCs0Ee29nJQfP1zSZQ" name="jLabel21">
+      <modelElement href="proyecto%20tanques2.uml#_MQ4G0ys0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofQBECs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSUSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ5U8Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSUis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSUys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSVCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSVSs0Ee29nJQfP1zSZQ" name="jLabel22">
+      <modelElement href="proyecto%20tanques2.uml#_MQ5U8Ss0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofQoICs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSVis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ5U8is0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSVys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSWCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSWSs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSWis0Ee29nJQfP1zSZQ" name="jLabel23">
+      <modelElement href="proyecto%20tanques2.uml#_MQ58ACs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofRPMCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSWys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ6jECs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSXCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSXSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSXis0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSXys0Ee29nJQfP1zSZQ" name="jLabel24">
+      <modelElement href="proyecto%20tanques2.uml#_MQ6jESs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofRPMSs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSYCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ7KICs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSYSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSYis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSYys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSZCs0Ee29nJQfP1zSZQ" name="jLabel25">
+      <modelElement href="proyecto%20tanques2.uml#_MQ7KISs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofR2QCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSZSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ7xMCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSZis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSZys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSaCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSaSs0Ee29nJQfP1zSZQ" name="jLabel26">
+      <modelElement href="proyecto%20tanques2.uml#_MQ7xMSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofSdUCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSais0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ8YQCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSays0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSbCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSbSs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSbis0Ee29nJQfP1zSZQ" name="jLabel27">
+      <modelElement href="proyecto%20tanques2.uml#_MQ8YQSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofTEYCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSbys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ8_UCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJScCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJScSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJScis0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJScys0Ee29nJQfP1zSZQ" name="jLabel3">
+      <modelElement href="proyecto%20tanques2.uml#_MQ9mYCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofTrcCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSdCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ9mYSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSdSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSdis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSdys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSeCs0Ee29nJQfP1zSZQ" name="jLabel4">
+      <modelElement href="proyecto%20tanques2.uml#_MQ-NcCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofUSgCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSeSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ-NcSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSeis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSeys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSfCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSfSs0Ee29nJQfP1zSZQ" name="jLabel5">
+      <modelElement href="proyecto%20tanques2.uml#_MQ-0gCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofU5kCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSfis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQ-0gSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSfys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSgCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSgSs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSgis0Ee29nJQfP1zSZQ" name="jLabel7">
+      <modelElement href="proyecto%20tanques2.uml#_MQ_bkCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofVgoCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSgys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRACoCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJShCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJShSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJShis0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJShys0Ee29nJQfP1zSZQ" name="jLabel8">
+      <modelElement href="proyecto%20tanques2.uml#_MRACoSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofWHsCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSiCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRACois0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSiSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSiis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSiys0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSjCs0Ee29nJQfP1zSZQ" name="jLabel9">
+      <modelElement href="proyecto%20tanques2.uml#_MRApsCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofWuwCs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSjSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRBQwCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSjis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSjys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSkCs0Ee29nJQfP1zSZQ" name="JLabel">
+        <modelElement href="proyecto%20tanques2.uml#_MPOhACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSkSs0Ee29nJQfP1zSZQ" name="jPanel1">
+      <modelElement href="proyecto%20tanques2.uml#_MRBQwSs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJSkis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRB30Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSkys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSlCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSlSs0Ee29nJQfP1zSZQ" name="jPanel">
+        <modelElement href="proyecto%20tanques2.uml#_MGrpACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSlis0Ee29nJQfP1zSZQ" name="jPanel2">
+      <modelElement href="proyecto%20tanques2.uml#_MRCe4Cs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofXV0Cs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSlys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRCe4Ss0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSmCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSmSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSmis0Ee29nJQfP1zSZQ" name="JPanel">
+        <modelElement href="proyecto%20tanques2.uml#_MG4dUCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSmys0Ee29nJQfP1zSZQ" name="jTextField1">
+      <modelElement href="proyecto%20tanques2.uml#_MRDtACs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofX84Cs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSnCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRDtASs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSnSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSnis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSnys0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSoCs0Ee29nJQfP1zSZQ" name="jTextField2">
+      <modelElement href="proyecto%20tanques2.uml#_MREUECs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofYj8Cs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSoSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRE7ICs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSois0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSoys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSpCs0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSpSs0Ee29nJQfP1zSZQ" name="jTextField3">
+      <modelElement href="proyecto%20tanques2.uml#_MRE7ISs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofYj8Ss0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSpis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRFiMCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSpys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSqCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSqSs0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSqis0Ee29nJQfP1zSZQ" name="jTextField4">
+      <modelElement href="proyecto%20tanques2.uml#_MRFiMSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofZLACs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSqys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRGJQCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSrCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSrSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSris0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJSrys0Ee29nJQfP1zSZQ" name="jTextField5">
+      <modelElement href="proyecto%20tanques2.uml#_MRGwUCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofZLASs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJSsCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRGwUSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJSsSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJSsis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSsys0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJStCs0Ee29nJQfP1zSZQ" name="jTextField6">
+      <modelElement href="proyecto%20tanques2.uml#_MRHXYCs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofZyECs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJStSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRHXYSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJStis0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJStys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJSuCs0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJ40Cs0Ee29nJQfP1zSZQ" name="jTextField7">
+      <modelElement href="proyecto%20tanques2.uml#_MRHXYis0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofaZICs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJ40Ss0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRH-cCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJ40is0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ40ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJ41Cs0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MnJ41Ss0Ee29nJQfP1zSZQ" name="jTextField8">
+      <modelElement href="proyecto%20tanques2.uml#_MRH-cSs0Ee29nJQfP1zSZQ"/>
+      <visualProperties xmi:id="_ofaZISs0Ee29nJQfP1zSZQ" visible="false"/>
+      <stereotypes xmi:id="_MnJ41is0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MRH-cis0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJ41ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ42Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MnJ42Ss0Ee29nJQfP1zSZQ" name="JTextField">
+        <modelElement href="proyecto%20tanques2.uml#_MPSycCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MnJ42is0Ee29nJQfP1zSZQ" name="ventanaTubos">
+      <modelElement href="proyecto%20tanques2.uml#_MIF-QCs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MnJ42ys0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MnJ43Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnJ43Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MnJ43is0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MIGlUSs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MnJ43ys0Ee29nJQfP1zSZQ" name="ventanaTubos">
+          <modelElement href="proyecto%20tanques2.uml#_MIAesCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MnJ44Cs0Ee29nJQfP1zSZQ" name="initComponents">
+      <modelElement href="proyecto%20tanques2.uml#_MIGlUis0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJ44Ss0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MIHMYCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MnJ44is0Ee29nJQfP1zSZQ" name="Annotations">
+        <modelElement href="proyecto%20tanques2.uml#_MIHzcCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJ44ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ45Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MnJ45Ss0Ee29nJQfP1zSZQ" name="desbyinsatis">
+      <modelElement href="proyecto%20tanques2.uml#_MIIagSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ45is0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnJ45ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MnJ46Cs0Ee29nJQfP1zSZQ" name="main" staticOperation="true">
+      <modelElement href="proyecto%20tanques2.uml#_MIJooCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MnJ46Ss0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MIK2wCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MnJ46is0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MnJ46ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ47Cs0Ee29nJQfP1zSZQ" name="args">
+        <modelElement href="proyecto%20tanques2.uml#_MIKPsCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ47Ss0Ee29nJQfP1zSZQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_MnJ47is0Ee29nJQfP1zSZQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ47ys0Ee29nJQfP1zSZQ" name="Haytubos">
+      <modelElement href="proyecto%20tanques2.uml#_MIN6ECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ48Cs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ48Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MnJ48is0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MIPIMCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MnJ48ys0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MnJ49Cs0Ee29nJQfP1zSZQ" name="contarsaldo">
+      <modelElement href="proyecto%20tanques2.uml#_MIPIMSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ49Ss0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ49is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MnJ49ys0Ee29nJQfP1zSZQ" name="tubosobstruidos">
+      <modelElement href="proyecto%20tanques2.uml#_MIQWUCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ4-Cs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ4-Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MnJ4-is0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MIQ9YCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MnJ4-ys0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MnJ4_Cs0Ee29nJQfP1zSZQ" name="jPanel1MouseClicked">
+      <modelElement href="proyecto%20tanques2.uml#_MPAekCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ4_Ss0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ4_is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ4_ys0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPBFoCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5ACs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5ASs0Ee29nJQfP1zSZQ" name="MouseEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MO3UoSs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5Ais0Ee29nJQfP1zSZQ" name="jTextField1ActionPerformed">
+      <modelElement href="proyecto%20tanques2.uml#_MPEI8Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5Ays0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5BCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ5BSs0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPEI8Ss0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5Bis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5Bys0Ee29nJQfP1zSZQ" name="ActionEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5CCs0Ee29nJQfP1zSZQ" name="jButton5ActionPerformed">
+      <modelElement href="proyecto%20tanques2.uml#_MPEwACs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5CSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5Cis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ5Cys0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPEwASs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5DCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5DSs0Ee29nJQfP1zSZQ" name="ActionEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5Dis0Ee29nJQfP1zSZQ" name="jButton3ActionPerformed">
+      <modelElement href="proyecto%20tanques2.uml#_MPFXECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5Dys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5ECs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ5ESs0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPF-ICs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5Eis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5Eys0Ee29nJQfP1zSZQ" name="ActionEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5FCs0Ee29nJQfP1zSZQ" name="jButton2ActionPerformed">
+      <modelElement href="proyecto%20tanques2.uml#_MPGlMCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5FSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5Fis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ5Fys0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPHMQCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5GCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5GSs0Ee29nJQfP1zSZQ" name="ActionEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5Gis0Ee29nJQfP1zSZQ" name="jButton1ActionPerformed">
+      <modelElement href="proyecto%20tanques2.uml#_MPHMQSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5Gys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5HCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ5HSs0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPHzUCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5His0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5Hys0Ee29nJQfP1zSZQ" name="ActionEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5ICs0Ee29nJQfP1zSZQ" name="jComboBox1ActionPerformed">
+      <modelElement href="proyecto%20tanques2.uml#_MPIaYCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5ISs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5Iis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MnJ5Iys0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MPJBcCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5JCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5JSs0Ee29nJQfP1zSZQ" name="ActionEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5Jis0Ee29nJQfP1zSZQ" name="selecciono">
+      <modelElement href="proyecto%20tanques2.uml#_MQDAYCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5Jys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5KCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MnJ5KSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MQDAYis0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MnJ5Kis0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MnJ5Kys0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MQDAYSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5LCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5LSs0Ee29nJQfP1zSZQ" name="MouseEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MO3UoSs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5Lis0Ee29nJQfP1zSZQ" name="buscarseleccionado">
+      <modelElement href="proyecto%20tanques2.uml#_MQDncCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5Lys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5MCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MnJ5MSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MQEOgCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MnJ5Mis0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MnJ5Mys0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MQDncSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5NCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5NSs0Ee29nJQfP1zSZQ" name="MouseEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MO3UoSs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MnJ5Nis0Ee29nJQfP1zSZQ" name="intersectatubo">
+      <modelElement href="proyecto%20tanques2.uml#_MQEOgSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MnJ5Nys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MnJ5OCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MnJ5OSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MQE1kis0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MnJ5Ois0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MnJ5Oys0Ee29nJQfP1zSZQ" name="tubo">
+        <modelElement href="proyecto%20tanques2.uml#_MQE1kCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5PCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5PSs0Ee29nJQfP1zSZQ" name="Tubo">
+          <modelElement href="proyecto%20tanques2.uml#_MI_9MCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MnJ5Pis0Ee29nJQfP1zSZQ" name="evt">
+        <modelElement href="proyecto%20tanques2.uml#_MQE1kSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MnJ5Pys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MnJ5QCs0Ee29nJQfP1zSZQ" name="MouseEvent">
+          <modelElement href="proyecto%20tanques2.uml#_MO3UoSs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MlGqYCs0Ee29nJQfP1zSZQ" name="jPanel" associationsIn="_MlDnECs0Ee29nJQfP1zSZQ _MlhhICs0Ee29nJQfP1zSZQ" associationsOut="_MlE1MCs0Ee29nJQfP1zSZQ _MlGDUCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MGrpACs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_MlGqYSs0Ee29nJQfP1zSZQ" position="295.0,-416.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MlGqYis0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_MlGqYys0Ee29nJQfP1zSZQ" name="ciudad">
+      <modelElement href="proyecto%20tanques2.uml#_MQVUQCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlGqZCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlGqZSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MlGqZis0Ee29nJQfP1zSZQ" name="Acueducto">
+        <modelElement href="proyecto%20tanques2.uml#_MHjLsCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MlGqZys0Ee29nJQfP1zSZQ" name="saldo">
+      <modelElement href="proyecto%20tanques2.uml#_MQWiYCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MlGqaCs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQXJcCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MlGqaSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MlGqais0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MlGqays0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MlGqbCs0Ee29nJQfP1zSZQ" name="L">
+      <modelElement href="proyecto%20tanques2.uml#_MQXJcSs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MlGqbSs0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MQYXkCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MlGqbis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlGqbys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MlGqcCs0Ee29nJQfP1zSZQ" name="LinkedList">
+        <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MlGqcSs0Ee29nJQfP1zSZQ" name="tanques">
+      <modelElement href="proyecto%20tanques2.uml#_MQYXkSs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MlGqcis0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MQY-oCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MlGqcys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQZlsCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MlGqdCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MlGqdSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MlGqdis0Ee29nJQfP1zSZQ" name="LinkedList">
+        <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MlGqdys0Ee29nJQfP1zSZQ" name="jPanel">
+      <modelElement href="proyecto%20tanques2.uml#_MGwhgCs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MlGqeCs0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MlGqeSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlGqeis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MlGqeys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MGyWsCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MlGqfCs0Ee29nJQfP1zSZQ" name="jPanel">
+          <modelElement href="proyecto%20tanques2.uml#_MGrpACs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MlGqfSs0Ee29nJQfP1zSZQ" name="initComponents">
+      <modelElement href="proyecto%20tanques2.uml#_MGzk0Cs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MlGqfis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MG0L4Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MlGqfys0Ee29nJQfP1zSZQ" name="Annotations">
+        <modelElement href="proyecto%20tanques2.uml#_MG1aACs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MlGqgCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MlGqgSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MlGqgis0Ee29nJQfP1zSZQ" comments="_Mk_VoCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_Mk_8sCs0Ee29nJQfP1zSZQ" name="getSaldo">
+      <modelElement href="proyecto%20tanques2.uml#_MG2oICs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlGqgys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlGqhCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MlGqhSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MG2oISs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MlGqhis0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MlGqhys0Ee29nJQfP1zSZQ" comments="_Mk_8sSs0Ee29nJQfP1zSZQ" targetConnectionVisual="_Mk_8sis0Ee29nJQfP1zSZQ" name="setSaldo">
+      <modelElement href="proyecto%20tanques2.uml#_MG3PMCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlGqiCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MlGqiSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MlGqiis0Ee29nJQfP1zSZQ" name="saldo">
+        <modelElement href="proyecto%20tanques2.uml#_MG32QCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MlGqiys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MlGqjCs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MlGqjSs0Ee29nJQfP1zSZQ" name="paintComponent">
+      <modelElement href="proyecto%20tanques2.uml#_MP0W4Cs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MlGqjis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MP098Ss0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MlGqjys0Ee29nJQfP1zSZQ" name="Annotations">
+        <modelElement href="proyecto%20tanques2.uml#_MP1lACs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MlGqkCs0Ee29nJQfP1zSZQ" label="#"/>
+      <cardinality xmi:id="_MlGqkSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MlGqkis0Ee29nJQfP1zSZQ" name="g">
+        <modelElement href="proyecto%20tanques2.uml#_MP098Cs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MlGqkys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MlGqlCs0Ee29nJQfP1zSZQ" name="Graphics">
+          <modelElement href="proyecto%20tanques2.uml#_MOIU0Ss0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MlGqlSs0Ee29nJQfP1zSZQ" name="setTanques">
+      <modelElement href="proyecto%20tanques2.uml#_MP2zICs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MlGqlis0Ee29nJQfP1zSZQ" label="~"/>
+      <cardinality xmi:id="_MlGqlys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MlGqmCs0Ee29nJQfP1zSZQ" name="tanques">
+        <modelElement href="proyecto%20tanques2.uml#_MP2zISs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MlGqmSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MlGqmis0Ee29nJQfP1zSZQ" name="LinkedList">
+          <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MrQVsCs0Ee29nJQfP1zSZQ" name="Acueducto" associationsIn="_MljWUCs0Ee29nJQfP1zSZQ" associationsOut="_MlDnECs0Ee29nJQfP1zSZQ _MrDhYCs0Ee29nJQfP1zSZQ _MrDhYSs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MHjLsCs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_MrQVsSs0Ee29nJQfP1zSZQ" position="1032.0,-404.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MrQVsis0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_MrQVsys0Ee29nJQfP1zSZQ" name="Nodos">
+      <modelElement href="proyecto%20tanques2.uml#_MQdQECs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MrQVtCs0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MQeeMCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MrQVtSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQfsUCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MrQVtis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQVtys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MrQVuCs0Ee29nJQfP1zSZQ" name="LinkedList">
+        <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MrQVuSs0Ee29nJQfP1zSZQ" name="conexiones">
+      <modelElement href="proyecto%20tanques2.uml#_MQgTYCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MrQVuis0Ee29nJQfP1zSZQ" name="Array">
+        <modelElement href="proyecto%20tanques2.uml#_MQgTYis0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MrQVuys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQg6cCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MrQVvCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQVvSs0Ee29nJQfP1zSZQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_MrQVvis0Ee29nJQfP1zSZQ" name="Tubo">
+        <modelElement href="proyecto%20tanques2.uml#_MI_9MCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MrQVvys0Ee29nJQfP1zSZQ" name="Acueducto">
+      <modelElement href="proyecto%20tanques2.uml#_MHln8Cs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MrQVwCs0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MrQVwSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQVwis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQVwys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MHmPAis0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQVxCs0Ee29nJQfP1zSZQ" name="Acueducto">
+          <modelElement href="proyecto%20tanques2.uml#_MHjLsCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MrQVxSs0Ee29nJQfP1zSZQ" name="redimention">
+      <modelElement href="proyecto%20tanques2.uml#_MHm2ECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQVxis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQVxys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MrQVyCs0Ee29nJQfP1zSZQ" name="Restriccion">
+      <modelElement href="proyecto%20tanques2.uml#_MHpSUCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MrQVySs0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MHrukCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MrQVyis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQVyys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQVzCs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MP52cSs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQVzSs0Ee29nJQfP1zSZQ" name="LinkedList">
+          <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQVzis0Ee29nJQfP1zSZQ" name="restriccion">
+        <modelElement href="proyecto%20tanques2.uml#_MHpSUSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQVzys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQV0Cs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQV0Ss0Ee29nJQfP1zSZQ" name="marcados">
+      <modelElement href="proyecto%20tanques2.uml#_MHtjwCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV0is0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQV0ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQV1Cs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MHuK0Cs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQV1Ss0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQV1is0Ee29nJQfP1zSZQ" name="ma">
+        <modelElement href="proyecto%20tanques2.uml#_MHtjwSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQV1ys0Ee29nJQfP1zSZQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_MrQV2Cs0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQV2Ss0Ee29nJQfP1zSZQ" name="marc">
+      <modelElement href="proyecto%20tanques2.uml#_MHwAACs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV2is0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQV2ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQV3Cs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MHxOICs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQV3Ss0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQV3is0Ee29nJQfP1zSZQ" name="Mar">
+        <modelElement href="proyecto%20tanques2.uml#_MHwAASs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQV3ys0Ee29nJQfP1zSZQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_MrQV4Cs0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQV4Ss0Ee29nJQfP1zSZQ" name="EncontrarCasa">
+      <modelElement href="proyecto%20tanques2.uml#_MHx1MCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV4is0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQV4ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQV5Cs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOuxwCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQV5Ss0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MrQV5is0Ee29nJQfP1zSZQ" name="TubosObstruidos">
+      <modelElement href="proyecto%20tanques2.uml#_MHycQCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV5ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQV6Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQV6Ss0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MHzDUCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQV6is0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MrQV6ys0Ee29nJQfP1zSZQ" name="obtenerprimerbarrio">
+      <modelElement href="proyecto%20tanques2.uml#_MHzDUSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV7Cs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQV7Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQV7is0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOvY0Cs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQV7ys0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MrQV8Cs0Ee29nJQfP1zSZQ" name="TransportarAgua">
+      <modelElement href="proyecto%20tanques2.uml#_MH0RcCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV8Ss0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQV8is0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MrQV8ys0Ee29nJQfP1zSZQ" name="leerMapa">
+      <modelElement href="proyecto%20tanques2.uml#_MH1fkCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV9Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQV9Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MrQV9is0Ee29nJQfP1zSZQ" name="buscarNodo">
+      <modelElement href="proyecto%20tanques2.uml#_MH2GoCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV9ys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQV-Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQV-Ss0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOwm8Cs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQV-is0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQV-ys0Ee29nJQfP1zSZQ" name="ID">
+        <modelElement href="proyecto%20tanques2.uml#_MH2GoSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQV_Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQV_Ss0Ee29nJQfP1zSZQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQV_is0Ee29nJQfP1zSZQ" name="add">
+      <modelElement href="proyecto%20tanques2.uml#_MOmO4Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQV_ys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQWACs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQWASs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOndACs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQWAis0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQWAys0Ee29nJQfP1zSZQ" name="Vertex">
+        <modelElement href="proyecto%20tanques2.uml#_MOm18Cs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWBCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWBSs0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQWBis0Ee29nJQfP1zSZQ" name="add">
+      <modelElement href="proyecto%20tanques2.uml#_MOoEECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQWBys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQWCCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQWCSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOorISs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQWCis0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQWCys0Ee29nJQfP1zSZQ" name="vertex1">
+        <modelElement href="proyecto%20tanques2.uml#_MOoEESs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWDCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWDSs0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MrQWDis0Ee29nJQfP1zSZQ" name="vertex2">
+        <modelElement href="proyecto%20tanques2.uml#_MOoEEis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWDys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWECs0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MrQWESs0Ee29nJQfP1zSZQ" name="road">
+        <modelElement href="proyecto%20tanques2.uml#_MOorICs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWEis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWEys0Ee29nJQfP1zSZQ" name="Tubo">
+          <modelElement href="proyecto%20tanques2.uml#_MI_9MCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQWFCs0Ee29nJQfP1zSZQ" name="profundidad">
+      <modelElement href="proyecto%20tanques2.uml#_MOpSMCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQWFSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQWFis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQWFys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MP52cCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQWGCs0Ee29nJQfP1zSZQ" name="LinkedList">
+          <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQWGSs0Ee29nJQfP1zSZQ" name="vertex">
+        <modelElement href="proyecto%20tanques2.uml#_MOpSMSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWGis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWGys0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQWHCs0Ee29nJQfP1zSZQ" name="RutasAlternas">
+      <modelElement href="proyecto%20tanques2.uml#_MOrHYCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQWHSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQWHis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQWHys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOrHYys0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQWICs0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQWISs0Ee29nJQfP1zSZQ" name="N1">
+        <modelElement href="proyecto%20tanques2.uml#_MOrHYSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWIis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWIys0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MrQWJCs0Ee29nJQfP1zSZQ" name="N2">
+        <modelElement href="proyecto%20tanques2.uml#_MOrHYis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWJSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWJis0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQWJys0Ee29nJQfP1zSZQ" name="ProponerConexiones">
+      <modelElement href="proyecto%20tanques2.uml#_MOrucCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MrQWKCs0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MOtjoCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MrQWKSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MrQWKis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MrQWKys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MP9g0Cs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MrQWLCs0Ee29nJQfP1zSZQ" name="LinkedList">
+          <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MrQWLSs0Ee29nJQfP1zSZQ" name="N">
+        <modelElement href="proyecto%20tanques2.uml#_MOrucSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWLis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWLys0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQWMCs0Ee29nJQfP1zSZQ" name="TransportarAgua">
+      <modelElement href="proyecto%20tanques2.uml#_MOv_4Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQWMSs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQWMis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MrQWMys0Ee29nJQfP1zSZQ" name="get">
+        <modelElement href="proyecto%20tanques2.uml#_MOv_4Ss0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWNCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWNSs0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MrQWNis0Ee29nJQfP1zSZQ" name="profundidad">
+      <modelElement href="proyecto%20tanques2.uml#_MP7EkCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MrQWNys0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_MrQWOCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MrQWOSs0Ee29nJQfP1zSZQ" name="vertex">
+        <modelElement href="proyecto%20tanques2.uml#_MP7EkSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWOis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWOys0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MrQWPCs0Ee29nJQfP1zSZQ" name="re">
+        <modelElement href="proyecto%20tanques2.uml#_MP7Ekis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWPSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MrQWPis0Ee29nJQfP1zSZQ" name="LinkedList">
+          <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MrQWPys0Ee29nJQfP1zSZQ" name="marcados">
+        <modelElement href="proyecto%20tanques2.uml#_MP7Ekys0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MrQWQCs0Ee29nJQfP1zSZQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_MrQWQSs0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Mr09cCs0Ee29nJQfP1zSZQ" comments="_MrsakCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MrsakSs0Ee29nJQfP1zSZQ" name="Tubo" associationsIn="_MrDhYSs0Ee29nJQfP1zSZQ _MmNdoCs0Ee29nJQfP1zSZQ _Mr0WYCs0Ee29nJQfP1zSZQ" associationsOut="_MrtBoCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MI_9MCs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_Mr09cSs0Ee29nJQfP1zSZQ" position="29.0,543.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Mr09cis0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_Mr09cys0Ee29nJQfP1zSZQ" name="capacidad">
+      <modelElement href="proyecto%20tanques2.uml#_MRRIYCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09dCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09dSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09dis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09dys0Ee29nJQfP1zSZQ" name="transportando">
+      <modelElement href="proyecto%20tanques2.uml#_MRRIYSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09eCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09eSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09eis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09eys0Ee29nJQfP1zSZQ" name="Xini">
+      <modelElement href="proyecto%20tanques2.uml#_MRRvcCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09fCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09fSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09fis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09fys0Ee29nJQfP1zSZQ" name="Xfin">
+      <modelElement href="proyecto%20tanques2.uml#_MRRvcSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09gCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09gSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09gis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09gys0Ee29nJQfP1zSZQ" name="Yini">
+      <modelElement href="proyecto%20tanques2.uml#_MRSWgCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09hCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09hSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09his0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09hys0Ee29nJQfP1zSZQ" name="Yfin">
+      <modelElement href="proyecto%20tanques2.uml#_MRS9kCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09iCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09iSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09iis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09iys0Ee29nJQfP1zSZQ" name="agua">
+      <modelElement href="proyecto%20tanques2.uml#_MRS9kSs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_Mr09jCs0Ee29nJQfP1zSZQ" name="Generics">
+        <modelElement href="proyecto%20tanques2.uml#_MRTkoCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Mr09jSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09jis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09jys0Ee29nJQfP1zSZQ" name="LinkedList">
+        <modelElement href="proyecto%20tanques2.uml#_MOKKACs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09kCs0Ee29nJQfP1zSZQ" name="distX">
+      <modelElement href="proyecto%20tanques2.uml#_MRULsCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09kSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09kis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09kys0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09lCs0Ee29nJQfP1zSZQ" name="distY">
+      <modelElement href="proyecto%20tanques2.uml#_MRULsSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09lSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09lis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09lys0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09mCs0Ee29nJQfP1zSZQ" name="m">
+      <modelElement href="proyecto%20tanques2.uml#_MRULsis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09mSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09mis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09mys0Ee29nJQfP1zSZQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09nCs0Ee29nJQfP1zSZQ" name="a">
+      <modelElement href="proyecto%20tanques2.uml#_MRUywCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09nSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09nis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09nys0Ee29nJQfP1zSZQ" name="Point">
+        <modelElement href="proyecto%20tanques2.uml#_MPiqECs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09oCs0Ee29nJQfP1zSZQ" name="obst">
+      <modelElement href="proyecto%20tanques2.uml#_MRUywSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09oSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09ois0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09oys0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09pCs0Ee29nJQfP1zSZQ" name="alterna">
+      <modelElement href="proyecto%20tanques2.uml#_MRUywis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09pSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09pis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09pys0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09qCs0Ee29nJQfP1zSZQ" name="precioBruto">
+      <modelElement href="proyecto%20tanques2.uml#_MRVZ0Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09qSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09qis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09qys0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09rCs0Ee29nJQfP1zSZQ" name="manoObra">
+      <modelElement href="proyecto%20tanques2.uml#_MRVZ0Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr09rSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr09ris0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr09rys0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Mr09sCs0Ee29nJQfP1zSZQ" name="costoTotal">
+      <modelElement href="proyecto%20tanques2.uml#_MRVZ0is0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr1kgCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr1kgSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Mr1kgis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Mr1kgys0Ee29nJQfP1zSZQ" name="Tubo">
+      <modelElement href="proyecto%20tanques2.uml#_MJDnkCs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_Mr1khCs0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_Mr1khSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Mr1khis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Mr1khys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MJE1tSs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_Mr1kiCs0Ee29nJQfP1zSZQ" name="Tubo">
+          <modelElement href="proyecto%20tanques2.uml#_MI_9MCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Mr1kiSs0Ee29nJQfP1zSZQ" name="capacidad">
+        <modelElement href="proyecto%20tanques2.uml#_MJDnkSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Mr1kiis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Mr1kiys0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mr1kjCs0Ee29nJQfP1zSZQ" name="transportando">
+        <modelElement href="proyecto%20tanques2.uml#_MJDnkis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Mr1kjSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Mr1kjis0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mr1kjys0Ee29nJQfP1zSZQ" name="Xini">
+        <modelElement href="proyecto%20tanques2.uml#_MJEOoCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Mr1kkCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Mr1kkSs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mr1kkis0Ee29nJQfP1zSZQ" name="Xfin">
+        <modelElement href="proyecto%20tanques2.uml#_MJE1sCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Mr1kkys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Mr1klCs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mr1klSs0Ee29nJQfP1zSZQ" name="Yini">
+        <modelElement href="proyecto%20tanques2.uml#_MJE1sSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Mr1klis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Mr1klys0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Mr1kmCs0Ee29nJQfP1zSZQ" name="Yfin">
+        <modelElement href="proyecto%20tanques2.uml#_MJE1sis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Mr1kmSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Mr1kmis0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Mr1kmys0Ee29nJQfP1zSZQ" name="transportar">
+      <modelElement href="proyecto%20tanques2.uml#_MJFcwCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Mr1knCs0Ee29nJQfP1zSZQ" label="-"/>
+      <cardinality xmi:id="_Mr1knSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Msd2oCs0Ee29nJQfP1zSZQ" comments="_MsYXECs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MsYXESs0Ee29nJQfP1zSZQ" name="Tanque" associationsIn="_MjruECs0Ee29nJQfP1zSZQ _MlkkcCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_Msd2oSs0Ee29nJQfP1zSZQ" position="-518.0,476.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Msd2ois0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_Msd2oys0Ee29nJQfP1zSZQ" name="capacidad_maxima">
+      <modelElement href="proyecto%20tanques2.uml#_MRM28Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2pCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2pSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2pis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2pys0Ee29nJQfP1zSZQ" name="agua">
+      <modelElement href="proyecto%20tanques2.uml#_MRM28Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2qCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2qSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2qis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2qys0Ee29nJQfP1zSZQ" name="X">
+      <modelElement href="proyecto%20tanques2.uml#_MRNeACs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2rCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2rSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2ris0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2rys0Ee29nJQfP1zSZQ" name="Y">
+      <modelElement href="proyecto%20tanques2.uml#_MROFECs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2sCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2sSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2sis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2sys0Ee29nJQfP1zSZQ" name="ancho">
+      <modelElement href="proyecto%20tanques2.uml#_MROFESs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2tCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2tSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2tis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2tys0Ee29nJQfP1zSZQ" name="alto">
+      <modelElement href="proyecto%20tanques2.uml#_MROFEis0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2uCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2uSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2uis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2uys0Ee29nJQfP1zSZQ" name="desbordo">
+      <modelElement href="proyecto%20tanques2.uml#_MRPTMCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2vCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2vSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2vis0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2vys0Ee29nJQfP1zSZQ" name="precioBruto">
+      <modelElement href="proyecto%20tanques2.uml#_MRPTMSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2wCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2wSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2wis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2wys0Ee29nJQfP1zSZQ" name="manoObra">
+      <modelElement href="proyecto%20tanques2.uml#_MRP6QCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2xCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2xSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2xis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Msd2xys0Ee29nJQfP1zSZQ" name="costoTotal">
+      <modelElement href="proyecto%20tanques2.uml#_MRP6QSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_Msd2yCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2ySs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_Msd2yis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Msd2yys0Ee29nJQfP1zSZQ" name="Tanque">
+      <modelElement href="proyecto%20tanques2.uml#_MI7EsCs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_Msd2zCs0Ee29nJQfP1zSZQ" keyword="create"/>
+      <stereotypes xmi:id="_Msd2zSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MI7rwCs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_Msd2zis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd2zys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Msd20Cs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MI7rwSs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_Msd20Ss0Ee29nJQfP1zSZQ" name="Tanque">
+          <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Msd20is0Ee29nJQfP1zSZQ" name="Tanque">
+      <modelElement href="proyecto%20tanques2.uml#_MI8S0Cs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_Msd20ys0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_Msd21Cs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_Msd21Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Msd21is0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MI854ys0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_Msd21ys0Ee29nJQfP1zSZQ" name="Tanque">
+          <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Msd22Cs0Ee29nJQfP1zSZQ" name="capacidad_maxima">
+        <modelElement href="proyecto%20tanques2.uml#_MI8S0Ss0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Msd22Ss0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Msd22is0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Msd22ys0Ee29nJQfP1zSZQ" name="X">
+        <modelElement href="proyecto%20tanques2.uml#_MI8S0is0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Msd23Cs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Msd23Ss0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Msd23is0Ee29nJQfP1zSZQ" name="Y">
+        <modelElement href="proyecto%20tanques2.uml#_MI854Cs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_Msd23ys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Msd24Cs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MjruGSs0Ee29nJQfP1zSZQ" name="Nodo" associationsIn="_MlcBkCs0Ee29nJQfP1zSZQ _MldPsCs0Ee29nJQfP1zSZQ _Mld2wCs0Ee29nJQfP1zSZQ" associationsOut="_Mjp44Cs0Ee29nJQfP1zSZQ _MjruECs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_MjruGis0Ee29nJQfP1zSZQ" position="830.0,218.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MjruGys0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_MjruHCs0Ee29nJQfP1zSZQ" name="barrio">
+      <modelElement href="proyecto%20tanques2.uml#_MQaMwCs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MjruHSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQaMwSs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MjruHis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruHys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MjruICs0Ee29nJQfP1zSZQ" name="Barrio">
+        <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MjruISs0Ee29nJQfP1zSZQ" name="tanque">
+      <modelElement href="proyecto%20tanques2.uml#_MQba4Cs0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MjruIis0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQba4Ss0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MjruIys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruJCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MjruJSs0Ee29nJQfP1zSZQ" name="Tanque">
+        <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MjruJis0Ee29nJQfP1zSZQ" name="tan">
+      <modelElement href="proyecto%20tanques2.uml#_MQba4is0Ee29nJQfP1zSZQ"/>
+      <stereotypes xmi:id="_MjruJys0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MQcB8Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MjruKCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruKSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MjruKis0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MjruKys0Ee29nJQfP1zSZQ" name="ID">
+      <modelElement href="proyecto%20tanques2.uml#_MQcpACs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjruLCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruLSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MjruLis0Ee29nJQfP1zSZQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MjruLys0Ee29nJQfP1zSZQ" comments="_MjaoUCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MjbPYCs0Ee29nJQfP1zSZQ" name="getBarrio">
+      <modelElement href="proyecto%20tanques2.uml#_MHIU8Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjruMCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruMSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjruMis0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOUiEys0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjruMys0Ee29nJQfP1zSZQ" name="Barrio">
+          <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MjruNCs0Ee29nJQfP1zSZQ" comments="_MjcdgCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MjcdgSs0Ee29nJQfP1zSZQ" name="getTanque">
+      <modelElement href="proyecto%20tanques2.uml#_MHKKICs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjruNSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruNis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjruNys0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOVwMCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjruOCs0Ee29nJQfP1zSZQ" name="Tanque">
+          <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MjruOSs0Ee29nJQfP1zSZQ" comments="_MjdEkCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MjdEkSs0Ee29nJQfP1zSZQ" name="isTan">
+      <modelElement href="proyecto%20tanques2.uml#_MHLYQCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjruOis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruOys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjruPCs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MHL_UCs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjruPSs0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MjruPis0Ee29nJQfP1zSZQ" comments="_MjdroCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MjeSsCs0Ee29nJQfP1zSZQ" name="setTan">
+      <modelElement href="proyecto%20tanques2.uml#_MHXlgCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjruPys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruQCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MjruQSs0Ee29nJQfP1zSZQ" name="tan">
+        <modelElement href="proyecto%20tanques2.uml#_MHYMkCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjruQis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjruQys0Ee29nJQfP1zSZQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MjruRCs0Ee29nJQfP1zSZQ" name="Nodo">
+      <modelElement href="proyecto%20tanques2.uml#_MOQQoCs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MjruRSs0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MjruRis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruRys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjruSCs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOQ3sys0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjruSSs0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MjruSis0Ee29nJQfP1zSZQ" name="barrio">
+        <modelElement href="proyecto%20tanques2.uml#_MOQ3sCs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjruSys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjruTCs0Ee29nJQfP1zSZQ" name="Barrio">
+          <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MjruTSs0Ee29nJQfP1zSZQ" name="Nodo">
+      <modelElement href="proyecto%20tanques2.uml#_MORewCs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MjruTis0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MjruTys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruUCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjruUSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOSF0Cs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjruUis0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MjruUys0Ee29nJQfP1zSZQ" name="barrio">
+        <modelElement href="proyecto%20tanques2.uml#_MORewSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjruVCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjruVSs0Ee29nJQfP1zSZQ" name="Barrio">
+          <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MjruVis0Ee29nJQfP1zSZQ" name="ID">
+        <modelElement href="proyecto%20tanques2.uml#_MORewis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjruVys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjruWCs0Ee29nJQfP1zSZQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MjruWSs0Ee29nJQfP1zSZQ" name="Nodo">
+      <modelElement href="proyecto%20tanques2.uml#_MOSs4Cs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MjruWis0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MjruWys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruXCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjruXSs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOSs5Cs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjruXis0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MjruXys0Ee29nJQfP1zSZQ" name="tanque">
+        <modelElement href="proyecto%20tanques2.uml#_MOSs4Ss0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjruYCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjruYSs0Ee29nJQfP1zSZQ" name="Tanque">
+          <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MjruYis0Ee29nJQfP1zSZQ" name="Nodo">
+      <modelElement href="proyecto%20tanques2.uml#_MOTT8Cs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MjruYys0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MjruZCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjruZSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MjsVICs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MOUiEis0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MjsVISs0Ee29nJQfP1zSZQ" name="Nodo">
+          <modelElement href="proyecto%20tanques2.uml#_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MjsVIis0Ee29nJQfP1zSZQ" name="tanque">
+        <modelElement href="proyecto%20tanques2.uml#_MOTT8Ss0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjsVIys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjsVJCs0Ee29nJQfP1zSZQ" name="Tanque">
+          <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MjsVJSs0Ee29nJQfP1zSZQ" name="ID">
+        <modelElement href="proyecto%20tanques2.uml#_MOTT8is0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjsVJis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjsVJys0Ee29nJQfP1zSZQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MjsVKCs0Ee29nJQfP1zSZQ" comments="_Mjh9ECs0Ee29nJQfP1zSZQ" targetConnectionVisual="_Mjh9ESs0Ee29nJQfP1zSZQ" name="setBarrio">
+      <modelElement href="proyecto%20tanques2.uml#_MOVJICs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjsVKSs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjsVKis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MjsVKys0Ee29nJQfP1zSZQ" name="barrio">
+        <modelElement href="proyecto%20tanques2.uml#_MOVJISs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjsVLCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjsVLSs0Ee29nJQfP1zSZQ" name="Barrio">
+          <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MjsVLis0Ee29nJQfP1zSZQ" comments="_MjjLMCs0Ee29nJQfP1zSZQ" targetConnectionVisual="_MjjLMSs0Ee29nJQfP1zSZQ" name="setTanque">
+      <modelElement href="proyecto%20tanques2.uml#_MOWXQCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MjsVLys0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MjsVMCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MjsVMSs0Ee29nJQfP1zSZQ" name="tanque">
+        <modelElement href="proyecto%20tanques2.uml#_MOWXQSs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MjsVMis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MjsVMys0Ee29nJQfP1zSZQ" name="Tanque">
+          <modelElement href="proyecto%20tanques2.uml#_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MsJGgCs0Ee29nJQfP1zSZQ" name="Barrio" associationsIn="_Mjp44Cs0Ee29nJQfP1zSZQ _Mlj9YCs0Ee29nJQfP1zSZQ">
+    <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+    <visualProperties xmi:id="_MsJGgSs0Ee29nJQfP1zSZQ" position="81.0,63.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MsJGgis0Ee29nJQfP1zSZQ" label="+"/>
+    <attributes xmi:id="_MsJGgys0Ee29nJQfP1zSZQ" name="X">
+      <modelElement href="proyecto%20tanques2.uml#_MRJzoCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGhCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGhSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGhis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGhys0Ee29nJQfP1zSZQ" name="Y">
+      <modelElement href="proyecto%20tanques2.uml#_MRJzoSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGiCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGiSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGiis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGiys0Ee29nJQfP1zSZQ" name="necesidad">
+      <modelElement href="proyecto%20tanques2.uml#_MRJzois0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGjCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGjSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGjis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGjys0Ee29nJQfP1zSZQ" name="Nombre">
+      <modelElement href="proyecto%20tanques2.uml#_MRKasCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGkCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGkSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGkis0Ee29nJQfP1zSZQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGkys0Ee29nJQfP1zSZQ" name="ancho">
+      <modelElement href="proyecto%20tanques2.uml#_MRKasSs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGlCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGlSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGlis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGlys0Ee29nJQfP1zSZQ" name="alto">
+      <modelElement href="proyecto%20tanques2.uml#_MRLBwCs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGmCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGmSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGmis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGmys0Ee29nJQfP1zSZQ" name="actual">
+      <modelElement href="proyecto%20tanques2.uml#_MRLo0Cs0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGnCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGnSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGnis0Ee29nJQfP1zSZQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGnys0Ee29nJQfP1zSZQ" name="desbordo">
+      <modelElement href="proyecto%20tanques2.uml#_MRLo0Ss0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGoCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGoSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGois0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MsJGoys0Ee29nJQfP1zSZQ" name="insatisfecho">
+      <modelElement href="proyecto%20tanques2.uml#_MRLo0is0Ee29nJQfP1zSZQ"/>
+      <visibility xmi:id="_MsJGpCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGpSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <type xmi:id="_MsJGpis0Ee29nJQfP1zSZQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MsJGpys0Ee29nJQfP1zSZQ" name="Barrio">
+      <modelElement href="proyecto%20tanques2.uml#_MIyh0Cs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MsJGqCs0Ee29nJQfP1zSZQ" keyword="create"/>
+      <stereotypes xmi:id="_MsJGqSs0Ee29nJQfP1zSZQ" name="LegacyStyledElement">
+        <modelElement href="proyecto%20tanques2.uml#_MIzv8Cs0Ee29nJQfP1zSZQ"/>
+      </stereotypes>
+      <visibility xmi:id="_MsJGqis0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGqys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MsJGrCs0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MI0XACs0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MsJGrSs0Ee29nJQfP1zSZQ" name="Barrio">
+          <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MsJGris0Ee29nJQfP1zSZQ" name="Barrio">
+      <modelElement href="proyecto%20tanques2.uml#_MI0-ECs0Ee29nJQfP1zSZQ"/>
+      <keywords xmi:id="_MsJGrys0Ee29nJQfP1zSZQ" keyword="create"/>
+      <visibility xmi:id="_MsJGsCs0Ee29nJQfP1zSZQ" label="+"/>
+      <cardinality xmi:id="_MsJGsSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MsJGsis0Ee29nJQfP1zSZQ">
+        <modelElement href="proyecto%20tanques2.uml#_MI2MMis0Ee29nJQfP1zSZQ"/>
+        <type xmi:id="_MsJGsys0Ee29nJQfP1zSZQ" name="Barrio">
+          <modelElement href="proyecto%20tanques2.uml#_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MsJGtCs0Ee29nJQfP1zSZQ" name="X">
+        <modelElement href="proyecto%20tanques2.uml#_MI1lICs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MsJGtSs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MsJGtis0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MsJGtys0Ee29nJQfP1zSZQ" name="Y">
+        <modelElement href="proyecto%20tanques2.uml#_MI1lISs0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MsJGuCs0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MsJGuSs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MsJGuis0Ee29nJQfP1zSZQ" name="necesidad">
+        <modelElement href="proyecto%20tanques2.uml#_MI1lIis0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MsJGuys0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MsJGvCs0Ee29nJQfP1zSZQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MsJGvSs0Ee29nJQfP1zSZQ" name="Nombre">
+        <modelElement href="proyecto%20tanques2.uml#_MI1lIys0Ee29nJQfP1zSZQ"/>
+        <cardinality xmi:id="_MsJGvis0Ee29nJQfP1zSZQ" label="1" max="1" min="1"/>
+        <type xmi:id="_MsJGvys0Ee29nJQfP1zSZQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

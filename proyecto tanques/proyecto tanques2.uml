@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LP1gkCs0Ee29nJQfP1zSZQ" name="proyecto_tanques2">
+    <eAnnotations xmi:id="_LWqhUCs0Ee29nJQfP1zSZQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_LWqhUSs0Ee29nJQfP1zSZQ" source="codegen">
+        <details xmi:id="_LWqhUis0Ee29nJQfP1zSZQ" key="codegenDirectory" value="/proyecto tanques/src"/>
+        <details xmi:id="_MjN0ACs0Ee29nJQfP1zSZQ" key="AssociatedSourceCode" value="/proyecto tanques/src/Graficos/jPanel.java;3638744772/1;/proyecto tanques/src/Logica/Nodo.java;1992661986/1;/proyecto tanques/src/Logica/Acueducto.java;1448602352/1;/proyecto tanques/src/Graficos/ventanaTubos.java;565076177/1;/proyecto tanques/src/Objetos/Barrio.java;3884019506/1;/proyecto tanques/src/Objetos/Tanque.java;3740194950/1;/proyecto tanques/src/Objetos/Tubo.java;1800351581/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_MDnt8Cs0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_MDo8ECs0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_MDo8ESs0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_MDo8Eis0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_MDo8Eys0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_MDpjICs0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_MDpjISs0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_MDpjIis0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_MDqxQCs0Ee29nJQfP1zSZQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MDt0kCs0Ee29nJQfP1zSZQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_MDw34Ss0Ee29nJQfP1zSZQ" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MG4dUCs0Ee29nJQfP1zSZQ" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MIQ9YSs0Ee29nJQfP1zSZQ" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOLYISs0Ee29nJQfP1zSZQ" name="ImageIcon"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MO80MSs0Ee29nJQfP1zSZQ" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MPJogCs0Ee29nJQfP1zSZQ" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MPMr0Cs0Ee29nJQfP1zSZQ" name="JComboBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MPOhACs0Ee29nJQfP1zSZQ" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MPSycCs0Ee29nJQfP1zSZQ" name="JTextField"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MDvCsCs0Ee29nJQfP1zSZQ" name="Logica">
+      <packagedElement xmi:type="uml:Class" xmi:id="_MHC1YCs0Ee29nJQfP1zSZQ" name="Nodo">
+        <ownedAttribute xmi:id="_MQaMwCs0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ" association="_MSmlISs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQba4Cs0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ" association="_MSnMMSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQba4is0Ee29nJQfP1zSZQ" name="tan">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MQcpACs0Ee29nJQfP1zSZQ" name="ID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR4zcCs0Ee29nJQfP1zSZQ" name="Nodo" specification="_MOQQoCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR4zcSs0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR4zcis0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.barrio = barrio;&#xD;
+     tan=false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR4zcys0Ee29nJQfP1zSZQ" name="Nodo" specification="_MORewCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR4zdCs0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR4zdSs0Ee29nJQfP1zSZQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MR4zdis0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.barrio = barrio;&#xD;
+     tan=false;&#xD;
+     this.ID=ID;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR5agCs0Ee29nJQfP1zSZQ" name="Nodo" specification="_MOSs4Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR5agSs0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR5agis0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.tanque = tanque;&#xD;
+     tan=true;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR5agys0Ee29nJQfP1zSZQ" name="Nodo" specification="_MOTT8Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR5ahCs0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR5ahSs0Ee29nJQfP1zSZQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MR5ahis0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.tanque = tanque;&#xD;
+     tan=true;&#xD;
+     this.ID=ID;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR6BkCs0Ee29nJQfP1zSZQ" name="getBarrio" specification="_MHIU8Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR6BkSs0Ee29nJQfP1zSZQ" type="_MIwsoCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>return barrio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR6Bkis0Ee29nJQfP1zSZQ" name="setBarrio" specification="_MOVJICs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR6Bkys0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>this.barrio = barrio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR6ooCs0Ee29nJQfP1zSZQ" name="getTanque" specification="_MHKKICs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR6ooSs0Ee29nJQfP1zSZQ" type="_MI4ocCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>return tanque;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR6oois0Ee29nJQfP1zSZQ" name="setTanque" specification="_MOWXQCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR6ooys0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>this.tanque = tanque;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR6opCs0Ee29nJQfP1zSZQ" name="isTan" specification="_MHLYQCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR6opSs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return tan;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR7PsCs0Ee29nJQfP1zSZQ" name="setTan" specification="_MHXlgCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR7PsSs0Ee29nJQfP1zSZQ" name="tan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.tan = tan;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MHIU8Cs0Ee29nJQfP1zSZQ" name="getBarrio" method="_MR6BkCs0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSRN8Cs0Ee29nJQfP1zSZQ">
+            <body>@return the barrio</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MOUiEys0Ee29nJQfP1zSZQ" type="_MIwsoCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHKKICs0Ee29nJQfP1zSZQ" name="getTanque" method="_MR6ooCs0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSRN8is0Ee29nJQfP1zSZQ">
+            <body>@return the tanque</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MOVwMCs0Ee29nJQfP1zSZQ" type="_MI4ocCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHLYQCs0Ee29nJQfP1zSZQ" name="isTan" method="_MR6opCs0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSRN9Cs0Ee29nJQfP1zSZQ">
+            <body>@return the tan</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MHL_UCs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHXlgCs0Ee29nJQfP1zSZQ" name="setTan" method="_MR7PsCs0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSRN9Ss0Ee29nJQfP1zSZQ">
+            <body>@param tan the tan to set</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MHYMkCs0Ee29nJQfP1zSZQ" name="tan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOQQoCs0Ee29nJQfP1zSZQ" name="Nodo" method="_MR4zcCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MOQ3sSs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MOQ3sis0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MOQ3sCs0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOQ3sys0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MORewCs0Ee29nJQfP1zSZQ" name="Nodo" method="_MR4zcys0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MORewys0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MORexCs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MORewSs0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MORewis0Ee29nJQfP1zSZQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MOSF0Cs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOSs4Cs0Ee29nJQfP1zSZQ" name="Nodo" method="_MR5agCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MOSs4is0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MOSs4ys0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MOSs4Ss0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOSs5Cs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOTT8Cs0Ee29nJQfP1zSZQ" name="Nodo" method="_MR5agys0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MOUiECs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MOUiESs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MOTT8Ss0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOTT8is0Ee29nJQfP1zSZQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MOUiEis0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOVJICs0Ee29nJQfP1zSZQ" name="setBarrio" method="_MR6Bkis0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSRN8Ss0Ee29nJQfP1zSZQ">
+            <body>@param barrio the barrio to set</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MOVJISs0Ee29nJQfP1zSZQ" name="barrio" type="_MIwsoCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOWXQCs0Ee29nJQfP1zSZQ" name="setTanque" method="_MR6oois0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSRN8ys0Ee29nJQfP1zSZQ">
+            <body>@param tanque the tanque to set</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MOWXQSs0Ee29nJQfP1zSZQ" name="tanque" type="_MI4ocCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MHjLsCs0Ee29nJQfP1zSZQ" name="Acueducto">
+        <ownedAttribute xmi:id="_MQdQECs0Ee29nJQfP1zSZQ" name="Nodos" isLeaf="true" type="_MOKKACs0Ee29nJQfP1zSZQ" isReadOnly="true" association="_MSoaUSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQgTYCs0Ee29nJQfP1zSZQ" name="conexiones" type="_MI_9MCs0Ee29nJQfP1zSZQ" association="_MSpocSs0Ee29nJQfP1zSZQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MQgTYSs0Ee29nJQfP1zSZQ" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR72wCs0Ee29nJQfP1zSZQ" name="Acueducto" specification="_MHln8Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR72wSs0Ee29nJQfP1zSZQ" type="_MHjLsCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>Nodos = new LinkedList&lt;>();&#xD;
+ conexiones = new Tubo[0][0];&#xD;
+ // crearcostos();&#xD;
+&#xD;
+&#xD;
+ System.out.println(&quot;coneciones del tubo &quot; + conexiones);&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR8d0Cs0Ee29nJQfP1zSZQ" name="redimention" specification="_MHm2ECs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>Tubo[][] Aux = new Tubo[Nodos.size()][Nodos.size()];&#xD;
+ for (int i = 0; i &lt; Nodos.size() - 1; i++) {&#xD;
+   System.arraycopy(conexiones[i], 0, Aux[i], 0, Nodos.size() - 1);&#xD;
+ }&#xD;
+ conexiones = Aux;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR8d0Ss0Ee29nJQfP1zSZQ" name="add" specification="_MOmO4Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR8d0is0Ee29nJQfP1zSZQ" name="Vertex" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR8d0ys0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (Nodos.contains(Vertex)) {&#xD;
+   return false;&#xD;
+ }&#xD;
+ Nodos.add(Vertex);&#xD;
+ redimention();&#xD;
+ return true;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR8d1Cs0Ee29nJQfP1zSZQ" name="add" specification="_MOoEECs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR8d1Ss0Ee29nJQfP1zSZQ" name="vertex1" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR8d1is0Ee29nJQfP1zSZQ" name="vertex2" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR8d1ys0Ee29nJQfP1zSZQ" name="road" type="_MI_9MCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR8d2Cs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (Nodos.contains(vertex1) &amp;&amp; Nodos.contains(vertex2)) {&#xD;
+   conexiones[Nodos.indexOf(vertex1)][Nodos.indexOf(vertex2)] = road;&#xD;
+   return true;&#xD;
+ }&#xD;
+ return false;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR9E4Cs0Ee29nJQfP1zSZQ" name="profundidad" specification="_MOpSMCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR9E4Ss0Ee29nJQfP1zSZQ" name="vertex" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR9E4is0Ee29nJQfP1zSZQ" type="_MOKKACs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>LinkedList&lt;Nodo> recorrido = new LinkedList&lt;>();&#xD;
+ boolean[] marcados = new boolean[Nodos.size()];&#xD;
+ profundidad(vertex, recorrido, marcados);&#xD;
+ System.out.println(&quot;recorrido tubo &quot; + recorrido);&#xD;
+ return recorrido;&#xD;
+&#xD;
+&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR9r8Cs0Ee29nJQfP1zSZQ" name="Restriccion" specification="_MHpSUCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR9r8Ss0Ee29nJQfP1zSZQ" name="restriccion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MR9r8is0Ee29nJQfP1zSZQ" type="_MOKKACs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>LinkedList&lt;Nodo> tanques = new LinkedList&lt;Nodo>();&#xD;
+ for (int i = 0; i &lt; Nodos.size(); i++) {&#xD;
+   if (Nodos.get(i).tan) {&#xD;
+     if (Nodos.get(i).tanque.getCapacidad_maxima() &lt;= restriccion) {&#xD;
+       tanques.add(Nodos.get(i));&#xD;
+     }&#xD;
+   }&#xD;
+ }&#xD;
+ for (int i = 0; i &lt; tanques.size(); i++) {&#xD;
+   System.out.println(&quot;&quot; + tanques.get(i).tanque.getCapacidad_maxima());&#xD;
+ }&#xD;
+ return tanques;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR9r8ys0Ee29nJQfP1zSZQ" name="profundidad" specification="_MP7EkCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR9r9Cs0Ee29nJQfP1zSZQ" name="vertex" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR9r9Ss0Ee29nJQfP1zSZQ" name="re" type="_MOKKACs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR9r9is0Ee29nJQfP1zSZQ" name="marcados">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MR9r9ys0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>re.add(vertex);&#xD;
+ marcados[Nodos.indexOf(vertex)] = true;&#xD;
+ if (!marcados(marcados)) {&#xD;
+   for (int i = 0; i &lt; conexiones[Nodos.indexOf(vertex)].length; i++) {&#xD;
+     if (conexiones[Nodos.indexOf(vertex)][i] != null &amp;&amp; !marcados[i]) {&#xD;
+       profundidad((Nodo) Nodos.get(i), re, marcados);&#xD;
+     }&#xD;
+   }&#xD;
+&#xD;
+   if (!marcados(marcados)) {&#xD;
+     for (int i = 0; i &lt; marcados.length; i++) {&#xD;
+       if (!marcados[i]) {&#xD;
+         profundidad((Nodo) Nodos.get(i), re, marcados);&#xD;
+       }&#xD;
+&#xD;
+     }&#xD;
+   }&#xD;
+ }&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR-TACs0Ee29nJQfP1zSZQ" name="marcados" specification="_MHtjwCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR-TASs0Ee29nJQfP1zSZQ" name="ma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MR-TAis0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MR-TAys0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; ma.length; i++) {&#xD;
+   if (!ma[i]) {&#xD;
+     return false;&#xD;
+   }&#xD;
+ }&#xD;
+ return true;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR-6ECs0Ee29nJQfP1zSZQ" name="RutasAlternas" specification="_MOrHYCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR-6ESs0Ee29nJQfP1zSZQ" name="N1" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR-6Eis0Ee29nJQfP1zSZQ" name="N2" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR-6Eys0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (N1 != null) {&#xD;
+   if (N1.equals(N2)) {&#xD;
+     return true;&#xD;
+   }&#xD;
+   boolean Mar[] = new boolean[conexiones.length];&#xD;
+   for (int i = 0; i &lt; conexiones.length; i++) {&#xD;
+     if (conexiones[Nodos.indexOf(N1)][i] != null) {&#xD;
+       if (!conexiones[Nodos.indexOf(N1)][i].isObst()) {&#xD;
+         Mar[i] = RutasAlternas(Nodos.get(i), N2);&#xD;
+       }&#xD;
+     }&#xD;
+   }&#xD;
+   if (marc(Mar)) {&#xD;
+     for (int i = 0; i &lt; Mar.length; i++) {&#xD;
+       if (Mar[i]) {&#xD;
+         conexiones[Nodos.indexOf(N1)][i].setAlterna(true);&#xD;
+       }&#xD;
+     }&#xD;
+     return true;&#xD;
+   }&#xD;
+ }&#xD;
+ return false;&#xD;
+&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR-6FCs0Ee29nJQfP1zSZQ" name="marc" specification="_MHwAACs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR-6FSs0Ee29nJQfP1zSZQ" name="Mar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MR-6Fis0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MR-6Fys0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; Mar.length; i++) {&#xD;
+   if (Mar[i]) {&#xD;
+     return true;&#xD;
+   }&#xD;
+ }&#xD;
+ return false;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR_hICs0Ee29nJQfP1zSZQ" name="ProponerConexiones" specification="_MOrucCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR_hISs0Ee29nJQfP1zSZQ" name="N" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MR_hIis0Ee29nJQfP1zSZQ" type="_MOKKACs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>if (N == null) {&#xD;
+   N = EncontrarCasa();&#xD;
+ }&#xD;
+ LinkedList&lt;Tubo> L = new LinkedList&lt;Tubo>();&#xD;
+ for (int i = 0; i &lt; conexiones.length; i++) {&#xD;
+   if (Nodos.get(i).isTan()) {&#xD;
+     if (conexiones[i][Nodos.indexOf(N)] == null) {&#xD;
+       if (Nodos.get(i).getTanque().getAgua() >= N.getBarrio().getNecesidad()) {&#xD;
+         L.add(new Tubo(N.getBarrio().getNecesidad(), N.getBarrio().getNecesidad(),&#xD;
+             Nodos.get(i).getTanque().getX() + 45, N.getBarrio().getX() + 75,&#xD;
+             Nodos.get(i).getTanque().getY() + 45, N.getBarrio().getY() + 75));&#xD;
+       }&#xD;
+     }&#xD;
+   }&#xD;
+ }&#xD;
+ return L;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR_hIys0Ee29nJQfP1zSZQ" name="EncontrarCasa" specification="_MHx1MCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR_hJCs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>if (TubosObstruidos()) {&#xD;
+   for (int i = 0; i &lt; conexiones.length; i++) {&#xD;
+     for (int j = 0; j &lt; conexiones.length; j++) {&#xD;
+       if (conexiones[i][j] != null) {&#xD;
+         if (conexiones[i][j].isObst()) {&#xD;
+           if (!Nodos.get(j).isTan()) {&#xD;
+             return Nodos.get(j);&#xD;
+           }&#xD;
+         }&#xD;
+       }&#xD;
+     }&#xD;
+   }&#xD;
+ } else {&#xD;
+   Nodo n = obtenerprimerbarrio();&#xD;
+   int conn = 0;&#xD;
+   for (int i = 0; i &lt; conexiones.length; i++) {&#xD;
+     if (conexiones[i][Nodos.indexOf(n)] != null) {&#xD;
+       conn = conn + 1;&#xD;
+     }&#xD;
+   }&#xD;
+   for (int i = 0; i &lt; Nodos.size(); i++) {&#xD;
+     if (!Nodos.get(i).isTan()) {&#xD;
+       int cont = 0;&#xD;
+       for (int j = 0; j &lt; conexiones.length; j++) {&#xD;
+         if (conexiones[j][i] != null) {&#xD;
+           cont++;&#xD;
+         }&#xD;
+       }&#xD;
+       if (cont &lt; conn) {&#xD;
+         conn = cont;&#xD;
+         n = Nodos.get(i);&#xD;
+       }&#xD;
+     }&#xD;
+   }&#xD;
+   return n;&#xD;
+ }&#xD;
+ return Nodos.getLast();&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR_hJSs0Ee29nJQfP1zSZQ" name="TubosObstruidos" specification="_MHycQCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR_hJis0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; conexiones.length; i++) {&#xD;
+   for (int j = 0; j &lt; conexiones.length; j++) {&#xD;
+     if (conexiones[i][j] != null) {&#xD;
+       if (conexiones[i][j].isObst()) {&#xD;
+         return true;&#xD;
+       }&#xD;
+     }&#xD;
+   }&#xD;
+ }&#xD;
+ return false;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSAIMCs0Ee29nJQfP1zSZQ" name="obtenerprimerbarrio" specification="_MHzDUSs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSAIMSs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; Nodos.size(); i++) {&#xD;
+   if (!Nodos.get(i).isTan()) {&#xD;
+     return Nodos.get(i);&#xD;
+   }&#xD;
+ }&#xD;
+ return null;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSAIMis0Ee29nJQfP1zSZQ" name="TransportarAgua" specification="_MH0RcCs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>LinkedList&lt;Nodo> tanques = new LinkedList&lt;Nodo>();&#xD;
+ for (int i = 0; i &lt; Nodos.size(); i++) {&#xD;
+   if (Nodos.get(i).isTan()) {&#xD;
+     tanques.add(Nodos.get(i));&#xD;
+   }&#xD;
+ }&#xD;
+ for (int i = 0; i &lt; tanques.size(); i++) {&#xD;
+   TransportarAgua(tanques.get(i));&#xD;
+ }&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSAvQCs0Ee29nJQfP1zSZQ" name="TransportarAgua" specification="_MOv_4Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSAvQSs0Ee29nJQfP1zSZQ" name="get" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; conexiones.length; i++) {&#xD;
+   if (conexiones[Nodos.indexOf(get)][i] != null) {&#xD;
+     if (!conexiones[Nodos.indexOf(get)][i].isObst()) {&#xD;
+       if (get.isTan()) {&#xD;
+         if (get.getTanque().getAgua() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {&#xD;
+           conexiones[Nodos.indexOf(get)][i]&#xD;
+               .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());&#xD;
+           get.getTanque().setAgua(&#xD;
+               get.getTanque().getAgua() - conexiones[Nodos.indexOf(get)][i].getCapacidad());&#xD;
+         } else {&#xD;
+           if (get.getTanque().getAgua() > 0) {&#xD;
+             conexiones[Nodos.indexOf(get)][i].setTransportando(get.getTanque().getAgua());&#xD;
+             get.getTanque().setAgua(get.getTanque().getAgua()&#xD;
+                 - conexiones[Nodos.indexOf(get)][i].getTransportando());&#xD;
+           }&#xD;
+         }&#xD;
+       } else {&#xD;
+         if (get.getBarrio().getActual() > get.getBarrio().getNecesidad()) {&#xD;
+           if (get.getBarrio().getActual() - get.getBarrio()&#xD;
+               .getNecesidad() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {&#xD;
+             conexiones[Nodos.indexOf(get)][i]&#xD;
+                 .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());&#xD;
+             get.getBarrio().setActual(get.getBarrio().getActual()&#xD;
+                 - conexiones[Nodos.indexOf(get)][i].getTransportando());&#xD;
+           } else {&#xD;
+             conexiones[Nodos.indexOf(get)][i].setTransportando(&#xD;
+                 get.getBarrio().getActual() - (get.getBarrio().getNecesidad()));&#xD;
+             get.getBarrio().setActual(get.getBarrio().getActual()&#xD;
+                 - conexiones[Nodos.indexOf(get)][i].getTransportando());&#xD;
+           }&#xD;
+         }&#xD;
+       }&#xD;
+       if (Nodos.get(i).isTan()) {&#xD;
+         Nodos.get(i).getTanque().setAgua(Nodos.get(i).getTanque().getAgua()&#xD;
+             + conexiones[Nodos.indexOf(get)][i].getTransportando());&#xD;
+       } else {&#xD;
+         Nodos.get(i).getBarrio().setActual(Nodos.get(i).getBarrio().getActual()&#xD;
+             + conexiones[Nodos.indexOf(get)][i].getTransportando());&#xD;
+       }&#xD;
+       TransportarAgua(Nodos.get(i));&#xD;
+     }&#xD;
+   }&#xD;
+ }&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSAvQis0Ee29nJQfP1zSZQ" name="leerMapa" specification="_MH1fkCs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>// cargar mapa&#xD;
+ Document Mapa = new Document();&#xD;
+&#xD;
+ SAXBuilder builder = new SAXBuilder();&#xD;
+ try {&#xD;
+   Mapa = builder.build(new FileInputStream(&quot;src/Graficos/mapa1.xml&quot;));&#xD;
+ } catch (JDOMException | IOException ex) {&#xD;
+ }&#xD;
+&#xD;
+ Element raiz = Mapa.getRootElement();&#xD;
+ Element ciudad = raiz.getChild(&quot;Acueducto&quot;);&#xD;
+ List&lt;Element> la = ciudad.getChildren(&quot;Nodo&quot;);&#xD;
+&#xD;
+ for (Element e : la) {&#xD;
+   String ID = e.getChildText(&quot;ID&quot;);&#xD;
+   boolean tan = Boolean.parseBoolean(e.getChildText(&quot;tan&quot;));&#xD;
+   if (tan) {&#xD;
+     Element t = e.getChild(&quot;tanque&quot;);&#xD;
+&#xD;
+     int capacidad_maxima = Integer.parseInt(t.getChildText(&quot;capacidad_maxima&quot;));&#xD;
+     int x = Integer.parseInt(t.getChildText(&quot;X&quot;));&#xD;
+     int y = Integer.parseInt(t.getChildText(&quot;Y&quot;));&#xD;
+     Tanque tanq = new Tanque(capacidad_maxima, x, y);&#xD;
+     Nodo n = new Nodo(tanq, ID);&#xD;
+     Nodos.add(n);&#xD;
+   } else {&#xD;
+     Element b = e.getChild(&quot;barrio&quot;);&#xD;
+     int X = Integer.parseInt(b.getChildText(&quot;X&quot;));&#xD;
+     int Y = Integer.parseInt(b.getChildText(&quot;Y&quot;));&#xD;
+     int necesidad = Integer.parseInt(b.getChildText(&quot;necesidad&quot;));&#xD;
+     String nombre = b.getChildText(&quot;nombre&quot;);&#xD;
+     Barrio ba = new Barrio(X, Y, necesidad, nombre);&#xD;
+     Nodo n = new Nodo(ba, ID);&#xD;
+     Nodos.add(n);&#xD;
+   }&#xD;
+&#xD;
+   redimention();&#xD;
+ }&#xD;
+ la = ciudad.getChildren(&quot;tubo&quot;);&#xD;
+ for (Element e : la) {&#xD;
+   String ID1 = e.getChildText(&quot;ID1&quot;);&#xD;
+   String ID2 = e.getChildText(&quot;ID2&quot;);&#xD;
+   int capacidad = Integer.parseInt(e.getChildText(&quot;capacidad&quot;));&#xD;
+   Nodo seleccionado1 = buscarNodo(ID1);&#xD;
+   Nodo seleccionado2 = buscarNodo(ID2);&#xD;
+   int xini = 0, yini = 0, xfin = 0, yfin = 0;&#xD;
+   if (seleccionado1.isTan()) {&#xD;
+     xini = seleccionado1.getTanque().getX() + 45;&#xD;
+     yini = seleccionado1.getTanque().getY() + 45;&#xD;
+   } else {&#xD;
+     xini = seleccionado1.getBarrio().getX() + 75;&#xD;
+     yini = seleccionado1.getBarrio().getY() + 75;&#xD;
+   }&#xD;
+   if (seleccionado2.isTan()) {&#xD;
+     xfin = seleccionado2.getTanque().getX() + 45;&#xD;
+     yfin = seleccionado2.getTanque().getY() + 45;&#xD;
+   } else {&#xD;
+     xfin = seleccionado2.getBarrio().getX() + 75;&#xD;
+     yfin = seleccionado2.getBarrio().getY() + 75;&#xD;
+   }&#xD;
+   Tubo t = new Tubo(capacidad, 0, xini, xfin, yini, yfin);&#xD;
+   conexiones[Nodos.indexOf(seleccionado1)][Nodos.indexOf(seleccionado2)] = t;&#xD;
+ }&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSAvQys0Ee29nJQfP1zSZQ" name="buscarNodo" specification="_MH2GoCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSAvRCs0Ee29nJQfP1zSZQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSAvRSs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; Nodos.size(); i++) {&#xD;
+   if (Nodos.get(i).getID().equals(ID)) {&#xD;
+     return Nodos.get(i);&#xD;
+   }&#xD;
+ }&#xD;
+ return null;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MHln8Cs0Ee29nJQfP1zSZQ" name="Acueducto" method="_MR72wCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MHmPACs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MHmPASs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MHmPAis0Ee29nJQfP1zSZQ" type="_MHjLsCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHm2ECs0Ee29nJQfP1zSZQ" name="redimention" method="_MR8d0Cs0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MHpSUCs0Ee29nJQfP1zSZQ" name="Restriccion" method="_MR9r8Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MHpSUSs0Ee29nJQfP1zSZQ" name="restriccion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MP52cSs0Ee29nJQfP1zSZQ" type="_MOKKACs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHtjwCs0Ee29nJQfP1zSZQ" name="marcados" method="_MR-TACs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MHuK0Cs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MHtjwSs0Ee29nJQfP1zSZQ" name="ma">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MHux4Cs0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHwAACs0Ee29nJQfP1zSZQ" name="marc" visibility="private" method="_MR-6FCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MHwAASs0Ee29nJQfP1zSZQ" name="Mar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MHxOISs0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MHxOICs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHx1MCs0Ee29nJQfP1zSZQ" name="EncontrarCasa" visibility="private" method="_MR_hIys0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOuxwCs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHycQCs0Ee29nJQfP1zSZQ" name="TubosObstruidos" visibility="private" method="_MR_hJSs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MHzDUCs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MHzDUSs0Ee29nJQfP1zSZQ" name="obtenerprimerbarrio" visibility="private" method="_MSAIMCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOvY0Cs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MH0RcCs0Ee29nJQfP1zSZQ" name="TransportarAgua" method="_MSAIMis0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MH1fkCs0Ee29nJQfP1zSZQ" name="leerMapa" method="_MSAvQis0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MH2GoCs0Ee29nJQfP1zSZQ" name="buscarNodo" visibility="private" method="_MSAvQys0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MH2GoSs0Ee29nJQfP1zSZQ" name="ID">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MOwm8Cs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOmO4Cs0Ee29nJQfP1zSZQ" name="add" method="_MR8d0Ss0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOm18Cs0Ee29nJQfP1zSZQ" name="Vertex" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOndACs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOoEECs0Ee29nJQfP1zSZQ" name="add" method="_MR8d1Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOoEESs0Ee29nJQfP1zSZQ" name="vertex1" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOoEEis0Ee29nJQfP1zSZQ" name="vertex2" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOorICs0Ee29nJQfP1zSZQ" name="road" type="_MI_9MCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOorISs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOpSMCs0Ee29nJQfP1zSZQ" name="profundidad" method="_MR9E4Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOpSMSs0Ee29nJQfP1zSZQ" name="vertex" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MP52cCs0Ee29nJQfP1zSZQ" type="_MOKKACs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOrHYCs0Ee29nJQfP1zSZQ" name="RutasAlternas" method="_MR-6ECs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOrHYSs0Ee29nJQfP1zSZQ" name="N1" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOrHYis0Ee29nJQfP1zSZQ" name="N2" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MOrHYys0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOrucCs0Ee29nJQfP1zSZQ" name="ProponerConexiones" method="_MR_hICs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOrucSs0Ee29nJQfP1zSZQ" name="N" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MP9g0Cs0Ee29nJQfP1zSZQ" type="_MOKKACs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MOv_4Cs0Ee29nJQfP1zSZQ" name="TransportarAgua" visibility="private" method="_MSAvQCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MOv_4Ss0Ee29nJQfP1zSZQ" name="get" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MP7EkCs0Ee29nJQfP1zSZQ" name="profundidad" visibility="private" method="_MR9r8ys0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MP7EkSs0Ee29nJQfP1zSZQ" name="vertex" type="_MHC1YCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MP7Ekis0Ee29nJQfP1zSZQ" name="re" type="_MOKKACs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MP7Ekys0Ee29nJQfP1zSZQ" name="marcados">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MP85wCs0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSmlISs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSmlIis0Ee29nJQfP1zSZQ _MQaMwCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSmlIis0Ee29nJQfP1zSZQ" name="" type="_MHC1YCs0Ee29nJQfP1zSZQ" association="_MSmlISs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSnMMSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSnMMis0Ee29nJQfP1zSZQ _MQba4Cs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSnMMis0Ee29nJQfP1zSZQ" name="" type="_MHC1YCs0Ee29nJQfP1zSZQ" association="_MSnMMSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSoaUSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSoaUis0Ee29nJQfP1zSZQ _MQdQECs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSoaUis0Ee29nJQfP1zSZQ" name="" type="_MHjLsCs0Ee29nJQfP1zSZQ" association="_MSoaUSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSpocSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSpocis0Ee29nJQfP1zSZQ _MQgTYCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSpocis0Ee29nJQfP1zSZQ" name="" type="_MHjLsCs0Ee29nJQfP1zSZQ" association="_MSpocSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MDvpwCs0Ee29nJQfP1zSZQ" name="Objetos">
+      <packagedElement xmi:type="uml:Class" xmi:id="_MIwsoCs0Ee29nJQfP1zSZQ" name="Barrio">
+        <ownedAttribute xmi:id="_MRJzoCs0Ee29nJQfP1zSZQ" name="X">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRJzoSs0Ee29nJQfP1zSZQ" name="Y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRJzois0Ee29nJQfP1zSZQ" name="necesidad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRKasCs0Ee29nJQfP1zSZQ" name="Nombre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRKasSs0Ee29nJQfP1zSZQ" name="ancho">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRLBwCs0Ee29nJQfP1zSZQ" name="alto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRLo0Cs0Ee29nJQfP1zSZQ" name="actual">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRLo0Ss0Ee29nJQfP1zSZQ" name="desbordo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRLo0is0Ee29nJQfP1zSZQ" name="insatisfecho">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSLHUCs0Ee29nJQfP1zSZQ" name="Barrio" specification="_MI0-ECs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSLHUSs0Ee29nJQfP1zSZQ" name="X">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLHUis0Ee29nJQfP1zSZQ" name="Y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLHUys0Ee29nJQfP1zSZQ" name="necesidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLHVCs0Ee29nJQfP1zSZQ" name="Nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLHVSs0Ee29nJQfP1zSZQ" type="_MIwsoCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.X = X;&#xD;
+     this.Y = Y;&#xD;
+     this.actual=0;&#xD;
+     this.necesidad = necesidad;&#xD;
+     this.Nombre = Nombre;&#xD;
+     this.ancho=90;&#xD;
+     this.alto=90;&#xD;
+     desbordo=false;&#xD;
+     insatisfecho=true;&#xD;
+     System.out.println(&quot;nombre de ciudad &quot;+Nombre+&quot;   necesidad de la ciudad &quot;+necesidad);&#xD;
+     &#xD;
+     System.out.println(&quot;comentario: para calcular el tiempo\n&quot; +&#xD;
+                        &quot; de vaciado del tanque \n&quot; +&#xD;
+                        &quot;utilizamos el teorema de toricelli,\n&quot; +&#xD;
+                        &quot; la rapidez de salidad del agua\n&quot; +&#xD;
+                        &quot;es principalmente una funcion de p\n&quot; +&#xD;
+                        &quot;si el tanque esta abierto a la atmosfera, \n&quot; +&#xD;
+                        &quot;en tal caso \n&quot; +&#xD;
+                        &quot;p=p0  y  v1= √2gh\n&quot; +&#xD;
+                        &quot;donde gravedad=9.8m/s^2\n&quot; +&#xD;
+                        &quot;&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MIyh0Cs0Ee29nJQfP1zSZQ" name="Barrio">
+          <eAnnotations xmi:id="_MIzI4Cs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MIzI4Ss0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MI0XACs0Ee29nJQfP1zSZQ" type="_MIwsoCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MI0-ECs0Ee29nJQfP1zSZQ" name="Barrio" method="_MSLHUCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MI2MMCs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MI2MMSs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MI1lICs0Ee29nJQfP1zSZQ" name="X">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI1lISs0Ee29nJQfP1zSZQ" name="Y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI1lIis0Ee29nJQfP1zSZQ" name="necesidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI1lIys0Ee29nJQfP1zSZQ" name="Nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI2MMis0Ee29nJQfP1zSZQ" type="_MIwsoCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MI4ocCs0Ee29nJQfP1zSZQ" name="Tanque">
+        <ownedComment xmi:id="_MSTDICs0Ee29nJQfP1zSZQ">
+          <body>*&#xD;
+@author usuario</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_MRM28Cs0Ee29nJQfP1zSZQ" name="capacidad_maxima">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRM28Ss0Ee29nJQfP1zSZQ" name="agua">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRNeACs0Ee29nJQfP1zSZQ" name="X">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MROFECs0Ee29nJQfP1zSZQ" name="Y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MROFESs0Ee29nJQfP1zSZQ" name="ancho">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MROFEis0Ee29nJQfP1zSZQ" name="alto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRPTMCs0Ee29nJQfP1zSZQ" name="desbordo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRPTMSs0Ee29nJQfP1zSZQ" name="precioBruto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRP6QCs0Ee29nJQfP1zSZQ" name="manoObra">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRP6QSs0Ee29nJQfP1zSZQ" name="costoTotal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSLuYCs0Ee29nJQfP1zSZQ" name="Tanque" specification="_MI8S0Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSLuYSs0Ee29nJQfP1zSZQ" name="capacidad_maxima">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLuYis0Ee29nJQfP1zSZQ" name="X">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLuYys0Ee29nJQfP1zSZQ" name="Y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSLuZCs0Ee29nJQfP1zSZQ" type="_MI4ocCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.capacidad_maxima = capacidad_maxima;&#xD;
+     this.agua=capacidad_maxima;&#xD;
+     this.X = X;&#xD;
+     this.Y = Y;&#xD;
+     this.ancho=70;&#xD;
+     this.alto=70;&#xD;
+     this.precioBruto=20*capacidad_maxima;&#xD;
+     this.manoObra=30*capacidad_maxima;&#xD;
+     this.costoTotal=this.precioBruto+this.manoObra;&#xD;
+     desbordo=false;&#xD;
+     &#xD;
+     System.out.println(&quot;capacidad maxima del tanque &quot;+capacidad_maxima);&#xD;
+          &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MI7EsCs0Ee29nJQfP1zSZQ" name="Tanque">
+          <eAnnotations xmi:id="_MI7EsSs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MI7Esis0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MI7rwSs0Ee29nJQfP1zSZQ" type="_MI4ocCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MI8S0Cs0Ee29nJQfP1zSZQ" name="Tanque" method="_MSLuYCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MI854Ss0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MI854is0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MI8S0Ss0Ee29nJQfP1zSZQ" name="capacidad_maxima">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI8S0is0Ee29nJQfP1zSZQ" name="X">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI854Cs0Ee29nJQfP1zSZQ" name="Y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MI854ys0Ee29nJQfP1zSZQ" type="_MI4ocCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MI_9MCs0Ee29nJQfP1zSZQ" name="Tubo">
+        <ownedComment xmi:id="_MSTDISs0Ee29nJQfP1zSZQ">
+          <body>*&#xD;
+@author usuario</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_MRRIYCs0Ee29nJQfP1zSZQ" name="capacidad">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRRIYSs0Ee29nJQfP1zSZQ" name="transportando">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRRvcCs0Ee29nJQfP1zSZQ" name="Xini">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRRvcSs0Ee29nJQfP1zSZQ" name="Xfin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRSWgCs0Ee29nJQfP1zSZQ" name="Yini">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRS9kCs0Ee29nJQfP1zSZQ" name="Yfin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRS9kSs0Ee29nJQfP1zSZQ" name="agua" type="_MOKKACs0Ee29nJQfP1zSZQ" association="_MTeu4Cs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRULsCs0Ee29nJQfP1zSZQ" name="distX">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRULsSs0Ee29nJQfP1zSZQ" name="distY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRULsis0Ee29nJQfP1zSZQ" name="m">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRUywCs0Ee29nJQfP1zSZQ" name="a" type="_MPiqECs0Ee29nJQfP1zSZQ" association="_MSURQCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRUywSs0Ee29nJQfP1zSZQ" name="obst">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRUywis0Ee29nJQfP1zSZQ" name="alterna">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRVZ0Cs0Ee29nJQfP1zSZQ" name="precioBruto">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRVZ0Ss0Ee29nJQfP1zSZQ" name="manoObra">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MRVZ0is0Ee29nJQfP1zSZQ" name="costoTotal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSMVcCs0Ee29nJQfP1zSZQ" name="Tubo" specification="_MJDnkCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSMVcSs0Ee29nJQfP1zSZQ" name="capacidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSMVcis0Ee29nJQfP1zSZQ" name="transportando">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSMVcys0Ee29nJQfP1zSZQ" name="Xini">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSMVdCs0Ee29nJQfP1zSZQ" name="Xfin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSMVdSs0Ee29nJQfP1zSZQ" name="Yini">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSMVdis0Ee29nJQfP1zSZQ" name="Yfin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MSMVdys0Ee29nJQfP1zSZQ" type="_MI_9MCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>this.capacidad = capacidad;&#xD;
+     this.transportando = transportando;&#xD;
+     this.Xini = Xini;&#xD;
+     this.Xfin = Xfin;&#xD;
+     this.Yini = Yini;&#xD;
+     this.Yfin = Yfin;&#xD;
+     this.distX = this.Xfin - this.Xini;&#xD;
+     this.distY = this.Yfin - this.Yini;&#xD;
+     this.m = (double) distY / distX;&#xD;
+     agua = new LinkedList&lt;>();&#xD;
+     a = new Point();&#xD;
+     obst = false;&#xD;
+     this.precioBruto = 10 * capacidad;&#xD;
+     this.manoObra = 15 * capacidad;&#xD;
+     this.costoTotal = this.precioBruto + this.manoObra;&#xD;
+     transportar();&#xD;
+     System.out.println(&quot;precio bruto &quot;+this.precioBruto+&quot; capacidad &quot;+capacidad+&quot;  mano de obra &quot;+this.manoObra+&quot;  costo total &quot;+this.costoTotal);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSMVeCs0Ee29nJQfP1zSZQ" name="transportar" specification="_MJFcwCs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>Thread h = new Thread(new Runnable() {&#xD;
+         @Override&#xD;
+         public void run() {&#xD;
+             boolean fir = true;&#xD;
+             int x = getXini();&#xD;
+&#xD;
+             while (true) {&#xD;
+                 try {&#xD;
+                     if (!isObst()) {&#xD;
+                         if (getTransportando() > 0) {&#xD;
+                             if (getXfin() > getXini()) {&#xD;
+                                 while (x &lt;= getXfin()) {&#xD;
+                                     if (isObst()) {&#xD;
+                                         break;&#xD;
+                                     }&#xD;
+                                     int y = (int) ((getM()) * (x - getXini())) + getYini();&#xD;
+                                     Point a1 = new Point(x - 5, y - 5);&#xD;
+                                     getAgua().add(a1);&#xD;
+                                     x += 1;&#xD;
+                                     Thread.sleep(70);&#xD;
+                                 }&#xD;
+                                 if (x >= getXfin()) {&#xD;
+                                     x = getXini();&#xD;
+                                     setAgua(new LinkedList&lt;Point>());&#xD;
+                                 }&#xD;
+                             } else {&#xD;
+                                 while (x >= getXfin()) {&#xD;
+                                     if (isObst()) {&#xD;
+                                         break;&#xD;
+                                     }&#xD;
+                                     int y = (int) ((getM()) * (x - getXini())) + getYini();&#xD;
+                                     Point a1 = new Point(x - 5, y - 5);&#xD;
+                                     getAgua().add(a1);&#xD;
+                                     x -= 1;&#xD;
+                                     Thread.sleep(70);&#xD;
+                                 }&#xD;
+                                 if (x &lt;= getXfin()) {&#xD;
+                                     x = getXini();&#xD;
+                                     setAgua(new LinkedList&lt;Point>());&#xD;
+                                 }&#xD;
+                             }&#xD;
+                         } else {&#xD;
+                             setAgua(new LinkedList&lt;Point>());&#xD;
+                         }&#xD;
+&#xD;
+                     } else {&#xD;
+                         setAgua(new LinkedList&lt;Point>());&#xD;
+                     }&#xD;
+&#xD;
+                     Thread.sleep(200);&#xD;
+                 } catch (Exception e) {&#xD;
+                     System.out.println(&quot;no se pudo crear la bolita&quot;);&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     });&#xD;
+     h.start();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MJDnkCs0Ee29nJQfP1zSZQ" name="Tubo" method="_MSMVcCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MJE1sys0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MJE1tCs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MJDnkSs0Ee29nJQfP1zSZQ" name="capacidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MJDnkis0Ee29nJQfP1zSZQ" name="transportando">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MJEOoCs0Ee29nJQfP1zSZQ" name="Xini">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MJE1sCs0Ee29nJQfP1zSZQ" name="Xfin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MJE1sSs0Ee29nJQfP1zSZQ" name="Yini">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MJE1sis0Ee29nJQfP1zSZQ" name="Yfin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MJE1tSs0Ee29nJQfP1zSZQ" type="_MI_9MCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MJFcwCs0Ee29nJQfP1zSZQ" name="transportar" visibility="private" method="_MSMVeCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSURQCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MRUywCs0Ee29nJQfP1zSZQ _MSURQSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSURQSs0Ee29nJQfP1zSZQ" name="" type="_MI_9MCs0Ee29nJQfP1zSZQ" association="_MSURQCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTeu4Cs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTeu4Ss0Ee29nJQfP1zSZQ _MRS9kSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTeu4Ss0Ee29nJQfP1zSZQ" name="" type="_MI_9MCs0Ee29nJQfP1zSZQ" association="_MTeu4Cs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MDwQ0Cs0Ee29nJQfP1zSZQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_MDwQ0Ss0Ee29nJQfP1zSZQ" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_MFL0MCs0Ee29nJQfP1zSZQ" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_MO3UoSs0Ee29nJQfP1zSZQ" name="MouseEvent"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_MPCTwCs0Ee29nJQfP1zSZQ" name="ActionEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_MFNCUCs0Ee29nJQfP1zSZQ" name="geom">
+          <packagedElement xmi:type="uml:Class" xmi:id="_MO6_ACs0Ee29nJQfP1zSZQ" name="Rectangle2D"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOGfoCs0Ee29nJQfP1zSZQ" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOIU0Ss0Ee29nJQfP1zSZQ" name="Graphics"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MO04YCs0Ee29nJQfP1zSZQ" name="HeadlessException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MPiqECs0Ee29nJQfP1zSZQ" name="Point"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MDw34Cs0Ee29nJQfP1zSZQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOKKACs0Ee29nJQfP1zSZQ" name="LinkedList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_MOdE8Cs0Ee29nJQfP1zSZQ" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MEt6ICs0Ee29nJQfP1zSZQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOYMcCs0Ee29nJQfP1zSZQ" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOZakSs0Ee29nJQfP1zSZQ" name="IOException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MEQnICs0Ee29nJQfP1zSZQ" name="Graficos">
+      <packagedElement xmi:type="uml:Class" xmi:id="_MGrpACs0Ee29nJQfP1zSZQ" name="jPanel">
+        <generalization xmi:id="_MG8HsCs0Ee29nJQfP1zSZQ" general="_MG4dUCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQVUQCs0Ee29nJQfP1zSZQ" name="ciudad" type="_MHjLsCs0Ee29nJQfP1zSZQ" association="_MSPYwCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQWiYCs0Ee29nJQfP1zSZQ" name="saldo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MQXJcSs0Ee29nJQfP1zSZQ" name="L" type="_MOKKACs0Ee29nJQfP1zSZQ" association="_MSkv8Cs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQYXkSs0Ee29nJQfP1zSZQ" name="tanques" visibility="private" type="_MOKKACs0Ee29nJQfP1zSZQ" association="_MSlXACs0Ee29nJQfP1zSZQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MRw3oCs0Ee29nJQfP1zSZQ" name="jPanel" specification="_MGwhgCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MRw3oSs0Ee29nJQfP1zSZQ" type="_MGrpACs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>initComponents();&#xD;
+     ciudad = new Acueducto();&#xD;
+     L = new LinkedList&lt;Tubo>();&#xD;
+     tanques=new LinkedList&lt;Nodo>();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR2-QCs0Ee29nJQfP1zSZQ" name="paintComponent" specification="_MP0W4Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR2-QSs0Ee29nJQfP1zSZQ" name="g" type="_MOIU0Ss0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>super.paintComponent(g);&#xD;
+     g.drawImage(new ImageIcon(getClass().getResource(&quot;/Pasto.png&quot;)).getImage(), 0, 0, null);&#xD;
+     try {&#xD;
+        &#xD;
+         if (getCiudad() != null) {&#xD;
+             if (!L.isEmpty()) {&#xD;
+                 for (int i = 0; i &lt; L.size(); i++) {&#xD;
+                     int posxi = L.get(i).getXini() - 5;&#xD;
+                     int posxf = L.get(i).getXfin() - 5;&#xD;
+                     int posyi = L.get(i).getYini() - 5;&#xD;
+                     int posyf = L.get(i).getYfin() - 5;&#xD;
+                     for (int k = 0; k &lt; 10; k++) {&#xD;
+                         g.setColor(Color.MAGENTA);&#xD;
+                         g.drawLine(posxi, posyi, posxf, posyf);&#xD;
+                         posxi++;&#xD;
+                         posxf++;&#xD;
+                         posyi++;&#xD;
+                         posyf++;&#xD;
+                     }&#xD;
+                 }&#xD;
+                 for (int i = 0; i &lt; L.size(); i++) {&#xD;
+                     for (int k = 0; k &lt; L.get(i).getAgua().size(); k++) {&#xD;
+                         g.setColor(new Color(153, 204, 255));&#xD;
+                         g.drawOval((int) L.get(i).getAgua().get(k).getX(), (int) L.get(i).getAgua().get(k).getY(), 10, 10);&#xD;
+                         g.fillOval((int) L.get(i).getAgua().get(k).getX(), (int) L.get(i).getAgua().get(k).getY(), 11, 11);&#xD;
+&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+             for (int i = 0; i &lt; getCiudad().conexiones.length; i++) {&#xD;
+                 for (int j = 0; j &lt; getCiudad().conexiones.length; j++) {&#xD;
+                     if (getCiudad().conexiones[i][j] != null) {&#xD;
+                         int posxi = getCiudad().conexiones[i][j].getXini() - 5;&#xD;
+                         int posxf = getCiudad().conexiones[i][j].getXfin() - 5;&#xD;
+                         int posyi = getCiudad().conexiones[i][j].getYini() - 5;&#xD;
+                         int posyf = getCiudad().conexiones[i][j].getYfin() - 5;&#xD;
+                         for (int k = 0; k &lt; 10; k++) {&#xD;
+                             if (!getCiudad().conexiones[i][j].isObst()) {&#xD;
+                                 if (getCiudad().conexiones[i][j].isAlterna()) {&#xD;
+                                     g.setColor(Color.white);&#xD;
+                                 } else {&#xD;
+                                     g.setColor(Color.gray);&#xD;
+                                 }&#xD;
+                                 g.drawLine(posxi, posyi, posxf, posyf);&#xD;
+                             } else {&#xD;
+                                 g.setColor(Color.red);&#xD;
+                                 g.drawLine(posxi, posyi, posxf, posyf);&#xD;
+                             }&#xD;
+                             posxi++;&#xD;
+                             posxf++;&#xD;
+                             posyi++;&#xD;
+                             posyf++;&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+             for (int i = 0; i &lt; getCiudad().conexiones.length; i++) {&#xD;
+                 for (int j = 0; j &lt; getCiudad().conexiones.length; j++) {&#xD;
+                     if (getCiudad().conexiones[i][j] != null) {&#xD;
+                         for (int k = 0; k &lt; getCiudad().conexiones[i][j].getAgua().size(); k++) {&#xD;
+                             g.setColor(Color.blue);&#xD;
+                             g.drawOval((int) getCiudad().conexiones[i][j].getAgua().get(k).getX(), (int) getCiudad().conexiones[i][j].getAgua().get(k).getY(), 10, 10);&#xD;
+                             g.fillOval((int) getCiudad().conexiones[i][j].getAgua().get(k).getX(), (int) getCiudad().conexiones[i][j].getAgua().get(k).getY(), 11, 11);&#xD;
+&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+              if (!tanques.isEmpty()) {&#xD;
+                 for (int i = 0; i &lt; tanques.size(); i++) {&#xD;
+                     Nodo aux = tanques.get(i);&#xD;
+                     g.drawImage(new ImageIcon(&quot;Tanque.png&quot;).getImage(), aux.getTanque().getX(), aux.getTanque().getY(), aux.getTanque().getAncho(), aux.getTanque().getAlto(), null);&#xD;
+                 }&#xD;
+             }&#xD;
+             for (int i = 0; i &lt; getCiudad().Nodos.size(); i++) {&#xD;
+                 Nodo aux = getCiudad().Nodos.get(i);&#xD;
+                 if (aux.isTan()) {&#xD;
+                     if (aux.getTanque().isDesbordo()) {&#xD;
+                         g.setColor(Color.blue);&#xD;
+                         g.drawOval(aux.getTanque().getX(), aux.getTanque().getY(), aux.getTanque().getAncho(), aux.getTanque().getAlto());&#xD;
+                         g.fillOval(aux.getTanque().getX(), aux.getTanque().getY(), aux.getTanque().getAncho(), aux.getTanque().getAlto());&#xD;
+                     }&#xD;
+                     g.drawImage(new ImageIcon(&quot;Tanque.png&quot;).getImage(), aux.getTanque().getX(), aux.getTanque().getY(), aux.getTanque().getAncho(), aux.getTanque().getAlto(), null);&#xD;
+                 } else {&#xD;
+                     if (aux.getBarrio().isDesbordo()) {&#xD;
+                         g.setColor(Color.blue);&#xD;
+                         g.drawOval(aux.getBarrio().getX(), aux.getBarrio().getY(), aux.getBarrio().getAncho(), aux.getBarrio().getAlto());&#xD;
+                         g.fillOval(aux.getBarrio().getX(), aux.getBarrio().getY(), aux.getBarrio().getAncho(), aux.getBarrio().getAlto());&#xD;
+                     } else if (aux.getBarrio().isInsatisfecho()) {&#xD;
+                         g.setColor(Color.red);&#xD;
+                         g.drawOval(aux.getBarrio().getX(), aux.getBarrio().getY(), aux.getBarrio().getAncho(), aux.getBarrio().getAlto());&#xD;
+                         g.fillOval(aux.getBarrio().getX(), aux.getBarrio().getY(), aux.getBarrio().getAncho(), aux.getBarrio().getAlto());&#xD;
+                     }&#xD;
+                     g.drawImage(new ImageIcon(&quot;Barrio.png&quot;).getImage(), aux.getBarrio().getX(), aux.getBarrio().getY(), aux.getBarrio().getAncho(), aux.getBarrio().getAlto(), null);&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     } catch (Exception e) {&#xD;
+     }&#xD;
+&#xD;
+     repaint();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR2-Qis0Ee29nJQfP1zSZQ" name="initComponents" specification="_MGzk0Cs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>setMaximumSize(new java.awt.Dimension(1097, 700));&#xD;
+     setMinimumSize(new java.awt.Dimension(1097, 700));&#xD;
+     setPreferredSize(new java.awt.Dimension(1097, 700));&#xD;
+&#xD;
+     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);&#xD;
+     this.setLayout(layout);&#xD;
+     layout.setHorizontalGroup(&#xD;
+         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGap(0, 1222, Short.MAX_VALUE)&#xD;
+     );&#xD;
+     layout.setVerticalGroup(&#xD;
+         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGap(0, 700, Short.MAX_VALUE)&#xD;
+     );&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR3lUCs0Ee29nJQfP1zSZQ" name="getSaldo" specification="_MG2oICs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR3lUSs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return saldo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR4MYCs0Ee29nJQfP1zSZQ" name="setSaldo" specification="_MG3PMCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR4MYSs0Ee29nJQfP1zSZQ" name="saldo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.saldo = saldo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MR4MYis0Ee29nJQfP1zSZQ" name="setTanques" specification="_MP2zICs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MR4MYys0Ee29nJQfP1zSZQ" name="tanques" type="_MOKKACs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>this.tanques = tanques;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MGwhgCs0Ee29nJQfP1zSZQ" name="jPanel" method="_MRw3oCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MGxvoCs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MGxvoSs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MGyWsCs0Ee29nJQfP1zSZQ" type="_MGrpACs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MGzk0Cs0Ee29nJQfP1zSZQ" name="initComponents" visibility="private" method="_MR2-Qis0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MG2oICs0Ee29nJQfP1zSZQ" name="getSaldo" method="_MR3lUCs0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSQm4Ss0Ee29nJQfP1zSZQ">
+            <body>@return the saldo</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MG2oISs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MG3PMCs0Ee29nJQfP1zSZQ" name="setSaldo" method="_MR4MYCs0Ee29nJQfP1zSZQ">
+          <ownedComment xmi:id="_MSQm4is0Ee29nJQfP1zSZQ">
+            <body>@param saldo the saldo to set</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_MG32QCs0Ee29nJQfP1zSZQ" name="saldo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MP0W4Cs0Ee29nJQfP1zSZQ" name="paintComponent" visibility="protected" method="_MR2-QCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MP098Cs0Ee29nJQfP1zSZQ" name="g" type="_MOIU0Ss0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MP2zICs0Ee29nJQfP1zSZQ" name="setTanques" visibility="package" method="_MR4MYis0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MP2zISs0Ee29nJQfP1zSZQ" name="tanques" type="_MOKKACs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MIAesCs0Ee29nJQfP1zSZQ" name="ventanaTubos">
+        <ownedComment xmi:id="_MSR1ACs0Ee29nJQfP1zSZQ">
+          <body>*&#xD;
+@author usuario</body>
+        </ownedComment>
+        <generalization xmi:id="_MIY5MCs0Ee29nJQfP1zSZQ" general="_MIQ9YSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQivoCs0Ee29nJQfP1zSZQ" name="ciudad" visibility="package" type="_MHjLsCs0Ee29nJQfP1zSZQ" association="_MSq2kCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQj9wCs0Ee29nJQfP1zSZQ" name="barrio" visibility="package" type="_MIwsoCs0Ee29nJQfP1zSZQ" association="_MSsEsCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQkk0Cs0Ee29nJQfP1zSZQ" name="tanque" visibility="package" type="_MI4ocCs0Ee29nJQfP1zSZQ" association="_MStS0Ss0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQly8Cs0Ee29nJQfP1zSZQ" name="tubo" visibility="package" type="_MI_9MCs0Ee29nJQfP1zSZQ" association="_MSug8Ss0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQmaASs0Ee29nJQfP1zSZQ" name="nodo" visibility="package" type="_MHC1YCs0Ee29nJQfP1zSZQ" association="_MSvvESs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQnBESs0Ee29nJQfP1zSZQ" name="seleccionado1" visibility="package" type="_MHC1YCs0Ee29nJQfP1zSZQ" association="_MSwWICs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQnoISs0Ee29nJQfP1zSZQ" name="seleccionado2" visibility="package" type="_MHC1YCs0Ee29nJQfP1zSZQ" association="_MSw9MSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQo2QCs0Ee29nJQfP1zSZQ" name="saldo" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MQpdUSs0Ee29nJQfP1zSZQ" name="L" visibility="package" type="_MOKKACs0Ee29nJQfP1zSZQ" association="_MSyLUSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQrSgCs0Ee29nJQfP1zSZQ" name="selt" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_MQr5kCs0Ee29nJQfP1zSZQ" name="jButton1" visibility="private" type="_MPJogCs0Ee29nJQfP1zSZQ" association="_MSzZcSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQsgoCs0Ee29nJQfP1zSZQ" name="jButton2" visibility="private" type="_MPJogCs0Ee29nJQfP1zSZQ" association="_MS0AgSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQtHsCs0Ee29nJQfP1zSZQ" name="jButton3" visibility="private" type="_MPJogCs0Ee29nJQfP1zSZQ" association="_MS1OoSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQtHsis0Ee29nJQfP1zSZQ" name="jButton5" visibility="private" type="_MPJogCs0Ee29nJQfP1zSZQ" association="_MS2cwSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQtuwSs0Ee29nJQfP1zSZQ" name="jComboBox1" visibility="private" type="_MPMr0Cs0Ee29nJQfP1zSZQ" association="_MS3q4Cs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQuV0Ss0Ee29nJQfP1zSZQ" name="jLabel1" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS5gECs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQvj8Ss0Ee29nJQfP1zSZQ" name="jLabel10" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS6HISs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQvj8ys0Ee29nJQfP1zSZQ" name="jLabel11" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS7VQCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQwyECs0Ee29nJQfP1zSZQ" name="jLabel12" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS78USs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQyAMCs0Ee29nJQfP1zSZQ" name="jLabel13" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS9KcSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQynQSs0Ee29nJQfP1zSZQ" name="jLabel14" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS-YkCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQzOUSs0Ee29nJQfP1zSZQ" name="jLabel15" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MS_msSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ0ccSs0Ee29nJQfP1zSZQ" name="jLabel16" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTANwSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ1DgSs0Ee29nJQfP1zSZQ" name="jLabel17" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTA00Ss0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ1qkSs0Ee29nJQfP1zSZQ" name="jLabel18" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTCC8Cs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ2RoSs0Ee29nJQfP1zSZQ" name="jLabel19" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTCqASs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ3fwCs0Ee29nJQfP1zSZQ" name="jLabel2" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTD4ISs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ4G0Ss0Ee29nJQfP1zSZQ" name="jLabel20" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTFGQSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ4G0ys0Ee29nJQfP1zSZQ" name="jLabel21" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTFtUSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ5U8Ss0Ee29nJQfP1zSZQ" name="jLabel22" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTG7cSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ58ACs0Ee29nJQfP1zSZQ" name="jLabel23" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTHigSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ6jESs0Ee29nJQfP1zSZQ" name="jLabel24" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTIwoCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ7KISs0Ee29nJQfP1zSZQ" name="jLabel25" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTJXsSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ7xMSs0Ee29nJQfP1zSZQ" name="jLabel26" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTJ-wSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ8YQSs0Ee29nJQfP1zSZQ" name="jLabel27" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTLM4Ss0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ9mYCs0Ee29nJQfP1zSZQ" name="jLabel3" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTMbACs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ-NcCs0Ee29nJQfP1zSZQ" name="jLabel4" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTOQMSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ-0gCs0Ee29nJQfP1zSZQ" name="jLabel5" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTPeUSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MQ_bkCs0Ee29nJQfP1zSZQ" name="jLabel7" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTQscCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRACoSs0Ee29nJQfP1zSZQ" name="jLabel8" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTR6kSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRApsCs0Ee29nJQfP1zSZQ" name="jLabel9" visibility="private" type="_MPOhACs0Ee29nJQfP1zSZQ" association="_MTShoSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRBQwSs0Ee29nJQfP1zSZQ" name="jPanel1" visibility="private" type="_MGrpACs0Ee29nJQfP1zSZQ" association="_MTUW0Ss0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRCe4Cs0Ee29nJQfP1zSZQ" name="jPanel2" visibility="private" type="_MG4dUCs0Ee29nJQfP1zSZQ" association="_MTU94Ss0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRDtACs0Ee29nJQfP1zSZQ" name="jTextField1" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTWMASs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MREUECs0Ee29nJQfP1zSZQ" name="jTextField2" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTXaICs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRE7ISs0Ee29nJQfP1zSZQ" name="jTextField3" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTYBMSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRFiMSs0Ee29nJQfP1zSZQ" name="jTextField4" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTZ2YCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRGwUCs0Ee29nJQfP1zSZQ" name="jTextField5" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTadcSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRHXYCs0Ee29nJQfP1zSZQ" name="jTextField6" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTbrkCs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRHXYis0Ee29nJQfP1zSZQ" name="jTextField7" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTcSoSs0Ee29nJQfP1zSZQ"/>
+        <ownedAttribute xmi:id="_MRH-cSs0Ee29nJQfP1zSZQ" name="jTextField8" visibility="private" type="_MPSycCs0Ee29nJQfP1zSZQ" association="_MTc5sSs0Ee29nJQfP1zSZQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSBWUCs0Ee29nJQfP1zSZQ" name="ventanaTubos" specification="_MIF-QCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSBWUSs0Ee29nJQfP1zSZQ" type="_MIAesCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>initComponents();&#xD;
+     ciudad = new Acueducto();&#xD;
+     jPanel1.setCiudad(ciudad);&#xD;
+     contarsaldo();&#xD;
+     saldo = 200000;&#xD;
+     jPanel1.setSaldo(saldo);&#xD;
+     jButton1.setVisible(false);&#xD;
+     L = new LinkedList&lt;Tubo>();&#xD;
+     jPanel1.setL(L);&#xD;
+     selt = false;&#xD;
+     jButton2.setVisible(false);&#xD;
+     jButton3.setVisible(false);&#xD;
+     jLabel8.setVisible(false);&#xD;
+     jLabel9.setVisible(false);&#xD;
+     jLabel10.setVisible(false);&#xD;
+     jLabel11.setVisible(false);&#xD;
+     jLabel12.setVisible(false);&#xD;
+     jLabel13.setVisible(false);&#xD;
+     jLabel14.setVisible(false);&#xD;
+     jLabel15.setVisible(false);&#xD;
+     jLabel16.setVisible(false);&#xD;
+     jLabel17.setVisible(false);&#xD;
+     jLabel18.setVisible(false);&#xD;
+     jTextField2.setVisible(false);&#xD;
+     jTextField3.setVisible(false);&#xD;
+     jTextField4.setVisible(false);&#xD;
+     jTextField5.setVisible(false);&#xD;
+     jTextField6.setVisible(false);&#xD;
+     jTextField7.setVisible(false);&#xD;
+     jTextField8.setVisible(false);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSB9YCs0Ee29nJQfP1zSZQ" name="initComponents" specification="_MIGlUis0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>jPanel2 = new javax.swing.JPanel();&#xD;
+     jComboBox1 = new javax.swing.JComboBox();&#xD;
+     jButton1 = new javax.swing.JButton();&#xD;
+     jButton2 = new javax.swing.JButton();&#xD;
+     jButton3 = new javax.swing.JButton();&#xD;
+     jButton5 = new javax.swing.JButton();&#xD;
+     jLabel1 = new javax.swing.JLabel();&#xD;
+     jLabel2 = new javax.swing.JLabel();&#xD;
+     jTextField1 = new javax.swing.JTextField();&#xD;
+     jLabel3 = new javax.swing.JLabel();&#xD;
+     jLabel4 = new javax.swing.JLabel();&#xD;
+     jLabel5 = new javax.swing.JLabel();&#xD;
+     jLabel7 = new javax.swing.JLabel();&#xD;
+     jLabel8 = new javax.swing.JLabel();&#xD;
+     jLabel9 = new javax.swing.JLabel();&#xD;
+     jLabel10 = new javax.swing.JLabel();&#xD;
+     jTextField2 = new javax.swing.JTextField();&#xD;
+     jLabel11 = new javax.swing.JLabel();&#xD;
+     jTextField3 = new javax.swing.JTextField();&#xD;
+     jLabel12 = new javax.swing.JLabel();&#xD;
+     jTextField4 = new javax.swing.JTextField();&#xD;
+     jLabel13 = new javax.swing.JLabel();&#xD;
+     jLabel14 = new javax.swing.JLabel();&#xD;
+     jTextField5 = new javax.swing.JTextField();&#xD;
+     jLabel15 = new javax.swing.JLabel();&#xD;
+     jTextField6 = new javax.swing.JTextField();&#xD;
+     jLabel16 = new javax.swing.JLabel();&#xD;
+     jLabel17 = new javax.swing.JLabel();&#xD;
+     jTextField7 = new javax.swing.JTextField();&#xD;
+     jLabel18 = new javax.swing.JLabel();&#xD;
+     jTextField8 = new javax.swing.JTextField();&#xD;
+     jLabel19 = new javax.swing.JLabel();&#xD;
+     jLabel20 = new javax.swing.JLabel();&#xD;
+     jLabel21 = new javax.swing.JLabel();&#xD;
+     jLabel22 = new javax.swing.JLabel();&#xD;
+     jLabel23 = new javax.swing.JLabel();&#xD;
+     jLabel24 = new javax.swing.JLabel();&#xD;
+     jLabel25 = new javax.swing.JLabel();&#xD;
+     jLabel26 = new javax.swing.JLabel();&#xD;
+     jLabel27 = new javax.swing.JLabel();&#xD;
+     jPanel1 = new Graficos.jPanel();&#xD;
+&#xD;
+     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);&#xD;
+     setMinimumSize(new java.awt.Dimension(1366, 700));&#xD;
+     setResizable(false);&#xD;
+&#xD;
+     jPanel2.setBackground(new java.awt.Color(204, 119, 186));&#xD;
+     jPanel2.setMaximumSize(new java.awt.Dimension(260, 700));&#xD;
+     jPanel2.setMinimumSize(new java.awt.Dimension(260, 700));&#xD;
+     jPanel2.setPreferredSize(new java.awt.Dimension(260, 700));&#xD;
+&#xD;
+     jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { &quot;Seleccionar acción&quot;, &quot;Agregar Tanque&quot;, &quot;Agregar Barrio&quot;, &quot;Agregar Tubo&quot;, &quot;Obstruir tubo&quot;, &quot;Reparar tubo&quot;, &quot;Cambiar direccion de tubo&quot;, &quot;Proponer nuevos tubos&quot;, &quot;Ver detalles&quot;, &quot;Ingresar restriccion de tanques&quot; }));&#xD;
+     jComboBox1.addActionListener(new java.awt.event.ActionListener() {&#xD;
+         public void actionPerformed(java.awt.event.ActionEvent evt) {&#xD;
+             jComboBox1ActionPerformed(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     jButton1.setText(&quot;Mostrar Rutas Alternas&quot;);&#xD;
+     jButton1.addActionListener(new java.awt.event.ActionListener() {&#xD;
+         public void actionPerformed(java.awt.event.ActionEvent evt) {&#xD;
+             jButton1ActionPerformed(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     jButton2.setText(&quot;Seleccionar Barrio&quot;);&#xD;
+     jButton2.addActionListener(new java.awt.event.ActionListener() {&#xD;
+         public void actionPerformed(java.awt.event.ActionEvent evt) {&#xD;
+             jButton2ActionPerformed(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     jButton3.setText(&quot;Sin seleccionar&quot;);&#xD;
+     jButton3.addActionListener(new java.awt.event.ActionListener() {&#xD;
+         public void actionPerformed(java.awt.event.ActionEvent evt) {&#xD;
+             jButton3ActionPerformed(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     jButton5.setText(&quot;Cargar ciudad&quot;);&#xD;
+     jButton5.addActionListener(new java.awt.event.ActionListener() {&#xD;
+         public void actionPerformed(java.awt.event.ActionEvent evt) {&#xD;
+             jButton5ActionPerformed(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     jLabel1.setFont(new java.awt.Font(&quot;Algerian&quot;, 1, 18)); // NOI18N&#xD;
+     jLabel1.setText(&quot;simulacion fluidos &quot;);&#xD;
+&#xD;
+     jLabel2.setText(&quot;Saldo:&quot;);&#xD;
+&#xD;
+     jTextField1.setEditable(false);&#xD;
+     jTextField1.addActionListener(new java.awt.event.ActionListener() {&#xD;
+         public void actionPerformed(java.awt.event.ActionEvent evt) {&#xD;
+             jTextField1ActionPerformed(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     jLabel3.setFont(new java.awt.Font(&quot;Tahoma&quot;, 0, 14)); // NOI18N&#xD;
+     jLabel3.setText(&quot;Acciones&quot;);&#xD;
+&#xD;
+     jLabel4.setText(&quot;Acción Primaria:&quot;);&#xD;
+&#xD;
+     jLabel5.setText(&quot;Acción secundaria:&quot;);&#xD;
+&#xD;
+     jLabel7.setFont(new java.awt.Font(&quot;Tahoma&quot;, 0, 14)); // NOI18N&#xD;
+     jLabel7.setText(&quot;Ciudad Guardada&quot;);&#xD;
+&#xD;
+     jLabel8.setFont(new java.awt.Font(&quot;Tahoma&quot;, 0, 14)); // NOI18N&#xD;
+     jLabel8.setText(&quot;Detalles&quot;);&#xD;
+&#xD;
+     jLabel9.setText(&quot;Barrios:&quot;);&#xD;
+&#xD;
+     jLabel10.setText(&quot;Nombre:&quot;);&#xD;
+&#xD;
+     jLabel11.setText(&quot;Necesidad&quot;);&#xD;
+&#xD;
+     jLabel12.setText(&quot;Satisfecho&quot;);&#xD;
+&#xD;
+     jLabel13.setText(&quot;Tanques:&quot;);&#xD;
+&#xD;
+     jLabel14.setText(&quot;Capacidad:&quot;);&#xD;
+&#xD;
+     jLabel15.setText(&quot;Agua Sobrante:&quot;);&#xD;
+&#xD;
+     jLabel16.setText(&quot;Tubos:&quot;);&#xD;
+&#xD;
+     jLabel17.setText(&quot;Capacidad:&quot;);&#xD;
+&#xD;
+     jLabel18.setText(&quot;Agua transportada:&quot;);&#xD;
+&#xD;
+     jLabel19.setText(&quot;dencidad del agua: p: 1.00x 10^3&quot;);&#xD;
+&#xD;
+     jLabel20.setText(&quot;donde gravedad=9.8m/s^2&quot;);&#xD;
+&#xD;
+     jLabel21.setText(&quot;comentario: para calcular el tiempo &quot;);&#xD;
+&#xD;
+     jLabel22.setText(&quot;de vacido de los tanques  utilizamos &quot;);&#xD;
+&#xD;
+     jLabel23.setText(&quot;el teorema de torricelli donde &quot;);&#xD;
+&#xD;
+     jLabel24.setText(&quot;la rapidez de salidad del agua es  &quot;);&#xD;
+&#xD;
+     jLabel25.setText(&quot;principalmente una funcion de p&quot;);&#xD;
+&#xD;
+     jLabel26.setText(&quot;si el tanque esta abierto a la atmosfera,&quot;);&#xD;
+&#xD;
+     jLabel27.setText(&quot;en tal caso  p=p0  y  v1= √2gh&quot;);&#xD;
+&#xD;
+     javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);&#xD;
+     jPanel2.setLayout(jPanel2Layout);&#xD;
+     jPanel2Layout.setHorizontalGroup(&#xD;
+         jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addGap(29, 29, 29)&#xD;
+             .addComponent(jLabel1))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel2)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addGap(77, 77, 77)&#xD;
+             .addComponent(jLabel7))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addGap(41, 41, 41)&#xD;
+             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addGap(106, 106, 106)&#xD;
+             .addComponent(jLabel8))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel9))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel13))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel16))&#xD;
+         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)&#xD;
+             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()&#xD;
+                 .addContainerGap()&#xD;
+                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                     .addComponent(jLabel4)&#xD;
+                     .addComponent(jLabel5)&#xD;
+                     .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+                         .addGap(31, 31, 31)&#xD;
+                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)&#xD;
+                             .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)&#xD;
+                             .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)&#xD;
+                             .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)&#xD;
+                             .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))&#xD;
+                     .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+                         .addGap(88, 88, 88)&#xD;
+                         .addComponent(jLabel3))))&#xD;
+             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()&#xD;
+                 .addGap(40, 40, 40)&#xD;
+                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                     .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+                         .addComponent(jLabel12)&#xD;
+                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+                         .addComponent(jTextField4))&#xD;
+                     .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)&#xD;
+                             .addComponent(jLabel11)&#xD;
+                             .addComponent(jLabel10))&#xD;
+                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                             .addComponent(jTextField2)&#xD;
+                             .addComponent(jTextField3)))))&#xD;
+             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()&#xD;
+                 .addGap(38, 38, 38)&#xD;
+                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                     .addComponent(jLabel14)&#xD;
+                     .addComponent(jLabel15))&#xD;
+                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                     .addComponent(jTextField6)&#xD;
+                     .addComponent(jTextField5)))&#xD;
+             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel2Layout.createSequentialGroup()&#xD;
+                 .addGap(288, 288, 288)&#xD;
+                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                     .addComponent(jLabel18)&#xD;
+                     .addComponent(jLabel17))&#xD;
+                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                     .addComponent(jTextField7)&#xD;
+                     .addComponent(jTextField8))))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)&#xD;
+                 .addComponent(jLabel20, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)&#xD;
+                 .addComponent(jLabel19, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel22))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel23))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)&#xD;
+                 .addComponent(jLabel27, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)&#xD;
+                 .addComponent(jLabel26, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 240, Short.MAX_VALUE)&#xD;
+                 .addComponent(jLabel24, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))&#xD;
+     );&#xD;
+     jPanel2Layout.setVerticalGroup(&#xD;
+         jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGroup(jPanel2Layout.createSequentialGroup()&#xD;
+             .addContainerGap()&#xD;
+             .addComponent(jLabel1)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel2)&#xD;
+                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel7)&#xD;
+             .addGap(3, 3, 3)&#xD;
+             .addComponent(jButton5)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel3)&#xD;
+             .addGap(10, 10, 10)&#xD;
+             .addComponent(jLabel4)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addGap(7, 7, 7)&#xD;
+             .addComponent(jLabel5)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jButton1)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jButton3)&#xD;
+             .addGap(69, 69, 69)&#xD;
+             .addComponent(jLabel8)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel9)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+                 .addComponent(jLabel10))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel11)&#xD;
+                 .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel12)&#xD;
+                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel13)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel14)&#xD;
+                 .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel15)&#xD;
+                 .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel16)&#xD;
+             .addGap(18, 18, 18)&#xD;
+             .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)&#xD;
+             .addComponent(jLabel21)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)&#xD;
+             .addComponent(jLabel22)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel23)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel25)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addComponent(jLabel27)&#xD;
+             .addGap(247, 247, 247)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel17)&#xD;
+                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)&#xD;
+             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)&#xD;
+                 .addComponent(jLabel18)&#xD;
+                 .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))&#xD;
+     );&#xD;
+&#xD;
+     jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {&#xD;
+         public void mouseClicked(java.awt.event.MouseEvent evt) {&#xD;
+             jPanel1MouseClicked(evt);&#xD;
+         }&#xD;
+     });&#xD;
+&#xD;
+     javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);&#xD;
+     jPanel1.setLayout(jPanel1Layout);&#xD;
+     jPanel1Layout.setHorizontalGroup(&#xD;
+         jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGap(0, 1097, Short.MAX_VALUE)&#xD;
+     );&#xD;
+     jPanel1Layout.setVerticalGroup(&#xD;
+         jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGap(0, 700, Short.MAX_VALUE)&#xD;
+     );&#xD;
+&#xD;
+     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());&#xD;
+     getContentPane().setLayout(layout);&#xD;
+     layout.setHorizontalGroup(&#xD;
+         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGroup(layout.createSequentialGroup()&#xD;
+             .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 106, Short.MAX_VALUE)&#xD;
+             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+             .addGap(26, 26, 26))&#xD;
+     );&#xD;
+     layout.setVerticalGroup(&#xD;
+         layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+         .addGroup(layout.createSequentialGroup()&#xD;
+             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)&#xD;
+                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)&#xD;
+                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1096, javax.swing.GroupLayout.PREFERRED_SIZE))&#xD;
+             .addGap(0, 132, Short.MAX_VALUE))&#xD;
+     );&#xD;
+&#xD;
+     pack();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSCkcCs0Ee29nJQfP1zSZQ" name="jPanel1MouseClicked" specification="_MPAekCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSCkcSs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jPanel1MouseClicked&#xD;
+     try {&#xD;
+         if (selt) {&#xD;
+             if (selecciono(evt)) {&#xD;
+                 if (buscarseleccionado(evt).isTan()) {&#xD;
+                     JOptionPane.showMessageDialog(null, &quot;Seleccione barrios no tanques.&quot;);&#xD;
+                 } else {&#xD;
+                     L = ciudad.ProponerConexiones(buscarseleccionado(evt));&#xD;
+                     selt = false;&#xD;
+                     jPanel1.setL(L);&#xD;
+                 }&#xD;
+             }&#xD;
+         } else {&#xD;
+             if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Seleccionar acción&quot;)) {&#xD;
+                 JOptionPane.showMessageDialog(null, &quot;No has seleccionado Acción&quot;);&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Agregar Barrio&quot;)) {&#xD;
+                 if (!selecciono(evt)) {&#xD;
+                     barrio = new Barrio(evt.getX() - 75, evt.getY() - 75, Integer.parseInt(JOptionPane.showInputDialog(&quot;Ingrese la cantidad de habitantes del barrio&quot;)), JOptionPane.showInputDialog(&quot;Ingrese el nombre del barrio&quot;));&#xD;
+                     nodo = new Nodo(barrio);&#xD;
+                     ciudad.add(nodo);&#xD;
+                 } else {&#xD;
+                     JOptionPane.showMessageDialog(null, &quot;No puedes instalar una Construccion sobre otra&quot;);&#xD;
+                 }&#xD;
+&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Agregar Tanque&quot;)) {&#xD;
+                 if (!selecciono(evt)) {&#xD;
+                     tanque = new Tanque(Integer.parseInt(JOptionPane.showInputDialog(&quot;Ingrese la capacidad del Tanque&quot;)), evt.getX() - 45, evt.getY() - 45);&#xD;
+                     if (tanque.getCostoTotal() &lt;= saldo) {&#xD;
+                         nodo = new Nodo(tanque);&#xD;
+                         ciudad.add(nodo);&#xD;
+                         saldo = saldo - (tanque.getCapacidad_maxima() * 100);&#xD;
+                     } else {&#xD;
+                         JOptionPane.showMessageDialog(null, &quot;El costo del tanque supera tu saldo.&quot; + &quot;\n&quot; + &quot;Precio bruto:  &quot; + tanque.getPrecioBruto() + &quot; \n&quot; + &quot;Mano de Obra: &quot; + tanque.getManoObra() + &quot;\n&quot; + &quot;Costo total:&quot; + tanque.getCostoTotal() + &quot;\n&quot; + &quot;saldo: &quot; + saldo);&#xD;
+                         tanque = null;&#xD;
+                     }&#xD;
+&#xD;
+                 } else {&#xD;
+                     JOptionPane.showMessageDialog(null, &quot;No puedes instalar una Construccion sobre otra&quot;);&#xD;
+                 }&#xD;
+&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Agregar Tubo&quot;)) {&#xD;
+                 int xini = 0, yini = 0, xfin = 0, yfin = 0;&#xD;
+                 if (seleccionado1 == null &amp;&amp; seleccionado2 == null) {&#xD;
+                     if (buscarseleccionado(evt) != null) {&#xD;
+                         seleccionado1 = buscarseleccionado(evt);&#xD;
+                     }&#xD;
+                 } else {&#xD;
+                     if (buscarseleccionado(evt) != null &amp;&amp; seleccionado1 != buscarseleccionado(evt)) {&#xD;
+                         seleccionado2 = buscarseleccionado(evt);&#xD;
+                         if (!seleccionado1.isTan() &amp;&amp; seleccionado2.isTan()) {&#xD;
+                             JOptionPane.showMessageDialog(null, &quot;No se puede crear una tubo en direccion de una casa a un tanque&quot; + &quot;\n&quot; + &quot;\n&quot; + &quot;Seleccione de nuevo puntos lógicos&quot;);&#xD;
+                             seleccionado1 = null;&#xD;
+                             seleccionado2 = null;&#xD;
+                         } else {&#xD;
+                             if (seleccionado1.isTan()) {&#xD;
+                                 xini = seleccionado1.getTanque().getX() + 45;&#xD;
+                                 yini = seleccionado1.getTanque().getY() + 45;&#xD;
+                             } else {&#xD;
+                                 xini = seleccionado1.getBarrio().getX() + 75;&#xD;
+                                 yini = seleccionado1.getBarrio().getY() + 75;&#xD;
+                             }&#xD;
+                             if (seleccionado2.isTan()) {&#xD;
+                                 xfin = seleccionado2.getTanque().getX() + 45;&#xD;
+                                 yfin = seleccionado2.getTanque().getY() + 45;&#xD;
+                             } else {&#xD;
+                                 xfin = seleccionado2.getBarrio().getX() + 75;&#xD;
+                                 yfin = seleccionado2.getBarrio().getY() + 75;&#xD;
+                             }&#xD;
+&#xD;
+                             tubo = new Tubo(Integer.parseInt(JOptionPane.showInputDialog(&quot;ingrese la capacidad del tubo&quot;)), 0, xini, xfin, yini, yfin);&#xD;
+                             if (tubo.getCostoTotal() &lt;= saldo) {&#xD;
+                                 ciudad.add(seleccionado1, seleccionado2, tubo);&#xD;
+                                 seleccionado1 = null;&#xD;
+                                 seleccionado2 = null;&#xD;
+                                 saldo = saldo - tubo.getCostoTotal();&#xD;
+                                 jTextField1.setText(&quot;&quot; + saldo);&#xD;
+                             } else {&#xD;
+                                 JOptionPane.showMessageDialog(null, &quot;El costo del tubo supera tu saldo.&quot; + &quot;\n&quot; + &quot;Precio bruto:  &quot; + tubo.getPrecioBruto() + &quot; \n&quot; + &quot;Mano de Obra: &quot; + tubo.getManoObra() + &quot;\n&quot; + &quot;Costo total:&quot; + tubo.getCostoTotal() + &quot;\n&quot; + &quot;saldo: &quot; + saldo);&#xD;
+                                 seleccionado1 = null;&#xD;
+                                 seleccionado2 = null;&#xD;
+                                 tubo = null;&#xD;
+                             }&#xD;
+                             desbyinsatis();&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Obstruir tubo&quot;)) {&#xD;
+                 if (!Haytubos()) {&#xD;
+                     JOptionPane.showMessageDialog(null, &quot;No hay tubos para simular Obstrucciones&quot;);&#xD;
+                 } else {&#xD;
+                     for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+                         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+                             if (ciudad.conexiones[i][j] != null) {&#xD;
+                                 if (intersectatubo(ciudad.conexiones[i][j], evt)) {&#xD;
+                                     ciudad.conexiones[i][j].setObst(true);&#xD;
+                                 }&#xD;
+                             }&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+                 desbyinsatis();&#xD;
+                 if (tubosobstruidos()) {&#xD;
+                     jButton1.setVisible(true);&#xD;
+                 } else {&#xD;
+                     jButton1.setVisible(false);&#xD;
+                     ciudad.RutasAlternas(ciudad.Nodos.getFirst(), ciudad.Nodos.getLast());&#xD;
+                 }&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Cambiar direccion de tubo&quot;)) {&#xD;
+                 for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+                     for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+                         if (ciudad.conexiones[i][j] != null) {&#xD;
+                             if (intersectatubo(ciudad.conexiones[i][j], evt)) {&#xD;
+                                 if (!ciudad.Nodos.get(j).isTan() &amp;&amp; ciudad.Nodos.get(i).isTan()) {&#xD;
+                                     JOptionPane.showMessageDialog(null, &quot;No se puede enviar agua de una casa a un tanque.&quot; + &quot;\n&quot; + &quot;\n&quot; + &quot;Intente seleccionando un tub diferente.&quot;);&#xD;
+                                 } else {&#xD;
+                                     if (ciudad.conexiones[i][j].getPrecioBruto() &lt;= saldo) {&#xD;
+                                         Tubo t = new Tubo(ciudad.conexiones[i][j].getCapacidad(), ciudad.conexiones[i][j].getTransportando(), ciudad.conexiones[i][j].getXfin(), ciudad.conexiones[i][j].getXini(), ciudad.conexiones[i][j].getYfin(), ciudad.conexiones[i][j].getYini());&#xD;
+                                         ciudad.conexiones[j][i] = t;&#xD;
+                                         ciudad.conexiones[i][j] = null;&#xD;
+                                         saldo = saldo - ciudad.conexiones[i][j].getPrecioBruto();&#xD;
+                                         jTextField1.setText(&quot;&quot; + saldo);&#xD;
+                                     } else {&#xD;
+                                         JOptionPane.showMessageDialog(null, &quot;No tienes saldo suficiente para cambiar la direccion del tubo.&quot; + &quot;\n&quot; + &quot;Precio de Cambio:  &quot; + tanque.getPrecioBruto() + &quot;\n&quot; + &quot;saldo: &quot; + saldo);&#xD;
+                                     }&#xD;
+                                     return;&#xD;
+                                 }&#xD;
+&#xD;
+                             }&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+                 desbyinsatis();&#xD;
+                 if (tubosobstruidos()) {&#xD;
+                     jButton1.setVisible(true);&#xD;
+                 } else {&#xD;
+                     jButton1.setVisible(false);&#xD;
+                     ciudad.RutasAlternas(ciudad.Nodos.getFirst(), ciudad.Nodos.getLast());&#xD;
+                 }&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Reparar tubo&quot;)) {&#xD;
+                 if (!Haytubos()) {&#xD;
+                     JOptionPane.showMessageDialog(null, &quot;No hay tubos para simular Obstrucciones&quot;);&#xD;
+                 } else {&#xD;
+                     for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+                         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+                             if (ciudad.conexiones[i][j] != null) {&#xD;
+                                 if (intersectatubo(ciudad.conexiones[i][j], evt)) {&#xD;
+                                     if (ciudad.conexiones[i][j].getManoObra() &lt;= saldo) {&#xD;
+                                         ciudad.conexiones[i][j].setObst(false);&#xD;
+                                         saldo = saldo - ciudad.conexiones[i][j].getManoObra();&#xD;
+                                         jTextField1.setText(&quot;&quot; + saldo);&#xD;
+                                     } else {&#xD;
+                                         JOptionPane.showMessageDialog(null, &quot;No tienes saldo suficiente para reparar el tubo.&quot; + &quot;\n&quot; + &quot;Costo de reparacion:  &quot; + tanque.getManoObra() + &quot;\n&quot; + &quot;saldo: &quot; + saldo);&#xD;
+                                     }&#xD;
+                                 }&#xD;
+                             }&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+                 desbyinsatis();&#xD;
+             } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Ver detalles&quot;)) {&#xD;
+                 jLabel8.setVisible(false);&#xD;
+                 jLabel9.setVisible(false);&#xD;
+                 jLabel10.setVisible(false);&#xD;
+                 jLabel11.setVisible(false);&#xD;
+                 jLabel12.setVisible(false);&#xD;
+                 jLabel13.setVisible(false);&#xD;
+                 jLabel14.setVisible(false);&#xD;
+                 jLabel15.setVisible(false);&#xD;
+                 jLabel16.setVisible(false);&#xD;
+                 jLabel17.setVisible(false);&#xD;
+                 jLabel18.setVisible(false);&#xD;
+                 jTextField2.setVisible(false);&#xD;
+                 jTextField3.setVisible(false);&#xD;
+                 jTextField4.setVisible(false);&#xD;
+                 jTextField5.setVisible(false);&#xD;
+                 jTextField6.setVisible(false);&#xD;
+                 jTextField7.setVisible(false);&#xD;
+                 jTextField8.setVisible(false);&#xD;
+                 jTextField2.setText(&quot;&quot;);&#xD;
+                 jTextField3.setText(&quot;&quot;);&#xD;
+                 jTextField4.setText(&quot;&quot;);&#xD;
+                 jTextField5.setText(&quot;&quot;);&#xD;
+                 jTextField6.setText(&quot;&quot;);&#xD;
+                 jTextField7.setText(&quot;&quot;);&#xD;
+                 jTextField8.setText(&quot;&quot;);&#xD;
+                 if (buscarseleccionado(evt) != null) {&#xD;
+                     jLabel8.setVisible(true);&#xD;
+                     if (!buscarseleccionado(evt).tan) {&#xD;
+                         jLabel9.setVisible(true);&#xD;
+                         jLabel10.setVisible(true);&#xD;
+                         jLabel11.setVisible(true);&#xD;
+                         jLabel12.setVisible(true);&#xD;
+                         jTextField2.setVisible(true);&#xD;
+                         jTextField3.setVisible(true);&#xD;
+                         jTextField4.setVisible(true);&#xD;
+                         jTextField2.setText(buscarseleccionado(evt).barrio.getNombre());&#xD;
+                         jTextField3.setText(&quot;&quot; + buscarseleccionado(evt).barrio.getNecesidad());&#xD;
+                         jTextField4.setText(&quot;&quot; + buscarseleccionado(evt).barrio.getActual());&#xD;
+                     } else {&#xD;
+                         jLabel13.setVisible(true);&#xD;
+                         jLabel14.setVisible(true);&#xD;
+                         jLabel15.setVisible(true);&#xD;
+                         jTextField5.setVisible(true);&#xD;
+                         jTextField6.setVisible(true);&#xD;
+                         jTextField5.setText(&quot;&quot; + buscarseleccionado(evt).tanque.getCapacidad_maxima());&#xD;
+                         jTextField6.setText(&quot;&quot; + buscarseleccionado(evt).tanque.getAgua());&#xD;
+&#xD;
+                     }&#xD;
+                 } else {&#xD;
+                     for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+                         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+                             if (ciudad.conexiones[i][j] != null) {&#xD;
+                                 if (intersectatubo(ciudad.conexiones[i][j], evt)) {&#xD;
+                                     jLabel8.setVisible(true);&#xD;
+                                     jTextField7.setText(&quot;&quot; + ciudad.conexiones[i][j].getCapacidad());&#xD;
+                                     jTextField8.setText(&quot;&quot; + ciudad.conexiones[i][j].getTransportando());&#xD;
+                                     jLabel16.setVisible(true);&#xD;
+                                     jLabel17.setVisible(true);&#xD;
+                                     jLabel18.setVisible(true);&#xD;
+                                     jTextField7.setVisible(true);&#xD;
+                                     jTextField8.setVisible(true);&#xD;
+                                 }&#xD;
+                             }&#xD;
+                         }&#xD;
+                     }&#xD;
+                 }&#xD;
+             }&#xD;
+             if (Haytubos()) {&#xD;
+                 if (tubosobstruidos()) {&#xD;
+                     jButton1.setVisible(true);&#xD;
+                 } else {&#xD;
+                     jButton1.setVisible(false);&#xD;
+                     ciudad.RutasAlternas(ciudad.Nodos.getFirst(), ciudad.Nodos.getLast());&#xD;
+                 }&#xD;
+             }&#xD;
+&#xD;
+         }&#xD;
+     } catch (HeadlessException | NumberFormatException e) {&#xD;
+     }&#xD;
+     repaint();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSCkcis0Ee29nJQfP1zSZQ" name="jTextField1ActionPerformed" specification="_MPEI8Cs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSCkcys0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jTextField1ActionPerformed&#xD;
+     jTextField1.setText(&quot;paspasasasa&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSCkdCs0Ee29nJQfP1zSZQ" name="jButton5ActionPerformed" specification="_MPEwACs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSCkdSs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jButton5ActionPerformed&#xD;
+     if (!ciudad.Nodos.isEmpty()) {&#xD;
+         ciudad = new Acueducto();&#xD;
+     }&#xD;
+     ciudad.leerMapa();&#xD;
+     jPanel1.setCiudad(ciudad);&#xD;
+     desbyinsatis();&#xD;
+     jPanel1.repaint();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSCkdis0Ee29nJQfP1zSZQ" name="jButton3ActionPerformed" specification="_MPFXECs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSCkdys0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jButton3ActionPerformed&#xD;
+     L = ciudad.ProponerConexiones(null);&#xD;
+     jPanel1.setL(L);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSDLgCs0Ee29nJQfP1zSZQ" name="jButton2ActionPerformed" specification="_MPGlMCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSDLgSs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jButton2ActionPerformed&#xD;
+     selt = true;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSDykCs0Ee29nJQfP1zSZQ" name="jButton1ActionPerformed" specification="_MPHMQSs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSDykSs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jButton1ActionPerformed&#xD;
+     for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+             if (ciudad.conexiones[i][j] != null) {&#xD;
+                 ciudad.conexiones[i][j].setAlterna(false);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+             if (ciudad.conexiones[i][j] != null) {&#xD;
+                 if (ciudad.conexiones[i][j].isObst()) {&#xD;
+                     ciudad.RutasAlternas(ciudad.Nodos.get(i), ciudad.Nodos.get(j));&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSDykis0Ee29nJQfP1zSZQ" name="jComboBox1ActionPerformed" specification="_MPIaYCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSDykys0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+          <language>java</language>
+          <body>//GEN-FIRST:event_jComboBox1ActionPerformed&#xD;
+     if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Proponer nuevos tubos&quot;)) {&#xD;
+         jButton2.setVisible(true);&#xD;
+         jButton3.setVisible(true);&#xD;
+     } else if (jComboBox1.getSelectedItem().toString().equalsIgnoreCase(&quot;Ingresar restriccion de tanques&quot;)) {&#xD;
+         LinkedList&lt;Nodo> tanques = ciudad.Restriccion(Integer.parseInt(JOptionPane.showInputDialog(&quot;Ingrese la restriccion&quot;)));&#xD;
+         ciudad = new Acueducto();&#xD;
+         jPanel1.setCiudad(ciudad);&#xD;
+         jPanel1.setTanques(tanques);&#xD;
+         jPanel1.repaint();&#xD;
+     } else {&#xD;
+         jButton2.setVisible(false);&#xD;
+         jButton3.setVisible(false);&#xD;
+         L = new LinkedList&lt;Tubo>();&#xD;
+         jPanel1.setL(L);&#xD;
+         selt = false;&#xD;
+     }&#xD;
+     jLabel8.setVisible(false);&#xD;
+     jLabel9.setVisible(false);&#xD;
+     jLabel10.setVisible(false);&#xD;
+     jLabel11.setVisible(false);&#xD;
+     jLabel12.setVisible(false);&#xD;
+     jLabel13.setVisible(false);&#xD;
+     jLabel14.setVisible(false);&#xD;
+     jLabel15.setVisible(false);&#xD;
+     jLabel16.setVisible(false);&#xD;
+     jLabel17.setVisible(false);&#xD;
+     jLabel18.setVisible(false);&#xD;
+     jTextField2.setVisible(false);&#xD;
+     jTextField3.setVisible(false);&#xD;
+     jTextField4.setVisible(false);&#xD;
+     jTextField5.setVisible(false);&#xD;
+     jTextField6.setVisible(false);&#xD;
+     jTextField7.setVisible(false);&#xD;
+     jTextField8.setVisible(false);&#xD;
+     repaint();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSDylCs0Ee29nJQfP1zSZQ" name="desbyinsatis" specification="_MIIagSs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>for (int i = 0; i &lt; ciudad.Nodos.size(); i++) {&#xD;
+         if (ciudad.Nodos.get(i).isTan()) {&#xD;
+             ciudad.Nodos.get(i).getTanque().setAgua(ciudad.Nodos.get(i).getTanque().getCapacidad_maxima());&#xD;
+         } else {&#xD;
+             ciudad.Nodos.get(i).getBarrio().setActual(0);&#xD;
+         }&#xD;
+     }&#xD;
+     for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+             if (ciudad.conexiones[i][j] != null) {&#xD;
+                 ciudad.conexiones[i][j].setTransportando(0);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     ciudad.TransportarAgua();&#xD;
+     for (int i = 0; i &lt; ciudad.Nodos.size(); i++) {&#xD;
+         if (ciudad.Nodos.get(i).isTan()) {&#xD;
+             if (ciudad.Nodos.get(i).getTanque().getAgua() > ciudad.Nodos.get(i).getTanque().getCapacidad_maxima()) {&#xD;
+                 ciudad.Nodos.get(i).getTanque().setDesbordo(true);&#xD;
+             } else {&#xD;
+                 ciudad.Nodos.get(i).getTanque().setDesbordo(false);&#xD;
+             }&#xD;
+         } else {&#xD;
+             if (ciudad.Nodos.get(i).getBarrio().getActual() > ciudad.Nodos.get(i).getBarrio().getNecesidad()) {&#xD;
+                 ciudad.Nodos.get(i).getBarrio().setDesbordo(true);&#xD;
+             } else {&#xD;
+                 ciudad.Nodos.get(i).getBarrio().setDesbordo(false);&#xD;
+             }&#xD;
+             if (ciudad.Nodos.get(i).getBarrio().getActual() &lt; ciudad.Nodos.get(i).getBarrio().getNecesidad()) {&#xD;
+                 ciudad.Nodos.get(i).getBarrio().setInsatisfecho(true);&#xD;
+             } else {&#xD;
+                 ciudad.Nodos.get(i).getBarrio().setInsatisfecho(false);&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSEZoCs0Ee29nJQfP1zSZQ" name="main" specification="_MIJooCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSEZoSs0Ee29nJQfP1zSZQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MSEZois0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {&#xD;
+         for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {&#xD;
+             if (&quot;Nimbus&quot;.equals(info.getName())) {&#xD;
+                 javax.swing.UIManager.setLookAndFeel(info.getClassName());&#xD;
+                 break;&#xD;
+&#xD;
+&#xD;
+             }&#xD;
+         }&#xD;
+     } catch (ClassNotFoundException ex) {&#xD;
+         java.util.logging.Logger.getLogger(ventanaTubos.class&#xD;
+                 .getName()).log(java.util.logging.Level.SEVERE, null, ex);&#xD;
+     } catch (InstantiationException ex) {&#xD;
+         java.util.logging.Logger.getLogger(ventanaTubos.class&#xD;
+                 .getName()).log(java.util.logging.Level.SEVERE, null, ex);&#xD;
+     } catch (IllegalAccessException ex) {&#xD;
+         java.util.logging.Logger.getLogger(ventanaTubos.class&#xD;
+                 .getName()).log(java.util.logging.Level.SEVERE, null, ex);&#xD;
+     } catch (javax.swing.UnsupportedLookAndFeelException ex) {&#xD;
+         java.util.logging.Logger.getLogger(ventanaTubos.class&#xD;
+                 .getName()).log(java.util.logging.Level.SEVERE, null, ex);&#xD;
+     }&#xD;
+     //&lt;/editor-fold>&#xD;
+     //&lt;/editor-fold>&#xD;
+&#xD;
+     /* Create and display the form */&#xD;
+     java.awt.EventQueue.invokeLater(new Runnable() {&#xD;
+         @Override&#xD;
+         public void run() {&#xD;
+             new ventanaTubos().setVisible(true);&#xD;
+         }&#xD;
+     });&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSFAsCs0Ee29nJQfP1zSZQ" name="selecciono" specification="_MQDAYCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSFAsSs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MSFAsis0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; ciudad.Nodos.size(); i++) {&#xD;
+         Nodo nodo2 = ciudad.Nodos.get(i);&#xD;
+         if (nodo2.isTan()) {&#xD;
+             if ((evt.getX() > nodo2.getTanque().getX() &amp;&amp; evt.getX() &lt; nodo2.getTanque().getX() + nodo2.getTanque().getAncho()) &amp;&amp; (evt.getY() > nodo2.getTanque().getY() &amp;&amp; evt.getY() &lt; nodo2.getTanque().getY() + nodo2.getTanque().getAlto())) {&#xD;
+                 return true;&#xD;
+             }&#xD;
+         } else {&#xD;
+             if ((evt.getX() > nodo2.getBarrio().getX() &amp;&amp; evt.getX() &lt; nodo2.getBarrio().getX() + nodo2.getBarrio().getAncho()) &amp;&amp; (evt.getY() > nodo2.getBarrio().getY() &amp;&amp; evt.getY() &lt; nodo2.getBarrio().getY() + nodo2.getBarrio().getAlto())) {&#xD;
+                 return true;&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSFAsys0Ee29nJQfP1zSZQ" name="buscarseleccionado" specification="_MQDncCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSFAtCs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MSFAtSs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; ciudad.Nodos.size(); i++) {&#xD;
+         Nodo nodo2 = ciudad.Nodos.get(i);&#xD;
+         if (nodo2.isTan()) {&#xD;
+             if ((evt.getX() > nodo2.getTanque().getX() &amp;&amp; evt.getX() &lt; nodo2.getTanque().getX() + nodo2.getTanque().getAncho()) &amp;&amp; (evt.getY() > nodo2.getTanque().getY() &amp;&amp; evt.getY() &lt; nodo2.getTanque().getY() + nodo2.getTanque().getAlto())) {&#xD;
+                 return nodo2;&#xD;
+             }&#xD;
+         } else {&#xD;
+             if ((evt.getX() > nodo2.getBarrio().getX() &amp;&amp; evt.getX() &lt; nodo2.getBarrio().getX() + nodo2.getBarrio().getAncho()) &amp;&amp; (evt.getY() > nodo2.getBarrio().getY() &amp;&amp; evt.getY() &lt; nodo2.getBarrio().getY() + nodo2.getBarrio().getAlto())) {&#xD;
+                 return nodo2;&#xD;
+             }&#xD;
+         }&#xD;
+&#xD;
+     }&#xD;
+     return null;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSFAtis0Ee29nJQfP1zSZQ" name="Haytubos" specification="_MIN6ECs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSFAtys0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+             if (ciudad.conexiones[i][j] != null) {&#xD;
+                 return true;&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSFnwCs0Ee29nJQfP1zSZQ" name="contarsaldo" specification="_MIPIMSs0Ee29nJQfP1zSZQ">
+          <language>java</language>
+          <body>Thread h = new Thread(new Runnable() {&#xD;
+         @Override&#xD;
+         public void run() {&#xD;
+             while (true) {&#xD;
+                 try {&#xD;
+                     saldo = saldo + 20;&#xD;
+                     jTextField1.setText(&quot;&quot; + saldo);&#xD;
+                     Thread.sleep(5000);&#xD;
+                 } catch (Exception e) {&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     });&#xD;
+     h.start();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSFnwSs0Ee29nJQfP1zSZQ" name="intersectatubo" specification="_MQEOgSs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSFnwis0Ee29nJQfP1zSZQ" name="tubo" type="_MI_9MCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MSFnwys0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MSFnxCs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Rectangle2D click = new Rectangle2D.Double(evt.getX(), evt.getY(), 2, 2);&#xD;
+     int posxi = tubo.getXini() - 5;&#xD;
+     int posxf = tubo.getXfin() - 5;&#xD;
+     int posyi = tubo.getYini() - 5;&#xD;
+     int posyf = tubo.getYfin() - 5;&#xD;
+     for (int i = 0; i &lt; 10; i++) {&#xD;
+         if (click.intersectsLine(posxi, posyi, posxf, posyf)) {&#xD;
+             return true;&#xD;
+         }&#xD;
+         posxi++;&#xD;
+         posxf++;&#xD;
+         posyi++;&#xD;
+         posyf++;&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MSFnxSs0Ee29nJQfP1zSZQ" name="tubosobstruidos" specification="_MIQWUCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MSFnxis0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>for (int i = 0; i &lt; ciudad.conexiones.length; i++) {&#xD;
+         for (int j = 0; j &lt; ciudad.conexiones.length; j++) {&#xD;
+             if (ciudad.conexiones[i][j] != null) {&#xD;
+                 if (ciudad.conexiones[i][j].isObst()) {&#xD;
+                     return true;&#xD;
+                 }&#xD;
+             }&#xD;
+         }&#xD;
+     }&#xD;
+     return false;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MIF-QCs0Ee29nJQfP1zSZQ" name="ventanaTubos" method="_MSBWUCs0Ee29nJQfP1zSZQ">
+          <eAnnotations xmi:id="_MIF-QSs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MIGlUCs0Ee29nJQfP1zSZQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MIGlUSs0Ee29nJQfP1zSZQ" type="_MIAesCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MIGlUis0Ee29nJQfP1zSZQ" name="initComponents" visibility="private" method="_MSB9YCs0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MIIagSs0Ee29nJQfP1zSZQ" name="desbyinsatis" method="_MSDylCs0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MIJooCs0Ee29nJQfP1zSZQ" name="main" isStatic="true" method="_MSEZoCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MIKPsCs0Ee29nJQfP1zSZQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MIK2wSs0Ee29nJQfP1zSZQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MIN6ECs0Ee29nJQfP1zSZQ" name="Haytubos" visibility="private" method="_MSFAtis0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MIPIMCs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MIPIMSs0Ee29nJQfP1zSZQ" name="contarsaldo" visibility="private" method="_MSFnwCs0Ee29nJQfP1zSZQ"/>
+        <ownedOperation xmi:id="_MIQWUCs0Ee29nJQfP1zSZQ" name="tubosobstruidos" visibility="private" method="_MSFnxSs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MIQ9YCs0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPAekCs0Ee29nJQfP1zSZQ" name="jPanel1MouseClicked" visibility="private" method="_MSCkcCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPBFoCs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPEI8Cs0Ee29nJQfP1zSZQ" name="jTextField1ActionPerformed" visibility="private" method="_MSCkcis0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPEI8Ss0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPEwACs0Ee29nJQfP1zSZQ" name="jButton5ActionPerformed" visibility="private" method="_MSCkdCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPEwASs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPFXECs0Ee29nJQfP1zSZQ" name="jButton3ActionPerformed" visibility="private" method="_MSCkdis0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPF-ICs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPGlMCs0Ee29nJQfP1zSZQ" name="jButton2ActionPerformed" visibility="private" method="_MSDLgCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPHMQCs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPHMQSs0Ee29nJQfP1zSZQ" name="jButton1ActionPerformed" visibility="private" method="_MSDykCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPHzUCs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MPIaYCs0Ee29nJQfP1zSZQ" name="jComboBox1ActionPerformed" visibility="private" method="_MSDykis0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MPJBcCs0Ee29nJQfP1zSZQ" name="evt" type="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MQDAYCs0Ee29nJQfP1zSZQ" name="selecciono" visibility="private" method="_MSFAsCs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MQDAYSs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MQDAYis0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MQDncCs0Ee29nJQfP1zSZQ" name="buscarseleccionado" visibility="private" method="_MSFAsys0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MQDncSs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MQEOgCs0Ee29nJQfP1zSZQ" type="_MHC1YCs0Ee29nJQfP1zSZQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MQEOgSs0Ee29nJQfP1zSZQ" name="intersectatubo" visibility="private" method="_MSFnwSs0Ee29nJQfP1zSZQ">
+          <ownedParameter xmi:id="_MQE1kCs0Ee29nJQfP1zSZQ" name="tubo" type="_MI_9MCs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MQE1kSs0Ee29nJQfP1zSZQ" name="evt" type="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+          <ownedParameter xmi:id="_MQE1kis0Ee29nJQfP1zSZQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSPYwCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MQVUQCs0Ee29nJQfP1zSZQ _MSPYwSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSPYwSs0Ee29nJQfP1zSZQ" name="" type="_MGrpACs0Ee29nJQfP1zSZQ" association="_MSPYwCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSkv8Cs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSkv8Ss0Ee29nJQfP1zSZQ _MQXJcSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSkv8Ss0Ee29nJQfP1zSZQ" name="" type="_MGrpACs0Ee29nJQfP1zSZQ" association="_MSkv8Cs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSlXACs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSlXASs0Ee29nJQfP1zSZQ _MQYXkSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSlXASs0Ee29nJQfP1zSZQ" name="" type="_MGrpACs0Ee29nJQfP1zSZQ" association="_MSlXACs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSq2kCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSq2kSs0Ee29nJQfP1zSZQ _MQivoCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSq2kSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSq2kCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSsEsCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSsEsSs0Ee29nJQfP1zSZQ _MQj9wCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSsEsSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSsEsCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MStS0Ss0Ee29nJQfP1zSZQ" name="" memberEnd="_MStS0is0Ee29nJQfP1zSZQ _MQkk0Cs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MStS0is0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MStS0Ss0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSug8Ss0Ee29nJQfP1zSZQ" name="" memberEnd="_MSug8is0Ee29nJQfP1zSZQ _MQly8Cs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSug8is0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSug8Ss0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSvvESs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSvvEis0Ee29nJQfP1zSZQ _MQmaASs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSvvEis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSvvESs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSwWICs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSwWISs0Ee29nJQfP1zSZQ _MQnBESs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSwWISs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSwWICs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSw9MSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSw9Mis0Ee29nJQfP1zSZQ _MQnoISs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSw9Mis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSw9MSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSyLUSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSyLUis0Ee29nJQfP1zSZQ _MQpdUSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSyLUis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSyLUSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MSzZcSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MSzZcis0Ee29nJQfP1zSZQ _MQr5kCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MSzZcis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MSzZcSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS0AgSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS0nkCs0Ee29nJQfP1zSZQ _MQsgoCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS0nkCs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS0AgSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS1OoSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS1Oois0Ee29nJQfP1zSZQ _MQtHsCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS1Oois0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS1OoSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS2cwSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS2cwis0Ee29nJQfP1zSZQ _MQtHsis0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS2cwis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS2cwSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS3q4Cs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS3q4Ss0Ee29nJQfP1zSZQ _MQtuwSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS3q4Ss0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS3q4Cs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS5gECs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS5gESs0Ee29nJQfP1zSZQ _MQuV0Ss0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS5gESs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS5gECs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS6HISs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS6HIis0Ee29nJQfP1zSZQ _MQvj8Ss0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS6HIis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS6HISs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS7VQCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS7VQSs0Ee29nJQfP1zSZQ _MQvj8ys0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS7VQSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS7VQCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS78USs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS78Uis0Ee29nJQfP1zSZQ _MQwyECs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS78Uis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS78USs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS9KcSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS9Kcis0Ee29nJQfP1zSZQ _MQyAMCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS9Kcis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS9KcSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS-YkCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS-YkSs0Ee29nJQfP1zSZQ _MQynQSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS-YkSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS-YkCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MS_msSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MS_msis0Ee29nJQfP1zSZQ _MQzOUSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MS_msis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MS_msSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTANwSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTANwis0Ee29nJQfP1zSZQ _MQ0ccSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTANwis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTANwSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTA00Ss0Ee29nJQfP1zSZQ" name="" memberEnd="_MTA00is0Ee29nJQfP1zSZQ _MQ1DgSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTA00is0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTA00Ss0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTCC8Cs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTCC8Ss0Ee29nJQfP1zSZQ _MQ1qkSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTCC8Ss0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTCC8Cs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTCqASs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTCqAis0Ee29nJQfP1zSZQ _MQ2RoSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTCqAis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTCqASs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTD4ISs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTD4Iis0Ee29nJQfP1zSZQ _MQ3fwCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTD4Iis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTD4ISs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTFGQSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTFGQis0Ee29nJQfP1zSZQ _MQ4G0Ss0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTFGQis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTFGQSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTFtUSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTFtUis0Ee29nJQfP1zSZQ _MQ4G0ys0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTFtUis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTFtUSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTG7cSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTG7cis0Ee29nJQfP1zSZQ _MQ5U8Ss0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTG7cis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTG7cSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTHigSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTHigis0Ee29nJQfP1zSZQ _MQ58ACs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTHigis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTHigSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTIwoCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTIwoSs0Ee29nJQfP1zSZQ _MQ6jESs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTIwoSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTIwoCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTJXsSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTJXsis0Ee29nJQfP1zSZQ _MQ7KISs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTJXsis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTJXsSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTJ-wSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTJ-wis0Ee29nJQfP1zSZQ _MQ7xMSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTJ-wis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTJ-wSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTLM4Ss0Ee29nJQfP1zSZQ" name="" memberEnd="_MTLM4is0Ee29nJQfP1zSZQ _MQ8YQSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTLM4is0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTLM4Ss0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTMbACs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTMbASs0Ee29nJQfP1zSZQ _MQ9mYCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTMbASs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTMbACs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTOQMSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTOQMis0Ee29nJQfP1zSZQ _MQ-NcCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTOQMis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTOQMSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTPeUSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTPeUis0Ee29nJQfP1zSZQ _MQ-0gCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTPeUis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTPeUSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTQscCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTQscSs0Ee29nJQfP1zSZQ _MQ_bkCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTQscSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTQscCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTR6kSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTR6kis0Ee29nJQfP1zSZQ _MRACoSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTR6kis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTR6kSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTShoSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTTIsCs0Ee29nJQfP1zSZQ _MRApsCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTTIsCs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTShoSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTUW0Ss0Ee29nJQfP1zSZQ" name="" memberEnd="_MTUW0is0Ee29nJQfP1zSZQ _MRBQwSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTUW0is0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTUW0Ss0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTU94Ss0Ee29nJQfP1zSZQ" name="" memberEnd="_MTU94is0Ee29nJQfP1zSZQ _MRCe4Cs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTU94is0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTU94Ss0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTWMASs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTWMAis0Ee29nJQfP1zSZQ _MRDtACs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTWMAis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTWMASs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTXaICs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTXaISs0Ee29nJQfP1zSZQ _MREUECs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTXaISs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTXaICs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTYBMSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTYBMis0Ee29nJQfP1zSZQ _MRE7ISs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTYBMis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTYBMSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTZ2YCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTZ2YSs0Ee29nJQfP1zSZQ _MRFiMSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTZ2YSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTZ2YCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTadcSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTadcis0Ee29nJQfP1zSZQ _MRGwUCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTadcis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTadcSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTbrkCs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTbrkSs0Ee29nJQfP1zSZQ _MRHXYCs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTbrkSs0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTbrkCs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTcSoSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTcSois0Ee29nJQfP1zSZQ _MRHXYis0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTcSois0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTcSoSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MTc5sSs0Ee29nJQfP1zSZQ" name="" memberEnd="_MTc5sis0Ee29nJQfP1zSZQ _MRH-cSs0Ee29nJQfP1zSZQ">
+        <ownedEnd xmi:id="_MTc5sis0Ee29nJQfP1zSZQ" name="" type="_MIAesCs0Ee29nJQfP1zSZQ" association="_MTc5sSs0Ee29nJQfP1zSZQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MEuhMCs0Ee29nJQfP1zSZQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_MEuhMSs0Ee29nJQfP1zSZQ" name="jdom2">
+        <packagedElement xmi:type="uml:Package" xmi:id="_MEuhMis0Ee29nJQfP1zSZQ" name="input">
+          <packagedElement xmi:type="uml:Class" xmi:id="_MOjyoCs0Ee29nJQfP1zSZQ" name="SAXBuilder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOeTESs0Ee29nJQfP1zSZQ" name="Document"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOgIQSs0Ee29nJQfP1zSZQ" name="Element"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_MOikgSs0Ee29nJQfP1zSZQ" name="JDOMException"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_LWrIYCs0Ee29nJQfP1zSZQ">
+      <eAnnotations xmi:id="_LWrIYSs0Ee29nJQfP1zSZQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_LWrvcCs0Ee29nJQfP1zSZQ" base_Package="_LP1gkCs0Ee29nJQfP1zSZQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MG0L4Cs0Ee29nJQfP1zSZQ" base_Element="_MGzk0Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Annotations xmi:id="_MG1aACs0Ee29nJQfP1zSZQ" base_Element="_MGzk0Cs0Ee29nJQfP1zSZQ">
+    <annotations xmi:id="_MG1aASs0Ee29nJQfP1zSZQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_MG2BECs0Ee29nJQfP1zSZQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MSQm4Cs0Ee29nJQfP1zSZQ" value="&quot;unchecked&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_MG6SgCs0Ee29nJQfP1zSZQ" base_Element="_MG4dUCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MHrukCs0Ee29nJQfP1zSZQ" genericsValue="Nodo" base_Element="_MHpSUCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MIHMYCs0Ee29nJQfP1zSZQ" base_Element="_MIGlUis0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Annotations xmi:id="_MIHzcCs0Ee29nJQfP1zSZQ" base_Element="_MIGlUis0Ee29nJQfP1zSZQ">
+    <annotations xmi:id="_MIHzcSs0Ee29nJQfP1zSZQ" name="SuppressWarnings">
+      <annotationParameters xmi:id="_MIIagCs0Ee29nJQfP1zSZQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_MSR1ASs0Ee29nJQfP1zSZQ" value="&quot;unchecked&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MIK2wCs0Ee29nJQfP1zSZQ" base_Element="_MIJooCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Array xmi:id="_MILd0Cs0Ee29nJQfP1zSZQ" base_Element="_MIKPsCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MISykCs0Ee29nJQfP1zSZQ" base_Element="_MIQ9YSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MIzv8Cs0Ee29nJQfP1zSZQ" base_Element="_MIyh0Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MI7rwCs0Ee29nJQfP1zSZQ" base_Element="_MI7EsCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOIU0Cs0Ee29nJQfP1zSZQ" base_Element="_MOGfoCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOJi8Cs0Ee29nJQfP1zSZQ" base_Element="_MOIU0Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOLYICs0Ee29nJQfP1zSZQ" base_Element="_MOKKACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOMmQCs0Ee29nJQfP1zSZQ" base_Element="_MOLYISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOZakCs0Ee29nJQfP1zSZQ" base_Element="_MOYMcCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOb20Cs0Ee29nJQfP1zSZQ" base_Element="_MOZakSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOeTECs0Ee29nJQfP1zSZQ" base_Element="_MOdE8Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOgIQCs0Ee29nJQfP1zSZQ" base_Element="_MOeTESs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOikgCs0Ee29nJQfP1zSZQ" base_Element="_MOgIQSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOjLkCs0Ee29nJQfP1zSZQ" base_Element="_MOikgSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MOln0Cs0Ee29nJQfP1zSZQ" base_Element="_MOjyoCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MOtjoCs0Ee29nJQfP1zSZQ" genericsValue="Tubo" base_Element="_MOrucCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MO3UoCs0Ee29nJQfP1zSZQ" base_Element="_MO04YCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MO5w4Cs0Ee29nJQfP1zSZQ" base_Element="_MO3UoSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MO80MCs0Ee29nJQfP1zSZQ" base_Element="_MO6_ACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MO-pYCs0Ee29nJQfP1zSZQ" base_Element="_MO80MSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MPDh4Cs0Ee29nJQfP1zSZQ" base_Element="_MPCTwCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MPKPkCs0Ee29nJQfP1zSZQ" base_Element="_MPJogCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MPN58Cs0Ee29nJQfP1zSZQ" base_Element="_MPMr0Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MPPIECs0Ee29nJQfP1zSZQ" base_Element="_MPOhACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MPTZgCs0Ee29nJQfP1zSZQ" base_Element="_MPSycCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MPj4MCs0Ee29nJQfP1zSZQ" base_Element="_MPiqECs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MP098Ss0Ee29nJQfP1zSZQ" base_Element="_MP0W4Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Annotations xmi:id="_MP1lACs0Ee29nJQfP1zSZQ" base_Element="_MP0W4Cs0Ee29nJQfP1zSZQ">
+    <annotations xmi:id="_MP1lASs0Ee29nJQfP1zSZQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_MP4BQCs0Ee29nJQfP1zSZQ" genericsValue="Nodo" base_Element="_MP2zISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MP7roCs0Ee29nJQfP1zSZQ" genericsValue="Nodo" base_Element="_MP7Ekis0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQXJcCs0Ee29nJQfP1zSZQ" base_Element="_MQWiYCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MQYXkCs0Ee29nJQfP1zSZQ" genericsValue="Tubo" base_Element="_MQXJcSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MQY-oCs0Ee29nJQfP1zSZQ" genericsValue="Nodo" base_Element="_MQYXkSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQZlsCs0Ee29nJQfP1zSZQ" base_Element="_MQYXkSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQaMwSs0Ee29nJQfP1zSZQ" base_Element="_MQaMwCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQba4Ss0Ee29nJQfP1zSZQ" base_Element="_MQba4Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQcB8Cs0Ee29nJQfP1zSZQ" base_Element="_MQba4is0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MQeeMCs0Ee29nJQfP1zSZQ" genericsValue="Nodo" base_Element="_MQdQECs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQfsUCs0Ee29nJQfP1zSZQ" base_Element="_MQdQECs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Array xmi:id="_MQgTYis0Ee29nJQfP1zSZQ" dimensions="2" base_Element="_MQgTYCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQg6cCs0Ee29nJQfP1zSZQ" base_Element="_MQgTYCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQjWsCs0Ee29nJQfP1zSZQ" base_Element="_MQivoCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQj9wSs0Ee29nJQfP1zSZQ" base_Element="_MQj9wCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQlL4Cs0Ee29nJQfP1zSZQ" base_Element="_MQkk0Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQmaACs0Ee29nJQfP1zSZQ" base_Element="_MQly8Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQnBECs0Ee29nJQfP1zSZQ" base_Element="_MQmaASs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQnoICs0Ee29nJQfP1zSZQ" base_Element="_MQnBESs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQoPMCs0Ee29nJQfP1zSZQ" base_Element="_MQnoISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQpdUCs0Ee29nJQfP1zSZQ" base_Element="_MQo2QCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MQqEYCs0Ee29nJQfP1zSZQ" genericsValue="Tubo" base_Element="_MQpdUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQqrcCs0Ee29nJQfP1zSZQ" base_Element="_MQpdUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQrSgSs0Ee29nJQfP1zSZQ" base_Element="_MQrSgCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQr5kSs0Ee29nJQfP1zSZQ" base_Element="_MQr5kCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQsgoSs0Ee29nJQfP1zSZQ" base_Element="_MQsgoCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQtHsSs0Ee29nJQfP1zSZQ" base_Element="_MQtHsCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQtuwCs0Ee29nJQfP1zSZQ" base_Element="_MQtHsis0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQuV0Cs0Ee29nJQfP1zSZQ" base_Element="_MQtuwSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQvj8Cs0Ee29nJQfP1zSZQ" base_Element="_MQuV0Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQvj8is0Ee29nJQfP1zSZQ" base_Element="_MQvj8Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQwLACs0Ee29nJQfP1zSZQ" base_Element="_MQvj8ys0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQxZICs0Ee29nJQfP1zSZQ" base_Element="_MQwyECs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQynQCs0Ee29nJQfP1zSZQ" base_Element="_MQyAMCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQzOUCs0Ee29nJQfP1zSZQ" base_Element="_MQynQSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ0ccCs0Ee29nJQfP1zSZQ" base_Element="_MQzOUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ1DgCs0Ee29nJQfP1zSZQ" base_Element="_MQ0ccSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ1qkCs0Ee29nJQfP1zSZQ" base_Element="_MQ1DgSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ2RoCs0Ee29nJQfP1zSZQ" base_Element="_MQ1qkSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ24sCs0Ee29nJQfP1zSZQ" base_Element="_MQ2RoSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ4G0Cs0Ee29nJQfP1zSZQ" base_Element="_MQ3fwCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ4G0is0Ee29nJQfP1zSZQ" base_Element="_MQ4G0Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ5U8Cs0Ee29nJQfP1zSZQ" base_Element="_MQ4G0ys0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ5U8is0Ee29nJQfP1zSZQ" base_Element="_MQ5U8Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ6jECs0Ee29nJQfP1zSZQ" base_Element="_MQ58ACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ7KICs0Ee29nJQfP1zSZQ" base_Element="_MQ6jESs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ7xMCs0Ee29nJQfP1zSZQ" base_Element="_MQ7KISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ8YQCs0Ee29nJQfP1zSZQ" base_Element="_MQ7xMSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ8_UCs0Ee29nJQfP1zSZQ" base_Element="_MQ8YQSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ9mYSs0Ee29nJQfP1zSZQ" base_Element="_MQ9mYCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ-NcSs0Ee29nJQfP1zSZQ" base_Element="_MQ-NcCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MQ-0gSs0Ee29nJQfP1zSZQ" base_Element="_MQ-0gCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRACoCs0Ee29nJQfP1zSZQ" base_Element="_MQ_bkCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRACois0Ee29nJQfP1zSZQ" base_Element="_MRACoSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRBQwCs0Ee29nJQfP1zSZQ" base_Element="_MRApsCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRB30Cs0Ee29nJQfP1zSZQ" base_Element="_MRBQwSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRCe4Ss0Ee29nJQfP1zSZQ" base_Element="_MRCe4Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRDtASs0Ee29nJQfP1zSZQ" base_Element="_MRDtACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRE7ICs0Ee29nJQfP1zSZQ" base_Element="_MREUECs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRFiMCs0Ee29nJQfP1zSZQ" base_Element="_MRE7ISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRGJQCs0Ee29nJQfP1zSZQ" base_Element="_MRFiMSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRGwUSs0Ee29nJQfP1zSZQ" base_Element="_MRGwUCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRHXYSs0Ee29nJQfP1zSZQ" base_Element="_MRHXYCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRH-cCs0Ee29nJQfP1zSZQ" base_Element="_MRHXYis0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MRH-cis0Ee29nJQfP1zSZQ" base_Element="_MRH-cSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Generics xmi:id="_MRTkoCs0Ee29nJQfP1zSZQ" genericsValue="Point" base_Element="_MRS9kSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSkv8is0Ee29nJQfP1zSZQ" base_Element="_MSkv8Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSmlICs0Ee29nJQfP1zSZQ" base_Element="_MSlXACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSnMMCs0Ee29nJQfP1zSZQ" base_Element="_MSmlISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSoaUCs0Ee29nJQfP1zSZQ" base_Element="_MSnMMSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSpocCs0Ee29nJQfP1zSZQ" base_Element="_MSoaUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSqPgCs0Ee29nJQfP1zSZQ" base_Element="_MSpocSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSrdoCs0Ee29nJQfP1zSZQ" base_Element="_MSq2kCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MStS0Cs0Ee29nJQfP1zSZQ" base_Element="_MSsEsCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSug8Cs0Ee29nJQfP1zSZQ" base_Element="_MStS0Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSvvECs0Ee29nJQfP1zSZQ" base_Element="_MSug8Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSvvEys0Ee29nJQfP1zSZQ" base_Element="_MSvvESs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSw9MCs0Ee29nJQfP1zSZQ" base_Element="_MSwWICs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSyLUCs0Ee29nJQfP1zSZQ" base_Element="_MSw9MSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MSzZcCs0Ee29nJQfP1zSZQ" base_Element="_MSyLUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS0AgCs0Ee29nJQfP1zSZQ" base_Element="_MSzZcSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS1OoCs0Ee29nJQfP1zSZQ" base_Element="_MS0AgSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS2cwCs0Ee29nJQfP1zSZQ" base_Element="_MS1OoSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS3D0Cs0Ee29nJQfP1zSZQ" base_Element="_MS2cwSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS45ACs0Ee29nJQfP1zSZQ" base_Element="_MS3q4Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS6HICs0Ee29nJQfP1zSZQ" base_Element="_MS5gECs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS6uMCs0Ee29nJQfP1zSZQ" base_Element="_MS6HISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS78UCs0Ee29nJQfP1zSZQ" base_Element="_MS7VQCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS9KcCs0Ee29nJQfP1zSZQ" base_Element="_MS78USs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS9xgCs0Ee29nJQfP1zSZQ" base_Element="_MS9KcSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MS_msCs0Ee29nJQfP1zSZQ" base_Element="_MS-YkCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTANwCs0Ee29nJQfP1zSZQ" base_Element="_MS_msSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTA00Cs0Ee29nJQfP1zSZQ" base_Element="_MTANwSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTBb4Cs0Ee29nJQfP1zSZQ" base_Element="_MTA00Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTCqACs0Ee29nJQfP1zSZQ" base_Element="_MTCC8Cs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTD4ICs0Ee29nJQfP1zSZQ" base_Element="_MTCqASs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTFGQCs0Ee29nJQfP1zSZQ" base_Element="_MTD4ISs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTFtUCs0Ee29nJQfP1zSZQ" base_Element="_MTFGQSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTG7cCs0Ee29nJQfP1zSZQ" base_Element="_MTFtUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTHigCs0Ee29nJQfP1zSZQ" base_Element="_MTG7cSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTIJkCs0Ee29nJQfP1zSZQ" base_Element="_MTHigSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTJXsCs0Ee29nJQfP1zSZQ" base_Element="_MTIwoCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTJ-wCs0Ee29nJQfP1zSZQ" base_Element="_MTJXsSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTLM4Cs0Ee29nJQfP1zSZQ" base_Element="_MTJ-wSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTLz8Cs0Ee29nJQfP1zSZQ" base_Element="_MTLM4Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTOQMCs0Ee29nJQfP1zSZQ" base_Element="_MTMbACs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTPeUCs0Ee29nJQfP1zSZQ" base_Element="_MTOQMSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTQFYCs0Ee29nJQfP1zSZQ" base_Element="_MTPeUSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTR6kCs0Ee29nJQfP1zSZQ" base_Element="_MTQscCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTShoCs0Ee29nJQfP1zSZQ" base_Element="_MTR6kSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTUW0Cs0Ee29nJQfP1zSZQ" base_Element="_MTShoSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTU94Cs0Ee29nJQfP1zSZQ" base_Element="_MTUW0Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTWMACs0Ee29nJQfP1zSZQ" base_Element="_MTU94Ss0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTWzECs0Ee29nJQfP1zSZQ" base_Element="_MTWMASs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTYBMCs0Ee29nJQfP1zSZQ" base_Element="_MTXaICs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTZPUCs0Ee29nJQfP1zSZQ" base_Element="_MTYBMSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTadcCs0Ee29nJQfP1zSZQ" base_Element="_MTZ2YCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTbEgCs0Ee29nJQfP1zSZQ" base_Element="_MTadcSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTcSoCs0Ee29nJQfP1zSZQ" base_Element="_MTbrkCs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTc5sCs0Ee29nJQfP1zSZQ" base_Element="_MTcSoSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTeH0Cs0Ee29nJQfP1zSZQ" base_Element="_MTc5sSs0Ee29nJQfP1zSZQ"/>
+  <UMLLabProfile:Reference xmi:id="_MTfV8Cs0Ee29nJQfP1zSZQ" base_Element="_MTeu4Cs0Ee29nJQfP1zSZQ"/>
+</xmi:XMI>
