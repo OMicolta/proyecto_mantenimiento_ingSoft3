@@ -339,11 +339,11 @@ public class Acueducto {
   }
 
   private void TransportarAguaTanque(Nodo get, int i) {
+    int cantidadAgua = CalcularAguaRequeridaTanque(get, i);
     if (get.getTanque().getAgua() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {
       conexiones[Nodos.indexOf(get)][i]
           .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());
-      get.getTanque().setAgua(
-          get.getTanque().getAgua() - conexiones[Nodos.indexOf(get)][i].getCapacidad());
+      get.getTanque().setAgua(cantidadAgua);
     } else {
       if (get.getTanque().getAgua() > 0) {
         conexiones[Nodos.indexOf(get)][i].setTransportando(get.getTanque().getAgua());
@@ -351,6 +351,12 @@ public class Acueducto {
             - conexiones[Nodos.indexOf(get)][i].getTransportando());
       }
     }
+  }
+
+  private int CalcularAguaRequeridaTanque(Nodo nodo, int indice) {
+    int cantidadAgua = 0;
+    cantidadAgua = nodo.getTanque().getAgua() - conexiones[Nodos.indexOf(nodo)][indice].getCapacidad();
+    return cantidadAgua;
   }
 
   public void leerMapa() {
