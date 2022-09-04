@@ -304,6 +304,8 @@ public class Acueducto {
           if (get.isTan()) {
             TransportarAguaTanque(get, i);
           } else {
+
+
             TransportarAguaBarrio(get, i);
           }
           if (Nodos.get(i).isTan()) {
