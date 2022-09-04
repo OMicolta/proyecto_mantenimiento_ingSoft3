@@ -302,33 +302,9 @@ public class Acueducto {
       if (conexiones[Nodos.indexOf(get)][i] != null) {
         if (!conexiones[Nodos.indexOf(get)][i].isObst()) {
           if (get.isTan()) {
-            if (get.getTanque().getAgua() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {
-              conexiones[Nodos.indexOf(get)][i]
-                  .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());
-              get.getTanque().setAgua(
-                  get.getTanque().getAgua() - conexiones[Nodos.indexOf(get)][i].getCapacidad());
-            } else {
-              if (get.getTanque().getAgua() > 0) {
-                conexiones[Nodos.indexOf(get)][i].setTransportando(get.getTanque().getAgua());
-                get.getTanque().setAgua(get.getTanque().getAgua()
-                    - conexiones[Nodos.indexOf(get)][i].getTransportando());
-              }
-            }
+            TransportarAguaTanque(get, i);
           } else {
-            if (get.getBarrio().getActual() > get.getBarrio().getNecesidad()) {
-              if (get.getBarrio().getActual() - get.getBarrio()
-                  .getNecesidad() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {
-                conexiones[Nodos.indexOf(get)][i]
-                    .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());
-                get.getBarrio().setActual(get.getBarrio().getActual()
-                    - conexiones[Nodos.indexOf(get)][i].getTransportando());
-              } else {
-                conexiones[Nodos.indexOf(get)][i].setTransportando(
-                    get.getBarrio().getActual() - (get.getBarrio().getNecesidad()));
-                get.getBarrio().setActual(get.getBarrio().getActual()
-                    - conexiones[Nodos.indexOf(get)][i].getTransportando());
-              }
-            }
+            TransportarAguaBarrio(get, i);
           }
           if (Nodos.get(i).isTan()) {
             Nodos.get(i).getTanque().setAgua(Nodos.get(i).getTanque().getAgua()
@@ -339,6 +315,38 @@ public class Acueducto {
           }
           TransportarAgua(Nodos.get(i));
         }
+      }
+    }
+  }
+
+  private void TransportarAguaBarrio(Nodo get, int i) {
+    if (get.getBarrio().getActual() > get.getBarrio().getNecesidad()) {
+      if (get.getBarrio().getActual() - get.getBarrio()
+          .getNecesidad() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {
+        conexiones[Nodos.indexOf(get)][i]
+            .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());
+        get.getBarrio().setActual(get.getBarrio().getActual()
+            - conexiones[Nodos.indexOf(get)][i].getTransportando());
+      } else {
+        conexiones[Nodos.indexOf(get)][i].setTransportando(
+            get.getBarrio().getActual() - (get.getBarrio().getNecesidad()));
+        get.getBarrio().setActual(get.getBarrio().getActual()
+            - conexiones[Nodos.indexOf(get)][i].getTransportando());
+      }
+    }
+  }
+
+  private void TransportarAguaTanque(Nodo get, int i) {
+    if (get.getTanque().getAgua() >= conexiones[Nodos.indexOf(get)][i].getCapacidad()) {
+      conexiones[Nodos.indexOf(get)][i]
+          .setTransportando(conexiones[Nodos.indexOf(get)][i].getCapacidad());
+      get.getTanque().setAgua(
+          get.getTanque().getAgua() - conexiones[Nodos.indexOf(get)][i].getCapacidad());
+    } else {
+      if (get.getTanque().getAgua() > 0) {
+        conexiones[Nodos.indexOf(get)][i].setTransportando(get.getTanque().getAgua());
+        get.getTanque().setAgua(get.getTanque().getAgua()
+            - conexiones[Nodos.indexOf(get)][i].getTransportando());
       }
     }
   }
