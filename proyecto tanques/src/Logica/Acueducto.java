@@ -53,7 +53,8 @@ public class Acueducto {
    * @return boolean ,true si es creado, false cuando no es creado
    */
   public boolean adicionarCamino(Nodo nodoInicial, Nodo nodoFinal, Tubo carretera) {
-    if (Nodos.contains(nodoInicial) && Nodos.contains(nodoFinal)) {
+    boolean exitenNodos = Nodos.contains(nodoInicial) && Nodos.contains(nodoFinal:
+    if (exitenNodos) {
       conexiones[Nodos.indexOf(nodoInicial)][Nodos.indexOf(nodoFinal)] = carretera;
       return true;
     }
